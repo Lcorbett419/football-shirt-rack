@@ -12,7 +12,6 @@
       --ink: #0d0d0d;
       --paper: #f5f2ed;
       --paper2: #ece9e2;
-      --paper3: #e2dfd7;
       --accent: #d4401a;
       --muted: #7a766e;
       --border: rgba(13,13,13,0.12);
@@ -21,160 +20,73 @@
       --font-display: 'Bebas Neue', sans-serif;
       --font-body: 'DM Sans', sans-serif;
     }
-    html, body, #root { min-height: 100%; }
+    html, body { min-height: 100%; }
     body { background: var(--paper); color: var(--ink); font-family: var(--font-body); }
-
-    /* NAV */
     .nav {
       background: var(--ink); padding: 0 1.5rem;
       display: flex; align-items: center; gap: 1.5rem;
       height: 56px; position: sticky; top: 0; z-index: 100;
     }
-    .nav-logo {
-      font-family: var(--font-display); font-size: 18px; letter-spacing: 0.04em;
-      color: #fff; cursor: pointer; white-space: nowrap;
-    }
+    .nav-logo { font-family: var(--font-display); font-size: 18px; letter-spacing: 0.04em; color: #fff; cursor: pointer; white-space: nowrap; }
     .nav-logo span { color: var(--accent); }
     .nav-links { display: flex; gap: 4px; flex: 1; }
-    .nav-link {
-      font-family: var(--font-body); font-size: 13px; font-weight: 500;
-      color: rgba(255,255,255,0.6); padding: 6px 12px; border-radius: 4px;
-      cursor: pointer; transition: all 0.15s; background: none; border: none;
-    }
+    .nav-link { font-family: var(--font-body); font-size: 13px; font-weight: 500; color: rgba(255,255,255,0.6); padding: 6px 12px; border-radius: 4px; cursor: pointer; transition: all 0.15s; background: none; border: none; }
     .nav-link:hover { color: #fff; background: rgba(255,255,255,0.08); }
     .nav-link.active { color: #fff; background: rgba(255,255,255,0.12); }
-    .nav-count {
-      background: var(--accent); color: #fff; font-size: 11px; font-weight: 700;
-      padding: 1px 6px; border-radius: 10px; margin-left: 4px;
-    }
-
-    /* HERO */
+    .nav-count { background: var(--accent); color: #fff; font-size: 11px; font-weight: 700; padding: 1px 6px; border-radius: 10px; margin-left: 4px; }
     .hero { background: var(--ink); padding: 3rem 1.5rem 2.5rem; }
     .hero-inner { max-width: 900px; margin: 0 auto; }
-    .hero-eyebrow {
-      font-size: 11px; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase;
-      color: var(--accent); margin-bottom: 0.75rem;
-    }
-    .hero-title {
-      font-family: var(--font-display);
-      font-size: clamp(40px, 7vw, 72px); color: #fff; line-height: 0.92;
-      letter-spacing: 0.02em; margin-bottom: 1.25rem;
-    }
+    .hero-eyebrow { font-size: 11px; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.75rem; }
+    .hero-title { font-family: var(--font-display); font-size: clamp(40px, 7vw, 72px); color: #fff; line-height: 0.92; letter-spacing: 0.02em; margin-bottom: 1.25rem; }
     .hero-title em { color: var(--accent); font-style: normal; }
     .search-bar { display: flex; gap: 8px; max-width: 560px; }
-    .search-input {
-      flex: 1; height: 48px; padding: 0 16px;
-      background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);
-      border-radius: var(--radius); color: #fff; font-family: var(--font-body); font-size: 15px;
-      outline: none; transition: border-color 0.2s;
-    }
+    .search-input { flex: 1; height: 48px; padding: 0 16px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15); border-radius: var(--radius); color: #fff; font-family: var(--font-body); font-size: 15px; outline: none; transition: border-color 0.2s; }
     .search-input::placeholder { color: rgba(255,255,255,0.35); }
     .search-input:focus { border-color: rgba(255,255,255,0.4); }
-    .search-btn {
-      height: 48px; padding: 0 22px;
-      background: var(--accent); color: #fff; border: none; border-radius: var(--radius);
-      font-family: var(--font-display); font-size: 16px; letter-spacing: 0.05em;
-      cursor: pointer; transition: background 0.15s; white-space: nowrap;
-    }
-    .search-btn:hover { background: #bf3615; }
-
-    /* FILTERS */
-    .filters-bar {
-      background: var(--paper2); border-bottom: 1px solid var(--border);
-      padding: 0 1.5rem;
-    }
-    .filters-inner {
-      max-width: 900px; margin: 0 auto;
-      display: flex; gap: 6px; overflow-x: auto; padding: 10px 0;
-      scrollbar-width: none;
-    }
+    .btn-clear { height: 48px; padding: 0 18px; background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.7); border: none; border-radius: var(--radius); font-family: var(--font-body); font-size: 14px; cursor: pointer; }
+    .filters-bar { background: var(--paper2); border-bottom: 1px solid var(--border); padding: 0 1.5rem; }
+    .filters-inner { max-width: 900px; margin: 0 auto; display: flex; gap: 6px; overflow-x: auto; padding: 10px 0; scrollbar-width: none; align-items: center; }
     .filters-inner::-webkit-scrollbar { display: none; }
-    .filter-btn {
-      font-family: var(--font-body); font-size: 12px; font-weight: 600;
-      letter-spacing: 0.04em; text-transform: uppercase;
-      padding: 5px 14px; border-radius: 20px; white-space: nowrap;
-      cursor: pointer; transition: all 0.15s;
-      background: none; border: 1px solid var(--border-strong); color: var(--muted);
-    }
+    .filter-label { font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); white-space: nowrap; margin-right: 2px; }
+    .filter-btn { font-family: var(--font-body); font-size: 12px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; padding: 5px 14px; border-radius: 20px; white-space: nowrap; cursor: pointer; transition: all 0.15s; background: none; border: 1px solid var(--border-strong); color: var(--muted); }
     .filter-btn:hover { border-color: var(--ink); color: var(--ink); }
     .filter-btn.active { background: var(--ink); color: #fff; border-color: var(--ink); }
-
-    /* MAIN */
+    .divider { width: 1px; background: var(--border-strong); margin: 0 4px; align-self: stretch; }
     .main { max-width: 900px; margin: 0 auto; padding: 1.5rem; }
-
-    /* ARCHIVE GRID */
-    .results-meta {
-      font-size: 12px; color: var(--muted); margin-bottom: 1rem;
-      letter-spacing: 0.03em;
-    }
-    .archive-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-      gap: 10px;
-    }
-    .shirt-card {
-      background: #fff; border: 1px solid var(--border); border-radius: 10px;
-      overflow: hidden; cursor: pointer; transition: transform 0.15s, box-shadow 0.15s;
-    }
+    .results-meta { font-size: 12px; color: var(--muted); margin-bottom: 1rem; }
+    .archive-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(175px, 1fr)); gap: 10px; }
+    .shirt-card { background: #fff; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; cursor: pointer; transition: transform 0.15s, box-shadow 0.15s; }
     .shirt-card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.08); }
-    .shirt-card-top {
-      background: var(--ink); padding: 1.25rem; text-align: center;
-      min-height: 100px; display: flex; align-items: center; justify-content: center; flex-direction: column;
-    }
-    .shirt-emoji { font-size: 36px; margin-bottom: 6px; }
-    .shirt-club { font-family: var(--font-display); font-size: 16px; color: #fff; letter-spacing: 0.04em; line-height: 1.1; }
+    .shirt-card-top { background: var(--ink); padding: 1.25rem; text-align: center; min-height: 100px; display: flex; align-items: center; justify-content: center; flex-direction: column; }
+    .shirt-emoji { font-size: 34px; margin-bottom: 6px; }
+    .shirt-club { font-family: var(--font-display); font-size: 15px; color: #fff; letter-spacing: 0.04em; line-height: 1.1; }
     .shirt-season { font-size: 11px; color: rgba(255,255,255,0.5); margin-top: 4px; }
     .shirt-card-body { padding: 10px 12px; }
     .shirt-card-meta { display: flex; justify-content: space-between; align-items: center; }
-    .shirt-kit-type {
-      font-size: 10px; font-weight: 700; text-transform: uppercase;
-      letter-spacing: 0.07em; color: var(--muted);
-    }
-    .rarity-dot {
-      width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0;
-    }
+    .shirt-kit-type { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); }
+    .rarity-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
     .rarity-common { background: #94a3b8; }
     .rarity-uncommon { background: #22c55e; }
     .rarity-rare { background: #3b82f6; }
     .rarity-iconic { background: var(--accent); }
     .shirt-maker { font-size: 11px; color: var(--muted); margin-top: 4px; }
-
-    /* NO RESULTS */
     .no-results { text-align: center; padding: 3rem 1rem; }
     .no-results-icon { font-size: 40px; margin-bottom: 12px; }
     .no-results h3 { font-family: var(--font-display); font-size: 24px; letter-spacing: 0.05em; margin-bottom: 6px; }
     .no-results p { font-size: 14px; color: var(--muted); }
-
-    /* DETAIL VIEW */
-    .detail-back {
-      display: flex; align-items: center; gap: 8px; cursor: pointer;
-      font-size: 13px; font-weight: 500; color: var(--muted); margin-bottom: 1.5rem;
-      background: none; border: none; transition: color 0.15s;
-    }
+    .loading-wrap { text-align: center; padding: 5rem 1rem; }
+    .loader-ring { width: 36px; height: 36px; border: 3px solid var(--border-strong); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.7s linear infinite; margin: 0 auto 1rem; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .detail-back { display: flex; align-items: center; gap: 8px; cursor: pointer; font-size: 13px; font-weight: 500; color: var(--muted); margin-bottom: 1.5rem; background: none; border: none; transition: color 0.15s; }
     .detail-back:hover { color: var(--ink); }
-
     .shirt-result { animation: fadeUp 0.3s ease; }
     @keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
-
-    .result-header {
-      display: flex; gap: 1.5rem; align-items: flex-start;
-      padding: 2rem; background: var(--ink); border-radius: 10px; margin-bottom: 1.5rem;
-    }
-    .result-badge {
-      width: 76px; height: 76px; border-radius: 8px;
-      background: var(--paper2); display: flex; align-items: center; justify-content: center;
-      flex-shrink: 0; font-size: 38px;
-    }
+    .result-header { display: flex; gap: 1.5rem; align-items: flex-start; padding: 2rem; background: var(--ink); border-radius: 10px; margin-bottom: 1.5rem; }
+    .result-badge { width: 76px; height: 76px; border-radius: 8px; background: var(--paper2); display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 38px; }
     .result-meta { flex: 1; }
-    .result-club {
-      font-family: var(--font-display); font-size: clamp(26px, 5vw, 46px);
-      color: #fff; letter-spacing: 0.03em; line-height: 1; margin-bottom: 8px;
-    }
+    .result-club { font-family: var(--font-display); font-size: clamp(26px, 5vw, 46px); color: #fff; letter-spacing: 0.03em; line-height: 1; margin-bottom: 8px; }
     .result-pills { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
-    .pill {
-      font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
-      padding: 3px 10px; border-radius: 20px;
-    }
+    .pill { font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 3px 10px; border-radius: 20px; }
     .pill-season { background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.7); }
     .pill-kit { background: var(--accent); color: #fff; }
     .pill-maker { background: rgba(255,255,255,0.08); color: rgba(255,255,255,0.6); border: 1px solid rgba(255,255,255,0.15); }
@@ -182,138 +94,66 @@
     .pill-rare { background: #1a4fd4; color: #fff; }
     .pill-uncommon { background: #166534; color: #fff; }
     .pill-common { background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.6); }
-
-    .btn-add {
-      font-family: var(--font-display); font-size: 16px; letter-spacing: 0.05em;
-      padding: 9px 20px; background: var(--accent); color: #fff;
-      border: none; border-radius: var(--radius); cursor: pointer; transition: background 0.15s;
-    }
+    .btn-add { font-family: var(--font-display); font-size: 16px; letter-spacing: 0.05em; padding: 9px 20px; background: var(--accent); color: #fff; border: none; border-radius: var(--radius); cursor: pointer; transition: background 0.15s; }
     .btn-add:hover { background: #bf3615; }
     .btn-add.in-rack { background: #2a7a3b; cursor: default; }
-
     .sections { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem; }
     .section-card { background: #fff; border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; }
     .section-card.full { grid-column: 1 / -1; }
-    .section-label {
-      font-size: 10px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase;
-      color: var(--muted); margin-bottom: 1rem; display: flex; align-items: center; gap: 6px;
-    }
+    .section-label { font-size: 10px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 1rem; display: flex; align-items: center; gap: 6px; }
     .section-label::after { content: ''; flex: 1; height: 1px; background: var(--border); }
-    .detail-row {
-      display: flex; justify-content: space-between; align-items: baseline;
-      padding: 6px 0; border-bottom: 1px solid var(--border);
-    }
+    .detail-row { display: flex; justify-content: space-between; align-items: baseline; padding: 6px 0; border-bottom: 1px solid var(--border); }
     .detail-row:last-child { border-bottom: none; }
     .detail-key { font-size: 13px; color: var(--muted); }
     .detail-val { font-size: 13px; font-weight: 500; text-align: right; max-width: 58%; }
-
     .auth-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
-    .auth-item {
-      display: flex; gap: 10px; align-items: flex-start;
-      padding: 10px 12px; background: var(--paper2); border-radius: var(--radius);
-      font-size: 13px; line-height: 1.5;
-    }
+    .auth-item { display: flex; gap: 10px; align-items: flex-start; padding: 10px 12px; background: var(--paper2); border-radius: var(--radius); font-size: 13px; line-height: 1.5; }
     .auth-icon { font-size: 16px; flex-shrink: 0; margin-top: 1px; }
     .auth-item strong { display: block; font-weight: 600; margin-bottom: 2px; }
-
     .history-text { font-size: 14px; line-height: 1.75; color: #333; }
-
     .notable-list { display: flex; flex-direction: column; gap: 6px; }
-    .notable-item {
-      padding: 8px 12px; background: var(--paper2); border-radius: var(--radius);
-      font-size: 13px; display: flex; gap: 10px; align-items: center;
-    }
+    .notable-item { padding: 8px 12px; background: var(--paper2); border-radius: var(--radius); font-size: 13px; display: flex; gap: 10px; align-items: center; }
     .notable-num { font-family: var(--font-display); font-size: 22px; color: var(--accent); line-height: 1; min-width: 28px; }
-
     .value-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
     .value-item { text-align: center; padding: 12px 8px; background: var(--paper2); border-radius: var(--radius); }
     .value-label { font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
     .value-amount { font-family: var(--font-display); font-size: 18px; }
-
-    /* COLLECTION */
     .page-title { font-family: var(--font-display); font-size: 36px; letter-spacing: 0.04em; margin-bottom: 1.5rem; }
-    .coll-stats {
-      display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px;
-      background: var(--border); border-radius: 8px; overflow: hidden;
-      border: 1px solid var(--border); margin-bottom: 1.5rem;
-    }
+    .coll-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--border); border-radius: 8px; overflow: hidden; border: 1px solid var(--border); margin-bottom: 1.5rem; }
     .stat-box { background: #fff; padding: 1rem; text-align: center; }
     .stat-val { font-family: var(--font-display); font-size: 30px; }
     .stat-key { font-size: 11px; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted); margin-top: 2px; }
-
-    .collection-empty {
-      text-align: center; padding: 4rem 1rem;
-      border: 2px dashed var(--border-strong); border-radius: 12px;
-    }
+    .collection-empty { text-align: center; padding: 4rem 1rem; border: 2px dashed var(--border-strong); border-radius: 12px; }
     .empty-icon { font-size: 48px; margin-bottom: 1rem; }
     .empty-title { font-family: var(--font-display); font-size: 28px; margin-bottom: 8px; letter-spacing: 0.05em; }
     .empty-sub { font-size: 14px; color: var(--muted); margin-bottom: 1.5rem; }
-    .btn-primary {
-      font-family: var(--font-display); font-size: 17px; letter-spacing: 0.06em;
-      padding: 10px 24px; background: var(--ink); color: #fff;
-      border: none; border-radius: var(--radius); cursor: pointer;
-    }
+    .btn-primary { font-family: var(--font-display); font-size: 17px; letter-spacing: 0.06em; padding: 10px 24px; background: var(--ink); color: #fff; border: none; border-radius: var(--radius); cursor: pointer; }
     .btn-primary:hover { background: #222; }
-
-    .coll-card {
-      background: #fff; border: 1px solid var(--border); border-radius: 10px;
-      overflow: hidden; cursor: pointer; transition: transform 0.15s, box-shadow 0.15s;
-    }
+    .coll-card { background: #fff; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; cursor: pointer; transition: transform 0.15s, box-shadow 0.15s; }
     .coll-card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.08); }
-    .coll-card-top {
-      background: var(--ink); padding: 1.25rem; text-align: center;
-      min-height: 100px; display: flex; align-items: center; justify-content: center; flex-direction: column;
-    }
-    .coll-emoji { font-size: 36px; margin-bottom: 6px; }
-    .coll-club { font-family: var(--font-display); font-size: 17px; color: #fff; letter-spacing: 0.04em; line-height: 1.1; }
+    .coll-card-top { background: var(--ink); padding: 1.25rem; text-align: center; min-height: 100px; display: flex; align-items: center; justify-content: center; flex-direction: column; }
+    .coll-emoji { font-size: 34px; margin-bottom: 6px; }
+    .coll-club { font-family: var(--font-display); font-size: 15px; color: #fff; letter-spacing: 0.04em; line-height: 1.1; }
     .coll-season { font-size: 11px; color: rgba(255,255,255,0.5); margin-top: 4px; }
     .coll-body { padding: 10px 12px; }
     .coll-meta { display: flex; justify-content: space-between; align-items: center; }
     .coll-kit { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); }
-    .coll-remove {
-      background: none; border: none; cursor: pointer; color: var(--muted);
-      font-size: 14px; padding: 2px 4px; border-radius: 4px; transition: color 0.15s; line-height: 1;
-    }
+    .coll-remove { background: none; border: none; cursor: pointer; color: var(--muted); font-size: 14px; padding: 2px 4px; border-radius: 4px; transition: color 0.15s; line-height: 1; }
     .coll-remove:hover { color: var(--accent); }
-    .coll-notes {
-      font-size: 12px; color: var(--muted); margin-top: 6px; font-style: italic;
-      line-height: 1.4; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-    }
-
-    /* MODAL */
-    .modal-overlay {
-      position: fixed; inset: 0; background: rgba(0,0,0,0.6);
-      display: flex; align-items: center; justify-content: center; z-index: 200; padding: 1rem;
-    }
-    .modal {
-      background: #fff; border-radius: 12px; padding: 2rem;
-      max-width: 420px; width: 100%; animation: fadeUp 0.2s ease;
-    }
+    .coll-notes { font-size: 12px; color: var(--muted); margin-top: 6px; font-style: italic; line-height: 1.4; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.6); display: flex; align-items: center; justify-content: center; z-index: 200; padding: 1rem; }
+    .modal { background: #fff; border-radius: 12px; padding: 2rem; max-width: 420px; width: 100%; animation: fadeUp 0.2s ease; }
     .modal h2 { font-family: var(--font-display); font-size: 28px; letter-spacing: 0.04em; margin-bottom: 6px; }
     .modal p { font-size: 13px; color: var(--muted); margin-bottom: 1.25rem; }
-    .modal textarea {
-      width: 100%; height: 90px; padding: 10px 14px; font-family: var(--font-body); font-size: 14px;
-      border: 1px solid var(--border-strong); border-radius: var(--radius);
-      background: var(--paper2); outline: none; resize: none; transition: border-color 0.2s;
-    }
+    .modal textarea { width: 100%; height: 90px; padding: 10px 14px; font-family: var(--font-body); font-size: 14px; border: 1px solid var(--border-strong); border-radius: var(--radius); background: var(--paper2); outline: none; resize: none; transition: border-color 0.2s; }
     .modal textarea:focus { border-color: var(--accent); }
     .modal-actions { display: flex; gap: 8px; margin-top: 1rem; }
-    .btn-cancel {
-      flex: 1; font-family: var(--font-body); font-size: 14px; font-weight: 500;
-      padding: 10px; background: var(--paper2); color: var(--ink);
-      border: 1px solid var(--border-strong); border-radius: var(--radius); cursor: pointer;
-    }
-    .btn-confirm {
-      flex: 1; font-family: var(--font-display); font-size: 17px; letter-spacing: 0.05em;
-      padding: 10px; background: var(--accent); color: #fff;
-      border: none; border-radius: var(--radius); cursor: pointer;
-    }
-
+    .btn-cancel { flex: 1; font-family: var(--font-body); font-size: 14px; font-weight: 500; padding: 10px; background: var(--paper2); color: var(--ink); border: 1px solid var(--border-strong); border-radius: var(--radius); cursor: pointer; }
+    .btn-confirm { flex: 1; font-family: var(--font-display); font-size: 17px; letter-spacing: 0.05em; padding: 10px; background: var(--accent); color: #fff; border: none; border-radius: var(--radius); cursor: pointer; }
     @media (max-width: 580px) {
       .sections { grid-template-columns: 1fr; }
       .section-card.full { grid-column: auto; }
       .result-header { flex-direction: column; }
-      .archive-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
     }
   </style>
 </head>
@@ -323,403 +163,325 @@
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 <script type="text/babel">
-const { useState, useEffect, useMemo } = React;
+  const { useState, useEffect, useMemo } = React;
 
+  const STORAGE_KEY = 'fsr-rack-v1';
+  const ERAS = ['All', '1960s–70s', '1980s', '1990s', '2000s', '2010s'];
+  const KIT_TYPES = ['All', 'Home', 'Away', 'Third', 'Goalkeeper'];
 
-
-/* ============================================================
-   HELPERS
-   ============================================================ */
-const STORAGE_KEY = 'fsr-rack-v1';
-
-const ERAS = ['All', '1960s–70s', '1980s', '1990s', '2000s', '2010s'];
-const KIT_TYPES = ['All', 'Home', 'Away', 'Third', 'Goalkeeper'];
-const MAKERS = ['All', ...Array.from(new Set(SHIRTS.map(s => s.manufacturer))).sort()];
-
-function getEra(season) {
-  const y = parseInt(season?.split('/')[0] || season);
-  if (y < 1980) return '1960s–70s';
-  if (y < 1990) return '1980s';
-  if (y < 2000) return '1990s';
-  if (y < 2010) return '2000s';
-  return '2010s';
-}
-
-function kitEmoji(kitType) {
-  if (!kitType) return '👕';
-  const t = kitType.toLowerCase();
-  if (t.includes('home')) return '⚽';
-  if (t.includes('away')) return '🏆';
-  if (t.includes('third')) return '✨';
-  if (t.includes('keeper') || t.includes('goal')) return '🧤';
-  return '👕';
-}
-
-function rarityClass(r) {
-  switch ((r || '').toLowerCase()) {
-    case 'iconic': return 'rarity-iconic';
-    case 'rare': return 'rarity-rare';
-    case 'uncommon': return 'rarity-uncommon';
-    default: return 'rarity-common';
+  function getEra(season) {
+    const y = parseInt(season?.split('/')[0] || season);
+    if (y < 1980) return '1960s–70s';
+    if (y < 1990) return '1980s';
+    if (y < 2000) return '1990s';
+    if (y < 2010) return '2000s';
+    return '2010s';
   }
-}
 
-function pillClass(r) {
-  switch ((r || '').toLowerCase()) {
-    case 'iconic': return 'pill-iconic';
-    case 'rare': return 'pill-rare';
-    case 'uncommon': return 'pill-uncommon';
-    default: return 'pill-common';
+  function kitEmoji(kitType) {
+    if (!kitType) return '👕';
+    const t = kitType.toLowerCase();
+    if (t.includes('home')) return '⚽';
+    if (t.includes('away')) return '🏆';
+    if (t.includes('third')) return '✨';
+    if (t.includes('keeper') || t.includes('goal')) return '🧤';
+    return '👕';
   }
-}
 
-/* ============================================================
-   COMPONENTS
-   ============================================================ */
+  function rarityDotClass(r) {
+    switch ((r || '').toLowerCase()) {
+      case 'iconic': return 'rarity-iconic';
+      case 'rare': return 'rarity-rare';
+      case 'uncommon': return 'rarity-uncommon';
+      default: return 'rarity-common';
+    }
+  }
 
-function ShirtDetail({ shirt, inRack, onAdd, onBack }) {
-  return (
-    <div className="shirt-result">
-      <button className="detail-back" onClick={onBack}>← Back to archive</button>
-      <div className="result-header">
-        <div className="result-badge">{kitEmoji(shirt.kitType)}</div>
-        <div className="result-meta">
-          <div className="result-club">{shirt.club}</div>
-          <div className="result-pills">
-            <span className="pill pill-season">{shirt.season}</span>
-            <span className="pill pill-kit">{shirt.kitType}</span>
-            <span className="pill pill-maker">{shirt.manufacturer}</span>
-            <span className={`pill ${pillClass(shirt.rarity)}`}>{shirt.rarity}</span>
-          </div>
-          <button
-            className={'btn-add' + (inRack ? ' in-rack' : '')}
-            onClick={onAdd}
-          >
-            {inRack ? '✓ In Your Rack' : '+ Add to Rack'}
-          </button>
-        </div>
-      </div>
+  function rarityPillClass(r) {
+    switch ((r || '').toLowerCase()) {
+      case 'iconic': return 'pill-iconic';
+      case 'rare': return 'pill-rare';
+      case 'uncommon': return 'pill-uncommon';
+      default: return 'pill-common';
+    }
+  }
 
-      <div className="sections">
-        <div className="section-card">
-          <div className="section-label">Kit Details</div>
-          {Object.entries(shirt.details || {}).map(([k, v]) => (
-            <div className="detail-row" key={k}>
-              <span className="detail-key">{k}</span>
-              <span className="detail-val">{v}</span>
+  /* ---- SHIRT DETAIL ---- */
+  function ShirtDetail({ shirt, inRack, onAdd, onBack }) {
+    return (
+      <div className="shirt-result">
+        <button className="detail-back" onClick={onBack}>← Back to archive</button>
+        <div className="result-header">
+          <div className="result-badge">{kitEmoji(shirt.kitType)}</div>
+          <div className="result-meta">
+            <div className="result-club">{shirt.club}</div>
+            <div className="result-pills">
+              <span className="pill pill-season">{shirt.season}</span>
+              <span className="pill pill-kit">{shirt.kitType}</span>
+              <span className="pill pill-maker">{shirt.manufacturer}</span>
+              <span className={`pill ${rarityPillClass(shirt.rarity)}`}>{shirt.rarity}</span>
             </div>
-          ))}
-          <div className="detail-row">
-            <span className="detail-key">Colourway</span>
-            <span className="detail-val">{shirt.colourway}</span>
-          </div>
-          <div className="detail-row">
-            <span className="detail-key">Sponsor</span>
-            <span className="detail-val">{shirt.sponsor}</span>
-          </div>
-          <div className="detail-row">
-            <span className="detail-key">Material</span>
-            <span className="detail-val">{shirt.material}</span>
+            <button className={'btn-add' + (inRack ? ' in-rack' : '')} onClick={onAdd}>
+              {inRack ? '✓ In Your Rack' : '+ Add to Rack'}
+            </button>
           </div>
         </div>
-
-        <div className="section-card">
-          <div className="section-label">Market Value</div>
-          <div className="value-grid">
-            {Object.entries(shirt.marketValue || {}).map(([k, v]) => (
-              <div className="value-item" key={k}>
-                <div className="value-label">{k}</div>
-                <div className="value-amount">{v}</div>
+        <div className="sections">
+          <div className="section-card">
+            <div className="section-label">Kit Details</div>
+            {Object.entries(shirt.details || {}).map(([k, v]) => (
+              <div className="detail-row" key={k}>
+                <span className="detail-key">{k}</span>
+                <span className="detail-val">{v}</span>
               </div>
             ))}
+            <div className="detail-row"><span className="detail-key">Colourway</span><span className="detail-val">{shirt.colourway}</span></div>
+            <div className="detail-row"><span className="detail-key">Sponsor</span><span className="detail-val">{shirt.sponsor}</span></div>
+            <div className="detail-row"><span className="detail-key">Material</span><span className="detail-val">{shirt.material}</span></div>
           </div>
-          <div className="section-label" style={{ marginTop: '1.25rem' }}>Notable Players</div>
-          <div className="notable-list">
-            {(shirt.notablePlayers || []).map((p, i) => (
-              <div className="notable-item" key={i}>
-                <span className="notable-num">{p.number}</span>
-                <span>{p.name}</span>
-              </div>
-            ))}
+          <div className="section-card">
+            <div className="section-label">Market Value</div>
+            <div className="value-grid">
+              {Object.entries(shirt.marketValue || {}).map(([k, v]) => (
+                <div className="value-item" key={k}>
+                  <div className="value-label">{k}</div>
+                  <div className="value-amount">{v}</div>
+                </div>
+              ))}
+            </div>
+            <div className="section-label" style={{ marginTop: '1.25rem' }}>Notable Players</div>
+            <div className="notable-list">
+              {(shirt.notablePlayers || []).map((p, i) => (
+                <div className="notable-item" key={i}>
+                  <span className="notable-num">{p.number}</span>
+                  <span>{p.name}</span>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-
-        <div className="section-card full">
-          <div className="section-label">Authenticity Guide</div>
-          <ul className="auth-list">
-            {(shirt.authenticityGuide || []).map((a, i) => (
-              <li className="auth-item" key={i}>
-                <span className="auth-icon">{a.icon}</span>
-                <div><strong>{a.feature}</strong>{a.description}</div>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        <div className="section-card full">
-          <div className="section-label">Historical Context</div>
-          <p className="history-text">{shirt.history}</p>
+          <div className="section-card full">
+            <div className="section-label">Authenticity Guide</div>
+            <ul className="auth-list">
+              {(shirt.authenticityGuide || []).map((a, i) => (
+                <li className="auth-item" key={i}>
+                  <span className="auth-icon">{a.icon}</span>
+                  <div><strong>{a.feature}</strong>{a.description}</div>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="section-card full">
+            <div className="section-label">Historical Context</div>
+            <p className="history-text">{shirt.history}</p>
+          </div>
         </div>
       </div>
-    </div>
-  );
-}
-
-function AddModal({ shirt, onClose, onConfirm }) {
-  const [notes, setNotes] = React.useState('');
-  return (
-    <div className="modal-overlay" onClick={e => e.target === e.currentTarget && onClose()}>
-      <div className="modal">
-        <h2>Add to Rack</h2>
-        <p>{shirt.club} · {shirt.season} {shirt.kitType}</p>
-        <textarea
-          placeholder="Notes (optional) — condition, where you got it, memories…"
-          value={notes}
-          onChange={e => setNotes(e.target.value)}
-        />
-        <div className="modal-actions">
-          <button className="btn-cancel" onClick={onClose}>Cancel</button>
-          <button className="btn-confirm" onClick={() => onConfirm(notes)}>Add Shirt</button>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-/* ============================================================
-   MAIN APP
-   ============================================================ */
-function App() {
-  const [tab, setTab] = useState('archive');
-  const [query, setQuery] = useState('');
-  const [eraFilter, setEraFilter] = useState('All');
-  const [kitFilter, setKitFilter] = useState('All');
-  const [makerFilter, setMakerFilter] = useState('All');
-  const [selectedShirt, setSelectedShirt] = useState(null);
-  const [rack, setRack] = useState([]);
-  const [addModal, setAddModal] = useState(null);
-  const [viewingRackShirt, setViewingRackShirt] = useState(null);
-
-  useEffect(() => {
-    try {
-      const saved = localStorage.getItem(STORAGE_KEY);
-      if (saved) setRack(JSON.parse(saved));
-    } catch (_) {}
-  }, []);
-
-  function saveRack(updated) {
-    setRack(updated);
-    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(updated)); } catch (_) {}
+    );
   }
 
-  const filtered = useMemo(() => {
-    return SHIRTS.filter(s => {
+  /* ---- ADD MODAL ---- */
+  function AddModal({ shirt, onClose, onConfirm }) {
+    const [notes, setNotes] = React.useState('');
+    return (
+      <div className="modal-overlay" onClick={e => e.target === e.currentTarget && onClose()}>
+        <div className="modal">
+          <h2>Add to Rack</h2>
+          <p>{shirt.club} · {shirt.season} {shirt.kitType}</p>
+          <textarea placeholder="Notes (optional) — condition, where you got it, memories…" value={notes} onChange={e => setNotes(e.target.value)} />
+          <div className="modal-actions">
+            <button className="btn-cancel" onClick={onClose}>Cancel</button>
+            <button className="btn-confirm" onClick={() => onConfirm(notes)}>Add Shirt</button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  /* ---- MAIN APP ---- */
+  function App() {
+    const [shirts, setShirts] = useState([]);
+    const [loadingShirts, setLoadingShirts] = useState(true);
+    const [tab, setTab] = useState('archive');
+    const [query, setQuery] = useState('');
+    const [eraFilter, setEraFilter] = useState('All');
+    const [kitFilter, setKitFilter] = useState('All');
+    const [selectedShirt, setSelectedShirt] = useState(null);
+    const [rack, setRack] = useState([]);
+    const [addModal, setAddModal] = useState(null);
+    const [viewingRackShirt, setViewingRackShirt] = useState(null);
+
+    // Load shirts from JSON file
+    useEffect(() => {
+      fetch('shirts.json')
+        .then(r => r.json())
+        .then(data => { setShirts(data); setLoadingShirts(false); })
+        .catch(() => setLoadingShirts(false));
+    }, []);
+
+    // Load rack from localStorage
+    useEffect(() => {
+      try {
+        const saved = localStorage.getItem(STORAGE_KEY);
+        if (saved) setRack(JSON.parse(saved));
+      } catch (_) {}
+    }, []);
+
+    function saveRack(updated) {
+      setRack(updated);
+      try { localStorage.setItem(STORAGE_KEY, JSON.stringify(updated)); } catch (_) {}
+    }
+
+    const makers = useMemo(() => ['All', ...Array.from(new Set(shirts.map(s => s.manufacturer))).sort()], [shirts]);
+
+    const filtered = useMemo(() => shirts.filter(s => {
       const q = query.toLowerCase();
-      const matchQuery = !q ||
-        s.club.toLowerCase().includes(q) ||
-        s.season.includes(q) ||
-        s.manufacturer.toLowerCase().includes(q) ||
-        s.kitType.toLowerCase().includes(q) ||
-        s.sponsor.toLowerCase().includes(q);
+      const matchQ = !q || s.club.toLowerCase().includes(q) || s.season.includes(q) || s.manufacturer.toLowerCase().includes(q) || s.kitType.toLowerCase().includes(q) || (s.sponsor || '').toLowerCase().includes(q);
       const matchEra = eraFilter === 'All' || getEra(s.season) === eraFilter;
       const matchKit = kitFilter === 'All' || s.kitType === kitFilter;
-      const matchMaker = makerFilter === 'All' || s.manufacturer === makerFilter;
-      return matchQuery && matchEra && matchKit && matchMaker;
-    });
-  }, [query, eraFilter, kitFilter, makerFilter]);
+      return matchQ && matchEra && matchKit;
+    }), [shirts, query, eraFilter, kitFilter]);
 
-  function inRack(shirt) {
-    return rack.some(r => r.id === shirt.id);
-  }
+    function inRack(shirt) { return rack.some(r => r.id === shirt.id); }
 
-  function handleAdd(shirt) {
-    if (inRack(shirt)) return;
-    setAddModal(shirt);
-  }
+    const rackClubs = new Set(rack.map(s => s.club)).size;
+    const rackMakers = new Set(rack.map(s => s.manufacturer)).size;
 
-  function confirmAdd(notes) {
-    saveRack([...rack, { ...addModal, notes, addedAt: Date.now() }]);
-    setAddModal(null);
-  }
+    return (
+      <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+        <nav className="nav">
+          <div className="nav-logo" onClick={() => { setTab('archive'); setSelectedShirt(null); }}>
+            FOOTBALL SHIRT <span>RACK</span>
+          </div>
+          <div className="nav-links">
+            <button className={'nav-link' + (tab === 'archive' ? ' active' : '')} onClick={() => { setTab('archive'); setSelectedShirt(null); }}>Archive</button>
+            <button className={'nav-link' + (tab === 'rack' ? ' active' : '')} onClick={() => { setTab('rack'); setViewingRackShirt(null); }}>
+              My Rack {rack.length > 0 && <span className="nav-count">{rack.length}</span>}
+            </button>
+          </div>
+        </nav>
 
-  const clubs = new Set(rack.map(s => s.club)).size;
-  const makers = new Set(rack.map(s => s.manufacturer)).size;
-
-  return (
-    <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
-      {/* NAV */}
-      <nav className="nav">
-        <div className="nav-logo" onClick={() => { setTab('archive'); setSelectedShirt(null); }}>
-          FOOTBALL SHIRT <span>RACK</span>
-        </div>
-        <div className="nav-links">
-          <button className={'nav-link' + (tab === 'archive' ? ' active' : '')}
-            onClick={() => { setTab('archive'); setSelectedShirt(null); }}>
-            Archive
-          </button>
-          <button className={'nav-link' + (tab === 'rack' ? ' active' : '')}
-            onClick={() => { setTab('rack'); setViewingRackShirt(null); }}>
-            My Rack {rack.length > 0 && <span className="nav-count">{rack.length}</span>}
-          </button>
-        </div>
-      </nav>
-
-      {/* ARCHIVE TAB */}
-      {tab === 'archive' && !selectedShirt && (
-        <>
-          <div className="hero">
-            <div className="hero-inner">
-              <div className="hero-eyebrow">The Football Shirt Archive</div>
-              <h1 className="hero-title">FOOTBALL<br /><em>SHIRT RACK</em></h1>
-              <div className="search-bar">
-                <input
-                  className="search-input"
-                  placeholder="Search by club, season, maker…"
-                  value={query}
-                  onChange={e => setQuery(e.target.value)}
-                />
-                {query && (
-                  <button className="search-btn" style={{ background: 'rgba(255,255,255,0.15)' }}
-                    onClick={() => setQuery('')}>✕</button>
-                )}
+        {/* ARCHIVE */}
+        {tab === 'archive' && !selectedShirt && (
+          <>
+            <div className="hero">
+              <div className="hero-inner">
+                <div className="hero-eyebrow">The Football Shirt Archive</div>
+                <h1 className="hero-title">FOOTBALL<br /><em>SHIRT RACK</em></h1>
+                <div className="search-bar">
+                  <input className="search-input" placeholder="Search by club, season, maker…" value={query} onChange={e => setQuery(e.target.value)} />
+                  {query && <button className="btn-clear" onClick={() => setQuery('')}>✕ Clear</button>}
+                </div>
               </div>
             </div>
-          </div>
-
-          <div className="filters-bar">
-            <div className="filters-inner">
-              <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: 'var(--muted)', marginRight: 4, whiteSpace: 'nowrap' }}>Era:</span>
-              {ERAS.map(e => (
-                <button key={e} className={'filter-btn' + (eraFilter === e ? ' active' : '')}
-                  onClick={() => setEraFilter(e)}>{e}</button>
-              ))}
-              <span style={{ width: 1, background: 'var(--border-strong)', margin: '0 4px', alignSelf: 'stretch' }} />
-              {KIT_TYPES.filter(k => k !== 'All').map(k => (
-                <button key={k} className={'filter-btn' + (kitFilter === k ? ' active' : '')}
-                  onClick={() => setKitFilter(kitFilter === k ? 'All' : k)}>{k}</button>
-              ))}
-            </div>
-          </div>
-
-          <div className="main">
-            <div className="results-meta">
-              {filtered.length === SHIRTS.length
-                ? `${SHIRTS.length} shirts in the archive`
-                : `${filtered.length} of ${SHIRTS.length} shirts`}
-            </div>
-            {filtered.length === 0 ? (
-              <div className="no-results">
-                <div className="no-results-icon">🔍</div>
-                <h3>No shirts found</h3>
-                <p>Try a different search or clear the filters</p>
-              </div>
-            ) : (
-              <div className="archive-grid">
-                {filtered.map(shirt => (
-                  <div key={shirt.id} className="shirt-card" onClick={() => setSelectedShirt(shirt)}>
-                    <div className="shirt-card-top">
-                      <div className="shirt-emoji">{kitEmoji(shirt.kitType)}</div>
-                      <div className="shirt-club">{shirt.club}</div>
-                      <div className="shirt-season">{shirt.season}</div>
-                    </div>
-                    <div className="shirt-card-body">
-                      <div className="shirt-card-meta">
-                        <span className="shirt-kit-type">{shirt.kitType}</span>
-                        <span className={`rarity-dot ${rarityClass(shirt.rarity)}`} title={shirt.rarity} />
-                      </div>
-                      <div className="shirt-maker">{shirt.manufacturer}</div>
-                    </div>
-                  </div>
+            <div className="filters-bar">
+              <div className="filters-inner">
+                <span className="filter-label">Era:</span>
+                {ERAS.map(e => <button key={e} className={'filter-btn' + (eraFilter === e ? ' active' : '')} onClick={() => setEraFilter(e)}>{e}</button>)}
+                <div className="divider" />
+                <span className="filter-label">Kit:</span>
+                {KIT_TYPES.filter(k => k !== 'All').map(k => (
+                  <button key={k} className={'filter-btn' + (kitFilter === k ? ' active' : '')} onClick={() => setKitFilter(kitFilter === k ? 'All' : k)}>{k}</button>
                 ))}
               </div>
+            </div>
+            <div className="main">
+              {loadingShirts ? (
+                <div className="loading-wrap"><div className="loader-ring" /><p style={{ color: 'var(--muted)', fontSize: 14 }}>Loading archive…</p></div>
+              ) : (
+                <>
+                  <div className="results-meta">{filtered.length === shirts.length ? `${shirts.length} shirts in the archive` : `${filtered.length} of ${shirts.length} shirts`}</div>
+                  {filtered.length === 0 ? (
+                    <div className="no-results">
+                      <div className="no-results-icon">🔍</div>
+                      <h3>No shirts found</h3>
+                      <p>Try a different search or clear the filters</p>
+                    </div>
+                  ) : (
+                    <div className="archive-grid">
+                      {filtered.map(shirt => (
+                        <div key={shirt.id} className="shirt-card" onClick={() => setSelectedShirt(shirt)}>
+                          <div className="shirt-card-top">
+                            <div className="shirt-emoji">{kitEmoji(shirt.kitType)}</div>
+                            <div className="shirt-club">{shirt.club}</div>
+                            <div className="shirt-season">{shirt.season}</div>
+                          </div>
+                          <div className="shirt-card-body">
+                            <div className="shirt-card-meta">
+                              <span className="shirt-kit-type">{shirt.kitType}</span>
+                              <span className={`rarity-dot ${rarityDotClass(shirt.rarity)}`} title={shirt.rarity} />
+                            </div>
+                            <div className="shirt-maker">{shirt.manufacturer}</div>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </>
+              )}
+            </div>
+          </>
+        )}
+
+        {/* SHIRT DETAIL */}
+        {tab === 'archive' && selectedShirt && (
+          <div className="main" style={{ paddingTop: '2rem' }}>
+            <ShirtDetail shirt={selectedShirt} inRack={inRack(selectedShirt)} onAdd={() => { if (!inRack(selectedShirt)) setAddModal(selectedShirt); }} onBack={() => setSelectedShirt(null)} />
+          </div>
+        )}
+
+        {/* MY RACK */}
+        {tab === 'rack' && (
+          <div className="main" style={{ paddingTop: '2rem' }}>
+            {viewingRackShirt ? (
+              <ShirtDetail shirt={viewingRackShirt} inRack={true} onAdd={() => {}} onBack={() => setViewingRackShirt(null)} />
+            ) : (
+              <>
+                <h2 className="page-title">My Rack</h2>
+                {rack.length > 0 && (
+                  <div className="coll-stats">
+                    <div className="stat-box"><div className="stat-val">{rack.length}</div><div className="stat-key">Shirts</div></div>
+                    <div className="stat-box"><div className="stat-val">{rackClubs}</div><div className="stat-key">Clubs</div></div>
+                    <div className="stat-box"><div className="stat-val">{rackMakers}</div><div className="stat-key">Makers</div></div>
+                  </div>
+                )}
+                {rack.length === 0 ? (
+                  <div className="collection-empty">
+                    <div className="empty-icon">👕</div>
+                    <div className="empty-title">Your rack is empty</div>
+                    <p className="empty-sub">Browse the archive and add shirts to build your collection</p>
+                    <button className="btn-primary" onClick={() => setTab('archive')}>Browse the Archive</button>
+                  </div>
+                ) : (
+                  <div className="archive-grid">
+                    {rack.map((shirt, i) => (
+                      <div key={i} className="coll-card" onClick={() => setViewingRackShirt(shirt)}>
+                        <div className="coll-card-top">
+                          <div className="coll-emoji">{kitEmoji(shirt.kitType)}</div>
+                          <div className="coll-club">{shirt.club}</div>
+                          <div className="coll-season">{shirt.season}</div>
+                        </div>
+                        <div className="coll-body">
+                          <div className="coll-meta">
+                            <span className="coll-kit">{shirt.kitType} · {shirt.manufacturer}</span>
+                            <button className="coll-remove" onClick={e => { e.stopPropagation(); saveRack(rack.filter((_, idx) => idx !== i)); }} title="Remove">✕</button>
+                          </div>
+                          {shirt.notes && <div className="coll-notes">"{shirt.notes}"</div>}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </>
             )}
           </div>
-        </>
-      )}
+        )}
 
-      {/* SHIRT DETAIL */}
-      {tab === 'archive' && selectedShirt && (
-        <div className="main" style={{ paddingTop: '2rem' }}>
-          <ShirtDetail
-            shirt={selectedShirt}
-            inRack={inRack(selectedShirt)}
-            onAdd={() => handleAdd(selectedShirt)}
-            onBack={() => setSelectedShirt(null)}
-          />
-        </div>
-      )}
+        {addModal && <AddModal shirt={addModal} onClose={() => setAddModal(null)} onConfirm={notes => { saveRack([...rack, { ...addModal, notes, addedAt: Date.now() }]); setAddModal(null); }} />}
+      </div>
+    );
+  }
 
-      {/* MY RACK TAB */}
-      {tab === 'rack' && (
-        <div className="main" style={{ paddingTop: '2rem' }}>
-          {viewingRackShirt ? (
-            <ShirtDetail
-              shirt={viewingRackShirt}
-              inRack={true}
-              onAdd={() => {}}
-              onBack={() => setViewingRackShirt(null)}
-            />
-          ) : (
-            <>
-              <h2 className="page-title">My Rack</h2>
-              {rack.length > 0 && (
-                <div className="coll-stats">
-                  <div className="stat-box">
-                    <div className="stat-val">{rack.length}</div>
-                    <div className="stat-key">Shirts</div>
-                  </div>
-                  <div className="stat-box">
-                    <div className="stat-val">{clubs}</div>
-                    <div className="stat-key">Clubs</div>
-                  </div>
-                  <div className="stat-box">
-                    <div className="stat-val">{makers}</div>
-                    <div className="stat-key">Makers</div>
-                  </div>
-                </div>
-              )}
-              {rack.length === 0 ? (
-                <div className="collection-empty">
-                  <div className="empty-icon">👕</div>
-                  <div className="empty-title">Your rack is empty</div>
-                  <p className="empty-sub">Browse the archive and add shirts to build your collection</p>
-                  <button className="btn-primary" onClick={() => setTab('archive')}>Browse the Archive</button>
-                </div>
-              ) : (
-                <div className="archive-grid">
-                  {rack.map((shirt, i) => (
-                    <div key={i} className="coll-card" onClick={() => setViewingRackShirt(shirt)}>
-                      <div className="coll-card-top">
-                        <div className="coll-emoji">{kitEmoji(shirt.kitType)}</div>
-                        <div className="coll-club">{shirt.club}</div>
-                        <div className="coll-season">{shirt.season}</div>
-                      </div>
-                      <div className="coll-body">
-                        <div className="coll-meta">
-                          <span className="coll-kit">{shirt.kitType} · {shirt.manufacturer}</span>
-                          <button className="coll-remove"
-                            onClick={e => { e.stopPropagation(); saveRack(rack.filter((_, idx) => idx !== i)); }}
-                            title="Remove">✕</button>
-                        </div>
-                        {shirt.notes && <div className="coll-notes">"{shirt.notes}"</div>}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              )}
-            </>
-          )}
-        </div>
-      )}
-
-      {addModal && (
-        <AddModal shirt={addModal} onClose={() => setAddModal(null)} onConfirm={confirmAdd} />
-      )}
-    </div>
-  );
-}
-
-ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+  ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 </script>
 </body>
 </html>
