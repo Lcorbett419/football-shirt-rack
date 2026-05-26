@@ -1,0 +1,779 @@
+/* ============================================================
+   DATABASE — add more shirts below following the same format
+   ============================================================ */
+const SHIRTS = [
+  {
+    id: 1,
+    club: "Manchester United",
+    season: "1998/99",
+    kitType: "Home",
+    manufacturer: "Umbro",
+    sponsor: "Sharp",
+    colourway: "Red body, white collar and sleeves",
+    material: "Polyester",
+    rarity: "Iconic",
+    history: "The shirt worn during United's historic Treble-winning season — Premier League, FA Cup and Champions League. The comeback win over Bayern Munich in Barcelona on 26 May 1999 made this one of the most iconic kits in football history.",
+    authenticityGuide: [
+      { icon: "🏷️", feature: "Umbro Diamond Logo", description: "Should be a clean woven badge on the left chest. Fakes often have a flat printed logo with uneven diamond spacing." },
+      { icon: "🔍", feature: "Sharp Sponsor Font", description: "The Sharp lettering uses a specific sans-serif weight. Counterfeit versions frequently have thicker or thinner lettering." },
+      { icon: "🧵", feature: "Collar Stitching", description: "The white ribbed collar should have tight, even stitching with no loose threads or puckering at the join." },
+      { icon: "📋", feature: "Back Neck Label", description: "Genuine shirts have a woven Umbro label with size, care instructions in English, and a Premier League hologram tag." }
+    ],
+    notablePlayers: [
+      { number: "7", name: "David Beckham" },
+      { number: "10", name: "Teddy Sheringham" },
+      { number: "9", name: "Andy Cole" }
+    ],
+    marketValue: { replica: "£40–70", playerIssue: "£120–200", signed: "£300+" },
+    details: {
+      "Collar style": "White ribbed V-neck with red trim",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (1997–2000)",
+      "Sleeve detail": "White sleeve panels with Umbro tape",
+      "Tagging": "Woven Umbro neck label + PL hologram"
+    }
+  },
+  {
+    id: 2,
+    club: "Manchester United",
+    season: "1998/99",
+    kitType: "Away",
+    manufacturer: "Umbro",
+    sponsor: "Sharp",
+    colourway: "White with navy and gold pinstripe",
+    material: "Polyester",
+    rarity: "Iconic",
+    history: "The away shirt of the Treble season, worn in several key Champions League group stage matches. The white with navy pinstripe design was considered one of Umbro's finest away kits of the era.",
+    authenticityGuide: [
+      { icon: "🔍", feature: "Pinstripe Quality", description: "The navy pinstripes should be printed precisely and evenly spaced. On fakes they are often blurred or inconsistently spaced." },
+      { icon: "🏷️", feature: "Gold Umbro Logo", description: "The Umbro logo appears in gold on the away kit. Cheap reproductions often use yellow rather than true gold." },
+      { icon: "🧵", feature: "Fabric Texture", description: "Original fabric has a light mesh texture. Counterfeits are often made of a smoother, shinier polyester." },
+      { icon: "📋", feature: "Sharp Font Colour", description: "Sharp sponsor appears in navy on the white shirt. The lettering should be crisp with no colour bleed." }
+    ],
+    notablePlayers: [
+      { number: "7", name: "David Beckham" },
+      { number: "11", name: "Ryan Giggs" }
+    ],
+    marketValue: { replica: "£50–80", playerIssue: "£130–220", signed: "£350+" },
+    details: {
+      "Collar style": "White ribbed crew neck with navy trim",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (1997–2000)",
+      "Sleeve detail": "White sleeves with gold Umbro tape",
+      "Tagging": "Woven Umbro neck label + PL hologram"
+    }
+  },
+  {
+    id: 3,
+    club: "Arsenal",
+    season: "2003/04",
+    kitType: "Home",
+    manufacturer: "Nike",
+    sponsor: "O2",
+    colourway: "Red and white with gold detail",
+    material: "Nike Dri-FIT polyester",
+    rarity: "Iconic",
+    history: "The Invincibles shirt. Worn by Arsène Wenger's Arsenal side through the entire 2003/04 Premier League season unbeaten — 26 wins and 12 draws across 38 games. Widely considered the most famous Arsenal kit ever produced.",
+    authenticityGuide: [
+      { icon: "🏷️", feature: "Gold Cannon Badge", description: "The club crest features a gold cannon on a red background. On genuine shirts the embroidery is raised and detailed. Fakes often use a flat iron-on transfer." },
+      { icon: "🔍", feature: "O2 Sponsor", description: "The O2 logo is printed in white on the red body. The circle and text should be perfectly aligned and proportioned." },
+      { icon: "🧵", feature: "Dri-FIT Mesh", description: "Genuine Nike Dri-FIT fabric has a fine hexagonal mesh pattern visible under light. Budget fakes use a plain weave." },
+      { icon: "📋", feature: "Nike Neck Tag", description: "Should have a Nike jock tag at the hem and a woven neck label. The Premier League patch appears on the right sleeve." }
+    ],
+    notablePlayers: [
+      { number: "14", name: "Thierry Henry" },
+      { number: "8", name: "Freddie Ljungberg" },
+      { number: "3", name: "Ashley Cole" }
+    ],
+    marketValue: { replica: "£50–80", playerIssue: "£150–250", signed: "£400+" },
+    details: {
+      "Collar style": "Crew neck with red ribbed trim and gold piping",
+      "Badge style": "Embroidered gold cannon crest, left chest",
+      "Kit number font": "Premier League standard (2002–2007)",
+      "Sleeve detail": "White sleeve panels, PL patch on right sleeve",
+      "Tagging": "Nike woven neck label, Nike jock tag at hem"
+    }
+  },
+  {
+    id: 4,
+    club: "Liverpool",
+    season: "1989/90",
+    kitType: "Home",
+    manufacturer: "Adidas",
+    sponsor: "Crown Paints",
+    colourway: "All red with white Adidas stripes",
+    material: "Cotton-polyester blend",
+    rarity: "Iconic",
+    history: "Liverpool's title-winning shirt from the last time they won the First Division championship before a 30-year wait. The classic Adidas three-stripe design on a plain red base is one of the purest Liverpool kits ever made.",
+    authenticityGuide: [
+      { icon: "🧵", feature: "Adidas Three Stripes", description: "The white stripes on the sleeves should be stitched fabric, not printed. Genuine vintage Adidas use sewn-on stripe panels." },
+      { icon: "🏷️", feature: "Trefoil Logo", description: "This era used the classic Adidas trefoil, not the Equipment or Performance logo. Ensure it is correctly proportioned and positioned." },
+      { icon: "🔍", feature: "Crown Paints Font", description: "The sponsor lettering should be an embroidered or heat-pressed block font. Reproductions often use incorrect font weights." },
+      { icon: "📋", feature: "Cotton Blend Fabric", description: "Late 80s Adidas used a cotton-poly blend with a distinctly different weight and drape to modern polyester replicas." }
+    ],
+    notablePlayers: [
+      { number: "9", name: "Ian Rush" },
+      { number: "7", name: "Kenny Dalglish" },
+      { number: "10", name: "John Barnes" }
+    ],
+    marketValue: { replica: "£35–60", playerIssue: "£100–180", signed: "£250+" },
+    details: {
+      "Collar style": "V-neck with white ribbed trim",
+      "Badge style": "Embroidered Liverbird crest, left chest",
+      "Kit number font": "Plain block, non-standardised era",
+      "Sleeve detail": "White Adidas three stripes on sleeves",
+      "Tagging": "Woven Adidas neck label, Made in England"
+    }
+  },
+  {
+    id: 5,
+    club: "Newcastle United",
+    season: "1995/96",
+    kitType: "Home",
+    manufacturer: "Adidas",
+    sponsor: "Brown Ale",
+    colourway: "Black and white stripes",
+    material: "Polyester",
+    rarity: "Iconic",
+    history: "The shirt of Newcastle's famous title challenge under Kevin Keegan, when they led the Premier League by 12 points before famously being pipped by Manchester United. Associated with the iconic 4-3 match against Liverpool and Keegan's emotional 'I would love it' speech.",
+    authenticityGuide: [
+      { icon: "🔍", feature: "Stripe Width", description: "Genuine Adidas Newcastle shirts have precisely equal black and white stripe widths. Many fakes have slightly uneven stripes." },
+      { icon: "🏷️", feature: "Brown Ale Logo", description: "The Newcastle Brown Ale logo should be a clean woven badge. The eagle and lettering are often poorly reproduced on counterfeits." },
+      { icon: "🧵", feature: "Collar Detail", description: "Features a black and white striped collar with a small V. The stripe alignment at the collar join is a key authenticity indicator." },
+      { icon: "📋", feature: "Adidas Equipment Logo", description: "This era used the Adidas Equipment logo (three bars). Fakes sometimes incorrectly use the trefoil or Performance logos." }
+    ],
+    notablePlayers: [
+      { number: "9", name: "Alan Shearer" },
+      { number: "10", name: "Les Ferdinand" },
+      { number: "11", name: "David Ginola" }
+    ],
+    marketValue: { replica: "£45–75", playerIssue: "£120–200", signed: "£300+" },
+    details: {
+      "Collar style": "Striped V-neck collar",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (1994–1997)",
+      "Sleeve detail": "Adidas Equipment three-bar tape on sleeves",
+      "Tagging": "Woven Adidas neck label + PL hologram tag"
+    }
+  },
+  {
+    id: 6,
+    club: "Chelsea",
+    season: "2004/05",
+    kitType: "Home",
+    manufacturer: "Umbro",
+    sponsor: "Emirates",
+    colourway: "Royal blue with white trim",
+    material: "Polyester",
+    rarity: "Rare",
+    history: "José Mourinho's first season at Chelsea, the year they won the Premier League title with a then-record 95 points. The clean royal blue Umbro design became associated with the arrival of the Special One and Roman Abramovich's era.",
+    authenticityGuide: [
+      { icon: "🔍", feature: "Emirates Sponsor", description: "The Emirates wordmark is printed in white. Check the font — it should use Emirates' own custom typeface, often poorly copied." },
+      { icon: "🏷️", feature: "Umbro Diamond", description: "Woven Umbro double diamond logo on left chest. On fakes the diamond is often slightly misshapen or the weave is too coarse." },
+      { icon: "🧵", feature: "Lion Badge", description: "Chelsea's embroidered lion crest should have fine detail in the lion's mane. A blurry or flat crest indicates a fake." },
+      { icon: "📋", feature: "PL Patch", description: "Premier League sleeve patch on right sleeve. Check the lion's position and the lettering — a common area where fakes cut corners." }
+    ],
+    notablePlayers: [
+      { number: "9", name: "Didier Drogba" },
+      { number: "8", name: "Frank Lampard" },
+      { number: "26", name: "John Terry" }
+    ],
+    marketValue: { replica: "£30–50", playerIssue: "£80–140", signed: "£200+" },
+    details: {
+      "Collar style": "White ribbed crew neck",
+      "Badge style": "Embroidered Chelsea lion crest, left chest",
+      "Kit number font": "Premier League standard (2002–2007)",
+      "Sleeve detail": "White sleeve panels, PL patch right sleeve",
+      "Tagging": "Woven Umbro neck label + PL hologram"
+    }
+  },
+  {
+    id: 7,
+    club: "Brazil",
+    season: "1970",
+    kitType: "Home",
+    manufacturer: "Athleta",
+    sponsor: "None",
+    colourway: "Yellow body, blue shorts, white socks",
+    material: "Cotton",
+    rarity: "Iconic",
+    history: "The shirt of arguably the greatest team ever assembled. Pelé, Jairzinho, Rivellino and Tostão won the 1970 World Cup in Mexico with a brand of football that has never been surpassed. The yellow shirt became the universal symbol of beautiful football.",
+    authenticityGuide: [
+      { icon: "🔍", feature: "Canary Yellow Shade", description: "The specific canary yellow is distinct from later Brazil kits. Genuine originals have a slightly warmer, deeper yellow than modern reproductions." },
+      { icon: "🧵", feature: "Cotton Weight", description: "Genuine 1970 shirts were made of heavy cotton. Any polyester construction immediately indicates a reproduction rather than an original." },
+      { icon: "🏷️", feature: "CBF Badge", description: "The embroidered Brazilian Football Confederation badge should show fine stitch detail. Original match shirts had hand-stitched crests." },
+      { icon: "📋", feature: "Green Collar", description: "The green V-neck collar trim should be a clean, bright green. On originals this was a separate ribbed trim panel sewn on." }
+    ],
+    notablePlayers: [
+      { number: "10", name: "Pelé" },
+      { number: "7", name: "Jairzinho" },
+      { number: "11", name: "Tostão" }
+    ],
+    marketValue: { replica: "£30–50", playerIssue: "£500–2000", signed: "£5000+" },
+    details: {
+      "Collar style": "Green V-neck ribbed collar",
+      "Badge style": "Embroidered CBF crest, left chest",
+      "Kit number font": "Hand-applied, non-standardised",
+      "Sleeve detail": "Plain yellow, no manufacturer branding",
+      "Tagging": "Simple cotton care label, Made in Brazil"
+    }
+  },
+  {
+    id: 8,
+    club: "Brazil",
+    season: "2002",
+    kitType: "Home",
+    manufacturer: "Nike",
+    sponsor: "None",
+    colourway: "Yellow with green collar and cuffs",
+    material: "Nike Dri-FIT polyester",
+    rarity: "Iconic",
+    history: "Ronaldo's redemption. Four years after his mysterious illness before the 1998 final, Ronaldo scored twice in the 2002 World Cup final against Germany in Yokohama, winning his second World Cup and cementing his place among the all-time greats.",
+    authenticityGuide: [
+      { icon: "🏷️", feature: "Nike Swoosh", description: "Blue Nike swoosh on the right chest. Should be a clean embroidered or heat-applied logo — check proportions carefully." },
+      { icon: "🔍", feature: "CBF Shield", description: "The green and gold shield badge should have crisp embroidery with fine detail. Blurring or colour bleed indicates a fake." },
+      { icon: "🧵", feature: "Dri-FIT Texture", description: "Authentic Nike Dri-FIT has a distinctive fine-knit texture. Many Brazil reproductions use a plain smooth polyester." },
+      { icon: "📋", feature: "Star Placement", description: "The four stars above the badge (one for each World Cup) must be precisely spaced and aligned. Uneven stars are a common giveaway." }
+    ],
+    notablePlayers: [
+      { number: "9", name: "Ronaldo" },
+      { number: "10", name: "Ronaldinho" },
+      { number: "11", name: "Rivaldo" }
+    ],
+    marketValue: { replica: "£35–60", playerIssue: "£100–180", signed: "£400+" },
+    details: {
+      "Collar style": "Green V-neck with yellow ribbed trim",
+      "Badge style": "Embroidered CBF shield, left chest",
+      "Kit number font": "FIFA World Cup 2002 standard",
+      "Sleeve detail": "Green cuffs, no sponsor on sleeves",
+      "Tagging": "Nike woven neck label, FIFA World Cup label"
+    }
+  },
+  {
+    id: 9,
+    club: "France",
+    season: "1998",
+    kitType: "Home",
+    manufacturer: "Adidas",
+    sponsor: "None",
+    colourway: "Deep navy blue with gold trim",
+    material: "Adidas ClimaCool polyester",
+    rarity: "Iconic",
+    history: "France's World Cup winning shirt on home soil. Zinedine Zidane's two headers in the final against Brazil secured a 3-0 win and France's first World Cup. Worn on the night that a generation of French fans will never forget.",
+    authenticityGuide: [
+      { icon: "🔍", feature: "Deep Navy Colour", description: "The French blue (bleu nuit) is a very deep, dark navy. Counterfeits frequently use a brighter or lighter blue." },
+      { icon: "🏷️", feature: "FFF Cockerel Badge", description: "The French Football Federation badge features a gold cockerel. Fine feather detail in the embroidery distinguishes originals from fakes." },
+      { icon: "🧵", feature: "Gold Adidas Stripes", description: "Gold three stripes on the shoulders. These should be a clean, warm gold — not yellow. Many fakes use the wrong shade." },
+      { icon: "📋", feature: "World Cup Label", description: "Player issue shirts carry an official FIFA World Cup woven label. The font and FIFA logo on this label is frequently wrong on counterfeits." }
+    ],
+    notablePlayers: [
+      { number: "10", name: "Zinedine Zidane" },
+      { number: "12", name: "Thierry Henry" },
+      { number: "8", name: "Marcel Desailly" }
+    ],
+    marketValue: { replica: "£40–65", playerIssue: "£120–200", signed: "£500+" },
+    details: {
+      "Collar style": "Crew neck with gold ribbed trim",
+      "Badge style": "Embroidered FFF cockerel, left chest",
+      "Kit number font": "France / Adidas bespoke 1998",
+      "Sleeve detail": "Gold Adidas three stripes on shoulders",
+      "Tagging": "Woven Adidas neck label, FFF label"
+    }
+  },
+  {
+    id: 10,
+    club: "Italy",
+    season: "2006",
+    kitType: "Home",
+    manufacturer: "Puma",
+    sponsor: "None",
+    colourway: "Azzurro blue with white collar",
+    material: "Puma ActvChill polyester",
+    rarity: "Iconic",
+    history: "Italy's fourth World Cup winning shirt. Marcello Lippi's side beat France on penalties in Berlin after a 1-1 draw, with Fabio Cannavaro lifting the trophy. Zidane's headbutt on Materazzi was the tournament's defining moment.",
+    authenticityGuide: [
+      { icon: "🔍", feature: "Azzurro Shade", description: "Italy's specific sky blue (azzurro) is a lighter, brighter blue than France's navy. The exact shade is frequently wrong on counterfeits." },
+      { icon: "🏷️", feature: "FIGC Badge", description: "The Italian Football Federation badge features a four-quarters shield. The fine detail of the shield divisions is a good authenticity check." },
+      { icon: "🧵", feature: "Puma Cat Logo", description: "The leaping Puma cat should be a clean, consistent shape on the right chest. Distortion in the cat's silhouette indicates a poor reproduction." },
+      { icon: "📋", feature: "White Collar Trim", description: "The white V-neck collar trim is a distinctive feature. On originals, the collar is a separate ribbed piece with clean join stitching." }
+    ],
+    notablePlayers: [
+      { number: "5", name: "Fabio Cannavaro" },
+      { number: "10", name: "Francesco Totti" },
+      { number: "9", name: "Luca Toni" }
+    ],
+    marketValue: { replica: "£35–55", playerIssue: "£100–170", signed: "£300+" },
+    details: {
+      "Collar style": "White V-neck with fine blue piping",
+      "Badge style": "Embroidered FIGC four-quarter shield",
+      "Kit number font": "Puma / FIGC bespoke 2006",
+      "Sleeve detail": "Plain, Italian flag patch on right sleeve",
+      "Tagging": "Woven Puma neck label, World Cup authenticity tag"
+    }
+  },
+  {
+    id: 11,
+    club: "Italy",
+    season: "2006",
+    kitType: "Away",
+    manufacturer: "Puma",
+    sponsor: "None",
+    colourway: "White with blue trim",
+    material: "Puma ActvChill polyester",
+    rarity: "Rare",
+    history: "The white away shirt worn during Italy's 2006 World Cup campaign. Notably worn in the semi-final against Germany in Dortmund, where Italy won 2-0 in extra time with two goals in the final two minutes from Grosso and Del Piero.",
+    authenticityGuide: [
+      { icon: "🔍", feature: "Blue Piping", description: "Thin blue piping runs around the collar and cuffs. On genuine shirts this piping is clean and unbroken. Fakes often have thicker or uneven piping." },
+      { icon: "🏷️", feature: "FIGC Badge on White", description: "The badge appears on a white background on the away shirt. Check that the azzurro and red shield sections are the correct shades." },
+      { icon: "🧵", feature: "Fabric Construction", description: "Same ActvChill fabric as the home shirt. The fine knit should be visible and consistent across the shirt with no loose threads." },
+      { icon: "📋", feature: "Puma Size Label", description: "The woven size label should specify S/M/L/XL clearly. Poor counterfeit labels often have blurry or incorrectly formatted text." }
+    ],
+    notablePlayers: [
+      { number: "5", name: "Fabio Cannavaro" },
+      { number: "7", name: "Alessandro Del Piero" },
+      { number: "3", name: "Fabio Grosso" }
+    ],
+    marketValue: { replica: "£35–55", playerIssue: "£90–160", signed: "£280+" },
+    details: {
+      "Collar style": "White V-neck with blue piping",
+      "Badge style": "Embroidered FIGC shield on white",
+      "Kit number font": "Puma / FIGC bespoke 2006",
+      "Sleeve detail": "Plain white, Italian flag patch right sleeve",
+      "Tagging": "Woven Puma neck label"
+    }
+  },
+  {
+    id: 12,
+    club: "Netherlands",
+    season: "1988",
+    kitType: "Home",
+    manufacturer: "Adidas",
+    sponsor: "None",
+    colourway: "Vivid orange with black Adidas stripes",
+    material: "Cotton-polyester blend",
+    rarity: "Iconic",
+    history: "The Netherlands' European Championship winning shirt, with Marco van Basten scoring one of the greatest goals in football history — a volley from an almost impossible angle — in the final against the Soviet Union. The generation of Gullit, van Basten and Rijkaard at their peak.",
+    authenticityGuide: [
+      { icon: "🔍", feature: "Vivid Orange", description: "The shade of orange is very specific — a warm, vivid tangerine. Fakes frequently use a less saturated or more yellow-toned orange." },
+      { icon: "🧵", feature: "Black Adidas Stripes", description: "Black three stripes on the shoulders, sewn as separate fabric strips. Any printed or transfer stripes indicate a reproduction." },
+      { icon: "🏷️", feature: "KNVB Badge", description: "The Royal Dutch Football Association badge features a lion on an orange background. Original embroidery has clear claw and mane detail." },
+      { icon: "📋", feature: "Adidas Trefoil", description: "This era used the classic Adidas trefoil logo, positioned on the right chest. Check proportions and number of trefoil leaves." }
+    ],
+    notablePlayers: [
+      { number: "9", name: "Marco van Basten" },
+      { number: "10", name: "Ruud Gullit" },
+      { number: "8", name: "Frank Rijkaard" }
+    ],
+    marketValue: { replica: "£40–70", playerIssue: "£200–500", signed: "£1500+" },
+    details: {
+      "Collar style": "Orange V-neck with black trim",
+      "Badge style": "Embroidered KNVB lion crest, left chest",
+      "Kit number font": "Plain block, non-standardised era",
+      "Sleeve detail": "Black Adidas three stripes on shoulders",
+      "Tagging": "Woven Adidas neck label, Made in West Germany"
+    }
+  },
+  {
+    id: 13,
+    club: "Ajax",
+    season: "1994/95",
+    kitType: "Home",
+    manufacturer: "Umbro",
+    sponsor: "ABN AMRO",
+    colourway: "White with broad red centre stripe",
+    material: "Polyester",
+    rarity: "Iconic",
+    history: "The shirt worn by Louis van Gaal's extraordinary Ajax side that won the Champions League, defeating AC Milan 1-0 in the final in Vienna. The squad included a 17-year-old Patrick Kluivert, plus Clarence Seedorf, Edgar Davids and the De Boer twins.",
+    authenticityGuide: [
+      { icon: "🔍", feature: "Centre Stripe Width", description: "The single broad red stripe runs centrally from collar to hem. Precise width is important — too wide or too narrow indicates a poor copy." },
+      { icon: "🏷️", feature: "Ajax Head Badge", description: "The embroidered Ajax profile head crest should have clean, detailed linework. The portrait's features are a common area of inaccuracy on fakes." },
+      { icon: "🧵", feature: "ABN AMRO Lettering", description: "The sponsor text is an embroidered wordmark in red on white. Letter spacing and font weight are frequently wrong on counterfeits." },
+      { icon: "📋", feature: "Umbro Diamond", description: "Classic Umbro double diamond on left chest. Woven construction — printed or loose-thread diamonds indicate a fake." }
+    ],
+    notablePlayers: [
+      { number: "9", name: "Patrick Kluivert" },
+      { number: "8", name: "Clarence Seedorf" },
+      { number: "10", name: "Marc Overmars" }
+    ],
+    marketValue: { replica: "£45–75", playerIssue: "£150–280", signed: "£500+" },
+    details: {
+      "Collar style": "White V-neck with red piping",
+      "Badge style": "Embroidered Ajax head profile, left chest",
+      "Kit number font": "Umbro block, non-PL standardised",
+      "Sleeve detail": "White sleeves with fine red side stripe",
+      "Tagging": "Woven Umbro neck label + UEFA label"
+    }
+  },
+  {
+    id: 14,
+    club: "AC Milan",
+    season: "1988/89",
+    kitType: "Home",
+    manufacturer: "Adidas",
+    sponsor: "Mediolanum",
+    colourway: "Red and black vertical stripes",
+    material: "Cotton-polyester blend",
+    rarity: "Iconic",
+    history: "The shirt worn by Arrigo Sacchi's legendary Milan side that won the European Cup, beating Steaua Bucharest 4-0 in the final. The squad featured van Basten, Gullit and Rijkaard — the Dutch trio who had just won Euro 88 with the Netherlands.",
+    authenticityGuide: [
+      { icon: "🔍", feature: "Stripe Precision", description: "Red and black vertical stripes should be exactly equal in width and perfectly aligned at the shoulders and hem seams." },
+      { icon: "🧵", feature: "Adidas Three Stripes", description: "White Adidas stripes on the shoulders. Genuine vintage Adidas used sewn fabric strips rather than printed or transfer applications." },
+      { icon: "🏷️", feature: "Mediolanum Sponsor", description: "The Mediolanum lettering uses a specific serif font. This sponsor is often replaced with modern counterfeits that use the wrong typeface." },
+      { icon: "📋", feature: "Adidas Trefoil", description: "Left chest trefoil logo. On late 80s Adidas the trefoil leaves have a distinct shape — slightly longer and more pointed than modern copies." }
+    ],
+    notablePlayers: [
+      { number: "9", name: "Marco van Basten" },
+      { number: "10", name: "Ruud Gullit" },
+      { number: "3", name: "Paulo Maldini" }
+    ],
+    marketValue: { replica: "£40–70", playerIssue: "£200–450", signed: "£1000+" },
+    details: {
+      "Collar style": "V-neck with red and black trim",
+      "Badge style": "Embroidered ACM crest, left chest",
+      "Kit number font": "Plain block, non-standardised era",
+      "Sleeve detail": "White Adidas three stripes on shoulders",
+      "Tagging": "Woven Adidas neck label, Made in West Germany"
+    }
+  },
+  {
+    id: 15,
+    club: "Barcelona",
+    season: "2008/09",
+    kitType: "Home",
+    manufacturer: "Nike",
+    sponsor: "Unicef",
+    colourway: "Blue and red vertical stripes",
+    material: "Nike Dri-FIT polyester",
+    rarity: "Iconic",
+    history: "Pep Guardiola's first season as Barcelona manager, the year they won the historic Treble — La Liga, Copa del Rey and Champions League, beating Manchester United in the final in Rome. The debut season of the Messi-Xavi-Iniesta era at its peak.",
+    authenticityGuide: [
+      { icon: "🔍", feature: "Stripe Alignment", description: "The blaugrana stripes must align precisely at all seams. Nike's genuine construction ensures perfect alignment — fakes frequently have misaligned stripes." },
+      { icon: "🏷️", feature: "Unicef Charity Sponsor", description: "Barcelona famously carried no commercial sponsor at this time, displaying Unicef instead. Any commercial sponsor on this shirt indicates a wrong era or fake." },
+      { icon: "🧵", feature: "FCB Crest", description: "The Barcelona crest features St George's cross, the Catalan flag, and a ball. The fine embroidery detail, especially in the flag quarters, distinguishes originals." },
+      { icon: "📋", feature: "La Liga Patch", description: "La Liga patch on the sleeve. Check that the LFP lettering and lion are correct for the 2008/09 season format." }
+    ],
+    notablePlayers: [
+      { number: "10", name: "Lionel Messi" },
+      { number: "6", name: "Xavi Hernández" },
+      { number: "8", name: "Andrés Iniesta" }
+    ],
+    marketValue: { replica: "£40–70", playerIssue: "£120–220", signed: "£600+" },
+    details: {
+      "Collar style": "V-neck with gold piping",
+      "Badge style": "Embroidered FCB crest, left chest",
+      "Kit number font": "La Liga standard 2008/09",
+      "Sleeve detail": "Plain, La Liga patch on right sleeve",
+      "Tagging": "Nike woven neck label, Nike jock tag at hem"
+    }
+  },
+  {
+    id: 16,
+    club: "Blackburn Rovers",
+    season: "1994/95",
+    kitType: "Home",
+    manufacturer: "Asics",
+    sponsor: "McEwan's Lager",
+    colourway: "Blue and white halves",
+    material: "Polyester",
+    rarity: "Rare",
+    history: "The shirt worn when Blackburn Rovers won their only Premier League title, pipping Manchester United on the final day. Kenny Dalglish's side, bankrolled by Jack Walker, ended a 81-year wait for the top flight title. Alan Shearer scored 34 goals.",
+    authenticityGuide: [
+      { icon: "🔍", feature: "Half-and-Half Design", description: "The blue and white half design should have a clean, straight vertical dividing line. Misaligned halves are an instant fake indicator." },
+      { icon: "🏷️", feature: "Asics Logo", description: "Asics used their distinctive parallel bars logo in this era. This is a less commonly faked brand so genuine originals are more readily found." },
+      { icon: "🧵", feature: "McEwan's Font", description: "The McEwan's Lager sponsor uses a specific serif script. This is an unusual sponsor rarely reproduced accurately on counterfeits." },
+      { icon: "📋", feature: "Premier League Hologram", description: "Should carry the Premier League hologram tag on the back collar, introduced for the 1994/95 season." }
+    ],
+    notablePlayers: [
+      { number: "9", name: "Alan Shearer" },
+      { number: "10", name: "Chris Sutton" },
+      { number: "7", name: "Tim Sherwood" }
+    ],
+    marketValue: { replica: "£35–60", playerIssue: "£100–180", signed: "£250+" },
+    details: {
+      "Collar style": "White polo collar with blue trim",
+      "Badge style": "Embroidered Rovers crest, left chest",
+      "Kit number font": "Premier League standard (1994–1997)",
+      "Sleeve detail": "Asics logo tape on sleeves",
+      "Tagging": "Woven Asics neck label + PL hologram"
+    }
+  },
+  {
+    id: 17,
+    club: "England",
+    season: "1990",
+    kitType: "Home",
+    manufacturer: "Umbro",
+    sponsor: "None",
+    colourway: "White with navy and red trim",
+    material: "Cotton-polyester blend",
+    rarity: "Iconic",
+    history: "Italia 90 — England's most beloved tournament in a generation. Paul Gascoigne's tears after the semi-final booking against West Germany, Lineker's late equaliser, and then heartbreak on penalties. The shirt carries the emotion of an entire nation.",
+    authenticityGuide: [
+      { icon: "🔍", feature: "Three Lions Badge", description: "The embroidered Three Lions badge should show clear individual lions with visible claw and mane detail. A blurry or flat badge indicates a fake." },
+      { icon: "🧵", feature: "Umbro Chest Tape", description: "Umbro's signature chest stripe — a thin horizontal tape across the chest in navy and red. Often incorrectly coloured or proportioned on fakes." },
+      { icon: "🏷️", feature: "Umbro Diamond Label", description: "Woven Umbro double diamond neck label. The label should specify FA approved and include care washing instructions." },
+      { icon: "📋", feature: "Cotton-Poly Fabric", description: "1990 Umbro shirts used a heavier cotton blend. Purely synthetic replicas don't replicate the correct weight or drape of the original." }
+    ],
+    notablePlayers: [
+      { number: "10", name: "Gary Lineker" },
+      { number: "8", name: "Paul Gascoigne" },
+      { number: "7", name: "John Barnes" }
+    ],
+    marketValue: { replica: "£40–65", playerIssue: "£150–300", signed: "£600+" },
+    details: {
+      "Collar style": "White polo collar with navy trim",
+      "Badge style": "Embroidered Three Lions, left chest",
+      "Kit number font": "Plain block, non-standardised era",
+      "Sleeve detail": "White sleeves, Umbro diamond badge on sleeve",
+      "Tagging": "Woven Umbro neck label, FA approval label"
+    }
+  },
+  {
+    id: 18,
+    club: "Germany",
+    season: "1990",
+    kitType: "Home",
+    manufacturer: "Adidas",
+    sponsor: "None",
+    colourway: "White with black and gold trim",
+    material: "Cotton-polyester blend",
+    rarity: "Iconic",
+    history: "West Germany's World Cup winning shirt in Italia 90, their third and final World Cup as West Germany before reunification. Lothar Matthäus lifted the trophy after a 1-0 win over Argentina, with Andreas Brehme scoring the only goal from the penalty spot.",
+    authenticityGuide: [
+      { icon: "🔍", feature: "DFB Eagle Badge", description: "The German Football Association eagle badge should show fine feather detail. The eagle's wingspan and claw position are commonly wrong on fakes." },
+      { icon: "🧵", feature: "Black Adidas Stripes", description: "Black three stripes on the shoulders as separate sewn fabric strips. Any printed application indicates a reproduction." },
+      { icon: "🏷️", feature: "Gold Trim Detail", description: "Gold piping runs around the collar and cuffs. Should be a warm, true gold — fakes frequently use a yellower or duller metallic." },
+      { icon: "📋", feature: "Adidas Trefoil Position", description: "The trefoil appears on the right chest at a specific size. Wrong placement or scale is a common indicator of a poor reproduction." }
+    ],
+    notablePlayers: [
+      { number: "10", name: "Lothar Matthäus" },
+      { number: "11", name: "Jürgen Klinsmann" },
+      { number: "5", name: "Andreas Brehme" }
+    ],
+    marketValue: { replica: "£40–65", playerIssue: "£180–350", signed: "£700+" },
+    details: {
+      "Collar style": "White polo collar with black and gold trim",
+      "Badge style": "Embroidered DFB eagle, left chest",
+      "Kit number font": "Plain block, non-standardised era",
+      "Sleeve detail": "Black Adidas three stripes on shoulders",
+      "Tagging": "Woven Adidas neck label, Made in West Germany"
+    }
+  },
+  {
+    id: 19,
+    club: "Celtic",
+    season: "2001/02",
+    kitType: "Home",
+    manufacturer: "Umbro",
+    sponsor: "NTL",
+    colourway: "Green and white hoops",
+    material: "Polyester",
+    rarity: "Rare",
+    history: "Martin O'Neill's Celtic side won the Scottish Premier League and reached the UEFA Cup final in Seville, losing 3-2 to Porto in extra time. The Seville final attracted over 80,000 Celtic fans to Spain — one of the largest football supporter travel events in history.",
+    authenticityGuide: [
+      { icon: "🔍", feature: "Hoop Width and Count", description: "Celtic's hoops should be equal width — approximately 7 green and 7 white. Incorrect hoop count or unequal widths indicate a fake." },
+      { icon: "🧵", feature: "Four-Leaf Clover Badge", description: "The Celtic crest features a four-leaf clover. The detailed shamrock stitching in the embroidery is a good authenticity marker." },
+      { icon: "🏷️", feature: "NTL Sponsor", description: "The NTL logo uses a specific green on green design. Often reproduced incorrectly — the shade of green used for the lettering should closely match the hoops." },
+      { icon: "📋", feature: "Umbro Double Diamond", description: "Woven Umbro diamond on left chest. Should sit at a specific height on the chest — too high or low indicates a counterfeit." }
+    ],
+    notablePlayers: [
+      { number: "9", name: "Henrik Larsson" },
+      { number: "7", name: "Chris Sutton" },
+      { number: "11", name: "John Hartson" }
+    ],
+    marketValue: { replica: "£35–55", playerIssue: "£90–160", signed: "£250+" },
+    details: {
+      "Collar style": "White V-neck with green ribbed trim",
+      "Badge style": "Embroidered four-leaf clover crest, left chest",
+      "Kit number font": "SPL standard 2001/02",
+      "Sleeve detail": "White sleeves, Umbro logo on sleeve",
+      "Tagging": "Woven Umbro neck label + SPL label"
+    }
+  },
+  {
+    id: 20,
+    club: "Juventus",
+    season: "1994/95",
+    kitType: "Home",
+    manufacturer: "Kappa",
+    sponsor: "Danone",
+    colourway: "Black and white vertical stripes",
+    material: "Polyester",
+    rarity: "Rare",
+    history: "Marcello Lippi's first season as Juventus manager, finishing second in Serie A. The foundation of the side that would win back-to-back Champions Leagues in 1995 and 1996. Del Piero was emerging, and Vialli and Ravanelli were at their peak.",
+    authenticityGuide: [
+      { icon: "🔍", feature: "Stripe Alignment", description: "Black and white equal-width stripes must align perfectly at all seams. Poor alignment at the shoulders is the most common fake indicator on Juventus shirts." },
+      { icon: "🏷️", feature: "Kappa Omini Logo", description: "Kappa's two seated figures logo should be a clean, precise design. The silhouettes' proportions are frequently wrong on counterfeit products." },
+      { icon: "🧵", feature: "Danone Sponsor", description: "The Danone waves logo uses a specific shade of blue. On genuine shirts the logo is a heat-applied or woven badge with clean edges." },
+      { icon: "📋", feature: "FIGC Serie A Tag", description: "Carries a Serie A official licensing tag. The black stripes on this tag should match the shirt's black exactly." }
+    ],
+    notablePlayers: [
+      { number: "10", name: "Roberto Baggio" },
+      { number: "9", name: "Gianluca Vialli" },
+      { number: "7", name: "Alessandro Del Piero" }
+    ],
+    marketValue: { replica: "£35–55", playerIssue: "£100–180", signed: "£350+" },
+    details: {
+      "Collar style": "Black V-neck with white piping",
+      "Badge style": "Embroidered Juventus oval badge, left chest",
+      "Kit number font": "Kappa block, non-standardised era",
+      "Sleeve detail": "Kappa taping on sleeves",
+      "Tagging": "Woven Kappa neck label + Serie A tag"
+    }
+  },
+  {
+    id: 21,
+    club: "Leeds United",
+    season: "1992/93",
+    kitType: "Home",
+    manufacturer: "Admiral",
+    sponsor: "Top Man",
+    colourway: "All white with yellow and blue trim",
+    material: "Polyester",
+    rarity: "Uncommon",
+    history: "Leeds United's first season as reigning First Division champions in the new Premier League era. Howard Wilkinson's side had won the title in 1991/92 in the final season before the Premier League, making them the last ever First Division champions.",
+    authenticityGuide: [
+      { icon: "🔍", feature: "Yellow and Blue Trim", description: "Admiral's distinctive yellow and blue trim on collar and cuffs. The specific sequence of colours and width of each trim band should be checked carefully." },
+      { icon: "🧵", feature: "Admiral Chevron", description: "Admiral's distinctive chevron logo. On genuine shirts this is an embroidered or woven badge — any printed application indicates a reproduction." },
+      { icon: "🏷️", feature: "Top Man Sponsor", description: "Top Man lettering in blue on the white shirt. Fakes of this shirt are uncommon but the sponsor font is a good check point." },
+      { icon: "📋", feature: "Leeds United Rose Badge", description: "The embroidered Leeds badge features a white rose of Yorkshire. The petals should have clear individual definition in the embroidery." }
+    ],
+    notablePlayers: [
+      { number: "10", name: "Eric Cantona" },
+      { number: "9", name: "Lee Chapman" },
+      { number: "7", name: "Gordon Strachan" }
+    ],
+    marketValue: { replica: "£30–50", playerIssue: "£80–140", signed: "£200+" },
+    details: {
+      "Collar style": "White polo collar with yellow and blue trim",
+      "Badge style": "Embroidered Leeds rose badge, left chest",
+      "Kit number font": "Plain block, non-standardised era",
+      "Sleeve detail": "Yellow and blue Admiral chevron trim",
+      "Tagging": "Woven Admiral neck label"
+    }
+  },
+  {
+    id: 22,
+    club: "Argentina",
+    season: "1986",
+    kitType: "Home",
+    manufacturer: "Le Coq Sportif",
+    sponsor: "None",
+    colourway: "Light blue and white vertical stripes",
+    material: "Cotton",
+    rarity: "Iconic",
+    history: "The shirt Maradona wore when he single-handedly won the World Cup in Mexico. The quarter-final against England included both the Hand of God and the Goal of the Century in the same match. The tournament's defining moments all came in this sky-blue-and-white shirt.",
+    authenticityGuide: [
+      { icon: "🔍", feature: "Stripe Shade", description: "Argentina's classic light blue (celeste) is a very specific, pale sky blue. Too dark or too grey indicates an inaccurate reproduction." },
+      { icon: "🧵", feature: "Cotton Construction", description: "Genuine 1986 match shirts were heavy cotton. Any synthetic fabric immediately identifies a modern reproduction rather than an original." },
+      { icon: "🏷️", feature: "AFA Badge", description: "The Argentine Football Association badge features a sun and a football. Original match shirt crests were hand-embroidered with fine stitch work." },
+      { icon: "📋", feature: "Le Coq Sportif Logo", description: "The French cockerel logo of Le Coq Sportif should be correctly proportioned. This manufacturer is less commonly faked but reproductions do circulate." }
+    ],
+    notablePlayers: [
+      { number: "10", name: "Diego Maradona" },
+      { number: "9", name: "Jorge Valdano" },
+      { number: "11", name: "Jorge Burruchaga" }
+    ],
+    marketValue: { replica: "£35–60", playerIssue: "£800–3000", signed: "£10000+" },
+    details: {
+      "Collar style": "Light blue V-neck with white trim",
+      "Badge style": "Embroidered AFA crest, left chest",
+      "Kit number font": "Hand-applied, non-standardised",
+      "Sleeve detail": "Plain, no manufacturer shoulder branding",
+      "Tagging": "Simple cotton care label"
+    }
+  },
+  {
+    id: 23,
+    club: "Manchester City",
+    season: "2011/12",
+    kitType: "Home",
+    manufacturer: "Umbro",
+    sponsor: "Etihad Airways",
+    colourway: "Sky blue with white trim",
+    material: "Polyester",
+    rarity: "Rare",
+    history: "The shirt from the most dramatic title win in Premier League history. Sergio Agüero's stoppage-time winner against QPR on the final day — City needing two goals in injury time to pip Manchester United on goal difference. 'AGUEROOOO' became the most famous piece of football commentary in Premier League history.",
+    authenticityGuide: [
+      { icon: "🏷️", feature: "Etihad Logo", description: "The Etihad Airways logo features a specific shade of dark teal. Check the proportions and font of the wordmark — it is often poorly reproduced." },
+      { icon: "🔍", feature: "City Badge", description: "Manchester City's eagle crest should have fine feather and shield detail. The red ship in the crest quarter is a common area of inaccuracy." },
+      { icon: "🧵", feature: "Sky Blue Shade", description: "City's exact sky blue is a bright, clean light blue. Too dark or too green indicates a wrong shade fabric." },
+      { icon: "📋", feature: "Premier League Sleeve Patch", description: "The PL lion patch on the right sleeve. Check the lion's posture and the EPL lettering format for the 2011/12 season." }
+    ],
+    notablePlayers: [
+      { number: "16", name: "Sergio Agüero" },
+      { number: "10", name: "Edin Džeko" },
+      { number: "42", name: "Carlos Tevez" }
+    ],
+    marketValue: { replica: "£30–50", playerIssue: "£80–130", signed: "£300+" },
+    details: {
+      "Collar style": "White crew neck with sky blue trim",
+      "Badge style": "Embroidered eagle crest, left chest",
+      "Kit number font": "Premier League standard (2007–2013)",
+      "Sleeve detail": "White sleeve panels, PL patch right sleeve",
+      "Tagging": "Woven Umbro neck label + PL hologram"
+    }
+  },
+  {
+    id: 24,
+    club: "Portugal",
+    season: "2006",
+    kitType: "Home",
+    manufacturer: "Nike",
+    sponsor: "None",
+    colourway: "Deep red with green trim",
+    material: "Nike Dri-FIT polyester",
+    rarity: "Uncommon",
+    history: "Portugal's third-place finish at the 2006 World Cup in Germany, their best tournament result since 1966. Cristiano Ronaldo won the Golden Boot with 8 goals, though his theatrics against England in the quarter-final made him a villain to some England fans.",
+    authenticityGuide: [
+      { icon: "🔍", feature: "Deep Red Shade", description: "Portugal's red is a deep, slightly darker red than England's. The specific shade is distinctive — too bright or too orange indicates a wrong fabric." },
+      { icon: "🏷️", feature: "FPF Quinas Badge", description: "The Portuguese Federation shield features the quinas — five blue shields arranged in a cross pattern. The tiny dots within each shield are a detail fakes often miss." },
+      { icon: "🧵", feature: "Green Trim", description: "Green appears on the collar and cuffs. Portugal's national colours require a specific forest green, not lime or apple green." },
+      { icon: "📋", feature: "Nike World Cup Label", description: "Carries an official FIFA World Cup 2006 Nike label. The Germany 2006 logo format on this label is frequently wrong on fake World Cup shirts." }
+    ],
+    notablePlayers: [
+      { number: "7", name: "Cristiano Ronaldo" },
+      { number: "10", name: "Luís Figo" },
+      { number: "9", name: "Pauleta" }
+    ],
+    marketValue: { replica: "£30–50", playerIssue: "£80–140", signed: "£400+" },
+    details: {
+      "Collar style": "Crew neck with green ribbed trim",
+      "Badge style": "Embroidered FPF shield, left chest",
+      "Kit number font": "FIFA World Cup 2006 standard",
+      "Sleeve detail": "Plain, no sleeve sponsor",
+      "Tagging": "Nike woven neck label, FIFA World Cup 2006 tag"
+    }
+  },
+  {
+    id: 25,
+    club: "Real Madrid",
+    season: "1999/00",
+    kitType: "Home",
+    manufacturer: "Adidas",
+    sponsor: "Teka",
+    colourway: "All white with gold detail",
+    material: "Adidas ClimaCool polyester",
+    rarity: "Rare",
+    history: "The shirt from Real Madrid's eighth European Cup / Champions League title, defeating Valencia 3-0 in the final in Paris. Steve McManaman scored a stunning volley, and the shirt marked the peak of the Florentino Pérez-era Galácticos beginning to form.",
+    authenticityGuide: [
+      { icon: "🔍", feature: "All White Purity", description: "Real Madrid's white must be a pure, cool white — not cream or off-white. Any warmth in the white shade indicates a lower quality reproduction." },
+      { icon: "🏷️", feature: "Teka Sponsor", description: "The Teka kitchen appliances logo uses a specific sans-serif font and blue colour. Rarely faked accurately as it's an unusual sponsor for modern counterfeiters." },
+      { icon: "🧵", feature: "Real Madrid Crest", description: "The Madrid crest features a detailed crown and the initials MCF. Fine embroidery detail in the crown's jewels is a strong authenticity indicator." },
+      { icon: "📋", feature: "Adidas Performance Logo", description: "This era used the Adidas Performance three-stripe logo, not the trefoil or Equipment mark. Check that the correct era logo is present." }
+    ],
+    notablePlayers: [
+      { number: "7", name: "Raúl" },
+      { number: "8", name: "Luís Figo" },
+      { number: "11", name: "Nicolas Anelka" }
+    ],
+    marketValue: { replica: "£35–55", playerIssue: "£100–180", signed: "£350+" },
+    details: {
+      "Collar style": "White V-neck with gold piping",
+      "Badge style": "Embroidered Real Madrid crest, left chest",
+      "Kit number font": "La Liga standard 1999/2000",
+      "Sleeve detail": "Adidas three-stripe tape on sleeves",
+      "Tagging": "Woven Adidas neck label + LFP label"
+    }
+  }
+];
