@@ -6,10 +6,6 @@
   <title>Football Shirt Rack</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css" />
-  <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
@@ -25,19 +21,18 @@
       --font-display: 'Bebas Neue', sans-serif;
       --font-body: 'DM Sans', sans-serif;
     }
-    html, body, #root { height: 100%; }
+    html, body, #root { min-height: 100%; }
     body { background: var(--paper); color: var(--ink); font-family: var(--font-body); }
 
     /* NAV */
     .nav {
       background: var(--ink); padding: 0 1.5rem;
-      display: flex; align-items: center; gap: 2rem;
+      display: flex; align-items: center; gap: 1.5rem;
       height: 56px; position: sticky; top: 0; z-index: 100;
     }
     .nav-logo {
-      font-family: var(--font-display); font-size: 20px; letter-spacing: 0.04em;
-      color: #fff; cursor: pointer; display: flex; align-items: center; gap: 6px;
-      text-decoration: none;
+      font-family: var(--font-display); font-size: 18px; letter-spacing: 0.04em;
+      color: #fff; cursor: pointer; white-space: nowrap;
     }
     .nav-logo span { color: var(--accent); }
     .nav-links { display: flex; gap: 4px; flex: 1; }
@@ -52,45 +47,23 @@
       background: var(--accent); color: #fff; font-size: 11px; font-weight: 700;
       padding: 1px 6px; border-radius: 10px; margin-left: 4px;
     }
-    .nav-settings {
-      background: none; border: none; cursor: pointer;
-      color: rgba(255,255,255,0.45); font-size: 20px; padding: 4px;
-      transition: color 0.15s; line-height: 1;
-    }
-    .nav-settings:hover { color: rgba(255,255,255,0.8); }
-
-    /* API KEY BANNER */
-    .api-banner {
-      background: #7c2d12; color: #fed7aa;
-      padding: 10px 1.5rem; font-size: 13px;
-      display: flex; align-items: center; gap: 10px; justify-content: center;
-    }
-    .api-banner button {
-      background: var(--accent); color: #fff; border: none; border-radius: 4px;
-      padding: 4px 12px; font-size: 12px; font-weight: 600; cursor: pointer;
-    }
 
     /* HERO */
-    .hero {
-      background: var(--ink); padding: 4rem 1.5rem 3rem; text-align: center;
-    }
+    .hero { background: var(--ink); padding: 3rem 1.5rem 2.5rem; }
+    .hero-inner { max-width: 900px; margin: 0 auto; }
     .hero-eyebrow {
       font-size: 11px; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase;
-      color: var(--accent); margin-bottom: 1rem;
+      color: var(--accent); margin-bottom: 0.75rem;
     }
     .hero-title {
       font-family: var(--font-display);
-      font-size: clamp(44px, 8vw, 80px); color: #fff; line-height: 0.92;
+      font-size: clamp(40px, 7vw, 72px); color: #fff; line-height: 0.92;
       letter-spacing: 0.02em; margin-bottom: 1.25rem;
     }
     .hero-title em { color: var(--accent); font-style: normal; }
-    .hero-sub {
-      font-size: 15px; color: rgba(255,255,255,0.5); margin-bottom: 2.5rem;
-      max-width: 420px; margin-left: auto; margin-right: auto; line-height: 1.6;
-    }
-    .search-bar { max-width: 540px; margin: 0 auto; display: flex; gap: 8px; }
+    .search-bar { display: flex; gap: 8px; max-width: 560px; }
     .search-input {
-      flex: 1; height: 50px; padding: 0 18px;
+      flex: 1; height: 48px; padding: 0 16px;
       background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);
       border-radius: var(--radius); color: #fff; font-family: var(--font-body); font-size: 15px;
       outline: none; transition: border-color 0.2s;
@@ -98,39 +71,88 @@
     .search-input::placeholder { color: rgba(255,255,255,0.35); }
     .search-input:focus { border-color: rgba(255,255,255,0.4); }
     .search-btn {
-      height: 50px; padding: 0 22px;
+      height: 48px; padding: 0 22px;
       background: var(--accent); color: #fff; border: none; border-radius: var(--radius);
-      font-family: var(--font-display); font-size: 17px; letter-spacing: 0.05em;
+      font-family: var(--font-display); font-size: 16px; letter-spacing: 0.05em;
       cursor: pointer; transition: background 0.15s; white-space: nowrap;
     }
     .search-btn:hover { background: #bf3615; }
-    .search-btn:disabled { background: rgba(212,64,26,0.4); cursor: not-allowed; }
-    .search-examples {
-      margin-top: 1rem; font-size: 12px; color: rgba(255,255,255,0.3);
-      display: flex; gap: 8px; align-items: center; justify-content: center; flex-wrap: wrap;
+
+    /* FILTERS */
+    .filters-bar {
+      background: var(--paper2); border-bottom: 1px solid var(--border);
+      padding: 0 1.5rem;
     }
-    .search-chip {
-      cursor: pointer; transition: all 0.15s; padding: 3px 10px;
-      border: 1px solid rgba(255,255,255,0.12); border-radius: 20px; background: none; color: inherit;
-      font-family: var(--font-body); font-size: 12px;
+    .filters-inner {
+      max-width: 900px; margin: 0 auto;
+      display: flex; gap: 6px; overflow-x: auto; padding: 10px 0;
+      scrollbar-width: none;
     }
-    .search-chip:hover { color: rgba(255,255,255,0.7); border-color: rgba(255,255,255,0.25); }
+    .filters-inner::-webkit-scrollbar { display: none; }
+    .filter-btn {
+      font-family: var(--font-body); font-size: 12px; font-weight: 600;
+      letter-spacing: 0.04em; text-transform: uppercase;
+      padding: 5px 14px; border-radius: 20px; white-space: nowrap;
+      cursor: pointer; transition: all 0.15s;
+      background: none; border: 1px solid var(--border-strong); color: var(--muted);
+    }
+    .filter-btn:hover { border-color: var(--ink); color: var(--ink); }
+    .filter-btn.active { background: var(--ink); color: #fff; border-color: var(--ink); }
 
     /* MAIN */
-    .main { flex: 1; padding: 2rem 1.5rem; max-width: 900px; margin: 0 auto; width: 100%; }
+    .main { max-width: 900px; margin: 0 auto; padding: 1.5rem; }
 
-    /* LOADING */
-    .loading-wrap { text-align: center; padding: 4rem 1rem; }
-    .loader-ring {
-      width: 40px; height: 40px; border: 3px solid var(--border-strong);
-      border-top-color: var(--accent); border-radius: 50%;
-      animation: spin 0.7s linear infinite; margin: 0 auto 1rem;
+    /* ARCHIVE GRID */
+    .results-meta {
+      font-size: 12px; color: var(--muted); margin-bottom: 1rem;
+      letter-spacing: 0.03em;
     }
-    @keyframes spin { to { transform: rotate(360deg); } }
-    .loading-wrap h3 { font-family: var(--font-display); font-size: 22px; letter-spacing: 0.05em; margin-bottom: 4px; }
-    .loading-wrap p { font-size: 13px; color: var(--muted); }
+    .archive-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 10px;
+    }
+    .shirt-card {
+      background: #fff; border: 1px solid var(--border); border-radius: 10px;
+      overflow: hidden; cursor: pointer; transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .shirt-card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.08); }
+    .shirt-card-top {
+      background: var(--ink); padding: 1.25rem; text-align: center;
+      min-height: 100px; display: flex; align-items: center; justify-content: center; flex-direction: column;
+    }
+    .shirt-emoji { font-size: 36px; margin-bottom: 6px; }
+    .shirt-club { font-family: var(--font-display); font-size: 16px; color: #fff; letter-spacing: 0.04em; line-height: 1.1; }
+    .shirt-season { font-size: 11px; color: rgba(255,255,255,0.5); margin-top: 4px; }
+    .shirt-card-body { padding: 10px 12px; }
+    .shirt-card-meta { display: flex; justify-content: space-between; align-items: center; }
+    .shirt-kit-type {
+      font-size: 10px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.07em; color: var(--muted);
+    }
+    .rarity-dot {
+      width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0;
+    }
+    .rarity-common { background: #94a3b8; }
+    .rarity-uncommon { background: #22c55e; }
+    .rarity-rare { background: #3b82f6; }
+    .rarity-iconic { background: var(--accent); }
+    .shirt-maker { font-size: 11px; color: var(--muted); margin-top: 4px; }
 
-    /* SHIRT RESULT */
+    /* NO RESULTS */
+    .no-results { text-align: center; padding: 3rem 1rem; }
+    .no-results-icon { font-size: 40px; margin-bottom: 12px; }
+    .no-results h3 { font-family: var(--font-display); font-size: 24px; letter-spacing: 0.05em; margin-bottom: 6px; }
+    .no-results p { font-size: 14px; color: var(--muted); }
+
+    /* DETAIL VIEW */
+    .detail-back {
+      display: flex; align-items: center; gap: 8px; cursor: pointer;
+      font-size: 13px; font-weight: 500; color: var(--muted); margin-bottom: 1.5rem;
+      background: none; border: none; transition: color 0.15s;
+    }
+    .detail-back:hover { color: var(--ink); }
+
     .shirt-result { animation: fadeUp 0.3s ease; }
     @keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
 
@@ -138,14 +160,14 @@
       display: flex; gap: 1.5rem; align-items: flex-start;
       padding: 2rem; background: var(--ink); border-radius: 10px; margin-bottom: 1.5rem;
     }
-    .shirt-badge {
-      width: 80px; height: 80px; border-radius: 8px;
+    .result-badge {
+      width: 76px; height: 76px; border-radius: 8px;
       background: var(--paper2); display: flex; align-items: center; justify-content: center;
-      flex-shrink: 0; font-size: 40px;
+      flex-shrink: 0; font-size: 38px;
     }
     .result-meta { flex: 1; }
     .result-club {
-      font-family: var(--font-display); font-size: clamp(28px, 5vw, 48px);
+      font-family: var(--font-display); font-size: clamp(26px, 5vw, 46px);
       color: #fff; letter-spacing: 0.03em; line-height: 1; margin-bottom: 8px;
     }
     .result-pills { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
@@ -156,21 +178,21 @@
     .pill-season { background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.7); }
     .pill-kit { background: var(--accent); color: #fff; }
     .pill-maker { background: rgba(255,255,255,0.08); color: rgba(255,255,255,0.6); border: 1px solid rgba(255,255,255,0.15); }
-    .pill-rarity { background: #1a4fd4; color: #fff; }
-    .result-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+    .pill-iconic { background: var(--accent); color: #fff; }
+    .pill-rare { background: #1a4fd4; color: #fff; }
+    .pill-uncommon { background: #166534; color: #fff; }
+    .pill-common { background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.6); }
+
     .btn-add {
       font-family: var(--font-display); font-size: 16px; letter-spacing: 0.05em;
       padding: 9px 20px; background: var(--accent); color: #fff;
       border: none; border-radius: var(--radius); cursor: pointer; transition: background 0.15s;
     }
     .btn-add:hover { background: #bf3615; }
-    .btn-add.in-collection { background: #2a7a3b; cursor: default; }
+    .btn-add.in-rack { background: #2a7a3b; cursor: default; }
 
-    /* GRID SECTIONS */
     .sections { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem; }
-    .section-card {
-      background: #fff; border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem;
-    }
+    .section-card { background: #fff; border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; }
     .section-card.full { grid-column: 1 / -1; }
     .section-label {
       font-size: 10px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase;
@@ -209,10 +231,16 @@
     .value-amount { font-family: var(--font-display); font-size: 18px; }
 
     /* COLLECTION */
-    .collection-header {
-      display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;
+    .page-title { font-family: var(--font-display); font-size: 36px; letter-spacing: 0.04em; margin-bottom: 1.5rem; }
+    .coll-stats {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px;
+      background: var(--border); border-radius: 8px; overflow: hidden;
+      border: 1px solid var(--border); margin-bottom: 1.5rem;
     }
-    .collection-title { font-family: var(--font-display); font-size: 36px; letter-spacing: 0.04em; }
+    .stat-box { background: #fff; padding: 1rem; text-align: center; }
+    .stat-val { font-family: var(--font-display); font-size: 30px; }
+    .stat-key { font-size: 11px; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted); margin-top: 2px; }
+
     .collection-empty {
       text-align: center; padding: 4rem 1rem;
       border: 2px dashed var(--border-strong); border-radius: 12px;
@@ -227,38 +255,28 @@
     }
     .btn-primary:hover { background: #222; }
 
-    .coll-stats {
-      display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px;
-      background: var(--border); border-radius: 8px; overflow: hidden;
-      border: 1px solid var(--border); margin-bottom: 1.5rem;
-    }
-    .stat-box { background: #fff; padding: 1rem; text-align: center; }
-    .stat-val { font-family: var(--font-display); font-size: 30px; }
-    .stat-key { font-size: 11px; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted); margin-top: 2px; }
-
-    .collection-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
     .coll-card {
       background: #fff; border: 1px solid var(--border); border-radius: 10px;
       overflow: hidden; cursor: pointer; transition: transform 0.15s, box-shadow 0.15s;
     }
     .coll-card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.08); }
     .coll-card-top {
-      background: var(--ink); padding: 1.5rem; text-align: center;
-      min-height: 110px; display: flex; align-items: center; justify-content: center; flex-direction: column;
+      background: var(--ink); padding: 1.25rem; text-align: center;
+      min-height: 100px; display: flex; align-items: center; justify-content: center; flex-direction: column;
     }
-    .coll-emoji { font-size: 40px; margin-bottom: 6px; }
-    .coll-club { font-family: var(--font-display); font-size: 18px; color: #fff; letter-spacing: 0.04em; line-height: 1; }
+    .coll-emoji { font-size: 36px; margin-bottom: 6px; }
+    .coll-club { font-family: var(--font-display); font-size: 17px; color: #fff; letter-spacing: 0.04em; line-height: 1.1; }
     .coll-season { font-size: 11px; color: rgba(255,255,255,0.5); margin-top: 4px; }
-    .coll-body { padding: 12px; }
+    .coll-body { padding: 10px 12px; }
     .coll-meta { display: flex; justify-content: space-between; align-items: center; }
-    .coll-kit { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); }
+    .coll-kit { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); }
     .coll-remove {
       background: none; border: none; cursor: pointer; color: var(--muted);
-      font-size: 15px; padding: 2px 4px; border-radius: 4px; transition: color 0.15s; line-height: 1;
+      font-size: 14px; padding: 2px 4px; border-radius: 4px; transition: color 0.15s; line-height: 1;
     }
     .coll-remove:hover { color: var(--accent); }
     .coll-notes {
-      font-size: 12px; color: var(--muted); margin-top: 8px; font-style: italic;
+      font-size: 12px; color: var(--muted); margin-top: 6px; font-style: italic;
       line-height: 1.4; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
     }
 
@@ -273,14 +291,12 @@
     }
     .modal h2 { font-family: var(--font-display); font-size: 28px; letter-spacing: 0.04em; margin-bottom: 6px; }
     .modal p { font-size: 13px; color: var(--muted); margin-bottom: 1.25rem; }
-    .modal input, .modal textarea {
-      width: 100%; padding: 10px 14px; font-family: var(--font-body); font-size: 14px;
+    .modal textarea {
+      width: 100%; height: 90px; padding: 10px 14px; font-family: var(--font-body); font-size: 14px;
       border: 1px solid var(--border-strong); border-radius: var(--radius);
-      background: var(--paper2); outline: none; transition: border-color 0.2s;
+      background: var(--paper2); outline: none; resize: none; transition: border-color 0.2s;
     }
-    .modal input { height: 44px; margin-bottom: 10px; }
-    .modal textarea { height: 90px; resize: none; }
-    .modal input:focus, .modal textarea:focus { border-color: var(--accent); }
+    .modal textarea:focus { border-color: var(--accent); }
     .modal-actions { display: flex; gap: 8px; margin-top: 1rem; }
     .btn-cancel {
       flex: 1; font-family: var(--font-body); font-size: 14px; font-weight: 500;
@@ -293,505 +309,417 @@
       border: none; border-radius: var(--radius); cursor: pointer;
     }
 
-    .detail-back {
-      display: flex; align-items: center; gap: 8px; cursor: pointer;
-      font-size: 13px; font-weight: 500; color: var(--muted); margin-bottom: 1.5rem;
-      background: none; border: none; transition: color 0.15s;
-    }
-    .detail-back:hover { color: var(--ink); }
-
     @media (max-width: 580px) {
       .sections { grid-template-columns: 1fr; }
       .section-card.full { grid-column: auto; }
       .result-header { flex-direction: column; }
+      .archive-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
     }
   </style>
 </head>
 <body>
 <div id="root"></div>
-
+<script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 <script type="text/babel">
-  const { useState, useEffect, useCallback } = React;
+const { useState, useEffect, useMemo } = React;
 
-  const STORAGE_KEY = 'fsr-collection-v1';
-  const API_KEY_STORAGE = 'fsr-api-key';
 
-  const EXAMPLES = [
-    'Man United 1999 home',
-    'Brazil 1970 World Cup',
-    'Ajax 1995 Champions League',
-    'Arsenal Invincibles 2004',
-    'Italy 2006 World Cup away',
-  ];
 
-  function kitEmoji(kitType) {
-    if (!kitType) return '👕';
-    const t = kitType.toLowerCase();
-    if (t.includes('home')) return '⚽';
-    if (t.includes('away')) return '🏆';
-    if (t.includes('third')) return '✨';
-    if (t.includes('keeper') || t.includes('goal')) return '🧤';
-    return '👕';
-  }
+/* ============================================================
+   HELPERS
+   ============================================================ */
+const STORAGE_KEY = 'fsr-rack-v1';
 
-  async function fetchShirtData(query, apiKey) {
-    const prompt = `You are a world-class football shirt archivist with encyclopaedic knowledge of every kit ever produced.
+const ERAS = ['All', '1960s–70s', '1980s', '1990s', '2000s', '2010s'];
+const KIT_TYPES = ['All', 'Home', 'Away', 'Third', 'Goalkeeper'];
+const MAKERS = ['All', ...Array.from(new Set(SHIRTS.map(s => s.manufacturer))).sort()];
 
-The user is searching for: "${query}"
+function getEra(season) {
+  const y = parseInt(season?.split('/')[0] || season);
+  if (y < 1980) return '1960s–70s';
+  if (y < 1990) return '1980s';
+  if (y < 2000) return '1990s';
+  if (y < 2010) return '2000s';
+  return '2010s';
+}
 
-Respond ONLY with valid JSON (no markdown, no preamble) in this exact structure:
-{
-  "found": true,
-  "club": "Full club name",
-  "season": "e.g. 1998/99",
-  "kitType": "Home / Away / Third / Goalkeeper",
-  "manufacturer": "e.g. Umbro",
-  "sponsor": "e.g. Sharp or None",
-  "colourway": "Primary and secondary colours description",
-  "material": "e.g. Polyester mesh",
-  "rarity": "Common / Uncommon / Rare / Iconic",
-  "history": "2-3 sentences about the shirt's historical context and significance",
-  "authenticityGuide": [
-    { "feature": "feature name", "description": "what to look for on a genuine version", "icon": "🔍" },
-    { "feature": "feature name", "description": "what to look for on a genuine version", "icon": "🏷️" },
-    { "feature": "feature name", "description": "what to look for on a genuine version", "icon": "🧵" },
-    { "feature": "feature name", "description": "what to look for on a genuine version", "icon": "⚽" }
-  ],
-  "notablePlayers": [
-    { "number": "7", "name": "Player name" },
-    { "number": "10", "name": "Player name" }
-  ],
-  "marketValue": {
-    "replica": "£25–40",
-    "playerIssue": "£80–150",
-    "signed": "£200+"
-  },
-  "details": {
-    "Collar style": "e.g. V-neck with ribbed trim",
-    "Badge style": "e.g. Woven crest",
-    "Kit number font": "e.g. Premier League standard",
-    "Sleeve detail": "e.g. Ribbed cuffs",
-    "Tagging": "e.g. Official Premier League tag on back collar"
+function kitEmoji(kitType) {
+  if (!kitType) return '👕';
+  const t = kitType.toLowerCase();
+  if (t.includes('home')) return '⚽';
+  if (t.includes('away')) return '🏆';
+  if (t.includes('third')) return '✨';
+  if (t.includes('keeper') || t.includes('goal')) return '🧤';
+  return '👕';
+}
+
+function rarityClass(r) {
+  switch ((r || '').toLowerCase()) {
+    case 'iconic': return 'rarity-iconic';
+    case 'rare': return 'rarity-rare';
+    case 'uncommon': return 'rarity-uncommon';
+    default: return 'rarity-common';
   }
 }
 
-If the shirt cannot be identified, respond with: { "found": false, "message": "Brief explanation" }`;
-
-    const resp = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-api-key': apiKey,
-        'anthropic-version': '2023-06-01',
-        'anthropic-dangerous-client-side-allow-origins': window.location.origin,
-      },
-      body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
-        max_tokens: 1000,
-        messages: [{ role: 'user', content: prompt }],
-      }),
-    });
-
-    if (!resp.ok) {
-      const err = await resp.json().catch(() => ({}));
-      throw new Error(err.error?.message || `API error ${resp.status}`);
-    }
-
-    const data = await resp.json();
-    const raw = data.content?.find(b => b.type === 'text')?.text || '{}';
-    return JSON.parse(raw.replace(/```json|```/g, '').trim());
+function pillClass(r) {
+  switch ((r || '').toLowerCase()) {
+    case 'iconic': return 'pill-iconic';
+    case 'rare': return 'pill-rare';
+    case 'uncommon': return 'pill-uncommon';
+    default: return 'pill-common';
   }
+}
 
-  /* ---- COMPONENTS ---- */
+/* ============================================================
+   COMPONENTS
+   ============================================================ */
 
-  function ShirtResult({ shirt, onAdd, inCollection }) {
-    return (
-      <div className="shirt-result">
-        <div className="result-header">
-          <div className="shirt-badge">{kitEmoji(shirt.kitType)}</div>
-          <div className="result-meta">
-            <div className="result-club">{shirt.club}</div>
-            <div className="result-pills">
-              <span className="pill pill-season">{shirt.season}</span>
-              <span className="pill pill-kit">{shirt.kitType}</span>
-              <span className="pill pill-maker">{shirt.manufacturer}</span>
-              {shirt.rarity && <span className="pill pill-rarity">{shirt.rarity}</span>}
-            </div>
-            <div className="result-actions">
-              <button
-                className={'btn-add' + (inCollection ? ' in-collection' : '')}
-                onClick={onAdd}
-              >
-                {inCollection ? '✓ In Your Rack' : '+ Add to Rack'}
-              </button>
-            </div>
+function ShirtDetail({ shirt, inRack, onAdd, onBack }) {
+  return (
+    <div className="shirt-result">
+      <button className="detail-back" onClick={onBack}>← Back to archive</button>
+      <div className="result-header">
+        <div className="result-badge">{kitEmoji(shirt.kitType)}</div>
+        <div className="result-meta">
+          <div className="result-club">{shirt.club}</div>
+          <div className="result-pills">
+            <span className="pill pill-season">{shirt.season}</span>
+            <span className="pill pill-kit">{shirt.kitType}</span>
+            <span className="pill pill-maker">{shirt.manufacturer}</span>
+            <span className={`pill ${pillClass(shirt.rarity)}`}>{shirt.rarity}</span>
           </div>
-        </div>
-
-        <div className="sections">
-          <div className="section-card">
-            <div className="section-label">Kit Details</div>
-            {Object.entries(shirt.details || {}).map(([k, v]) => (
-              <div className="detail-row" key={k}>
-                <span className="detail-key">{k}</span>
-                <span className="detail-val">{v}</span>
-              </div>
-            ))}
-            <div className="detail-row">
-              <span className="detail-key">Colourway</span>
-              <span className="detail-val">{shirt.colourway}</span>
-            </div>
-            <div className="detail-row">
-              <span className="detail-key">Sponsor</span>
-              <span className="detail-val">{shirt.sponsor}</span>
-            </div>
-            <div className="detail-row">
-              <span className="detail-key">Material</span>
-              <span className="detail-val">{shirt.material}</span>
-            </div>
-          </div>
-
-          <div className="section-card">
-            <div className="section-label">Market Value</div>
-            <div className="value-grid">
-              {Object.entries(shirt.marketValue || {}).map(([k, v]) => (
-                <div className="value-item" key={k}>
-                  <div className="value-label">{k}</div>
-                  <div className="value-amount">{v}</div>
-                </div>
-              ))}
-            </div>
-            <div className="section-label" style={{ marginTop: '1.25rem' }}>Notable Players</div>
-            <div className="notable-list">
-              {(shirt.notablePlayers || []).map((p, i) => (
-                <div className="notable-item" key={i}>
-                  <span className="notable-num">{p.number}</span>
-                  <span>{p.name}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="section-card full">
-            <div className="section-label">Authenticity Guide</div>
-            <ul className="auth-list">
-              {(shirt.authenticityGuide || []).map((a, i) => (
-                <li className="auth-item" key={i}>
-                  <span className="auth-icon">{a.icon}</span>
-                  <div><strong>{a.feature}</strong>{a.description}</div>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div className="section-card full">
-            <div className="section-label">Historical Context</div>
-            <p className="history-text">{shirt.history}</p>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  function AddModal({ shirt, onClose, onConfirm }) {
-    const [notes, setNotes] = useState('');
-    return (
-      <div className="modal-overlay" onClick={e => e.target === e.currentTarget && onClose()}>
-        <div className="modal">
-          <h2>Add to Rack</h2>
-          <p>{shirt.club} · {shirt.season} {shirt.kitType}</p>
-          <textarea
-            placeholder="Notes (optional) — condition, where you got it, memories…"
-            value={notes}
-            onChange={e => setNotes(e.target.value)}
-          />
-          <div className="modal-actions">
-            <button className="btn-cancel" onClick={onClose}>Cancel</button>
-            <button className="btn-confirm" onClick={() => onConfirm(notes)}>Add Shirt</button>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  function ApiKeyModal({ onSave }) {
-    const [key, setKey] = useState('');
-    return (
-      <div className="modal-overlay">
-        <div className="modal">
-          <h2>API Key Required</h2>
-          <p>Football Shirt Rack uses the Anthropic API to look up shirts. Enter your API key below — it's saved locally in your browser and never sent anywhere else.</p>
-          <input
-            type="password"
-            placeholder="sk-ant-..."
-            value={key}
-            onChange={e => setKey(e.target.value)}
-            onKeyDown={e => e.key === 'Enter' && key.startsWith('sk-') && onSave(key)}
-          />
-          <p style={{ fontSize: 12, color: 'var(--muted)', marginBottom: 0 }}>
-            Get your key at console.anthropic.com
-          </p>
-          <div className="modal-actions" style={{ marginTop: 12 }}>
-            <button
-              className="btn-confirm"
-              onClick={() => onSave(key)}
-              disabled={!key.startsWith('sk-')}
-              style={{ opacity: key.startsWith('sk-') ? 1 : 0.45 }}
-            >
-              Save & Continue
-            </button>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  function SettingsModal({ currentKey, onSave, onClose }) {
-    const [key, setKey] = useState(currentKey || '');
-    return (
-      <div className="modal-overlay" onClick={e => e.target === e.currentTarget && onClose()}>
-        <div className="modal">
-          <h2>Settings</h2>
-          <p>Update your Anthropic API key</p>
-          <input
-            type="password"
-            placeholder="sk-ant-..."
-            value={key}
-            onChange={e => setKey(e.target.value)}
-          />
-          <div className="modal-actions">
-            <button className="btn-cancel" onClick={onClose}>Cancel</button>
-            <button className="btn-confirm" onClick={() => onSave(key)}>Save</button>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  function CollectionView({ collection, onRemove, onViewShirt, onGoSearch }) {
-    const clubs = new Set(collection.map(s => s.club)).size;
-    const makers = new Set(collection.map(s => s.manufacturer)).size;
-    return (
-      <div>
-        <div className="collection-header">
-          <h2 className="collection-title">My Rack</h2>
-        </div>
-        {collection.length > 0 && (
-          <div className="coll-stats">
-            <div className="stat-box">
-              <div className="stat-val">{collection.length}</div>
-              <div className="stat-key">Shirts</div>
-            </div>
-            <div className="stat-box">
-              <div className="stat-val">{clubs}</div>
-              <div className="stat-key">Clubs</div>
-            </div>
-            <div className="stat-box">
-              <div className="stat-val">{makers}</div>
-              <div className="stat-key">Makers</div>
-            </div>
-          </div>
-        )}
-        {collection.length === 0 ? (
-          <div className="collection-empty">
-            <div className="empty-icon">👕</div>
-            <div className="empty-title">Your rack is empty</div>
-            <p className="empty-sub">Search the archive and add shirts to start building your collection</p>
-            <button className="btn-primary" onClick={onGoSearch}>Search the Archive</button>
-          </div>
-        ) : (
-          <div className="collection-grid">
-            {collection.map((shirt, i) => (
-              <div className="coll-card" key={i} onClick={() => onViewShirt(shirt)}>
-                <div className="coll-card-top">
-                  <div className="coll-emoji">{kitEmoji(shirt.kitType)}</div>
-                  <div className="coll-club">{shirt.club}</div>
-                  <div className="coll-season">{shirt.season}</div>
-                </div>
-                <div className="coll-body">
-                  <div className="coll-meta">
-                    <span className="coll-kit">{shirt.kitType} · {shirt.manufacturer}</span>
-                    <button className="coll-remove" onClick={e => { e.stopPropagation(); onRemove(i); }} title="Remove">✕</button>
-                  </div>
-                  {shirt.notes && <div className="coll-notes">"{shirt.notes}"</div>}
-                </div>
-              </div>
-            ))}
-          </div>
-        )}
-      </div>
-    );
-  }
-
-  /* ---- MAIN APP ---- */
-
-  function App() {
-    const [tab, setTab] = useState('search');
-    const [query, setQuery] = useState('');
-    const [loading, setLoading] = useState(false);
-    const [result, setResult] = useState(null);
-    const [error, setError] = useState(null);
-    const [collection, setCollection] = useState([]);
-    const [modal, setModal] = useState(false);
-    const [settingsOpen, setSettingsOpen] = useState(false);
-    const [viewingShirt, setViewingShirt] = useState(null);
-    const [apiKey, setApiKey] = useState(() => localStorage.getItem(API_KEY_STORAGE) || '');
-
-    useEffect(() => {
-      try {
-        const saved = localStorage.getItem(STORAGE_KEY);
-        if (saved) setCollection(JSON.parse(saved));
-      } catch (_) {}
-    }, []);
-
-    function saveCollection(updated) {
-      setCollection(updated);
-      try { localStorage.setItem(STORAGE_KEY, JSON.stringify(updated)); } catch (_) {}
-    }
-
-    function saveApiKey(key) {
-      setApiKey(key);
-      localStorage.setItem(API_KEY_STORAGE, key);
-      setSettingsOpen(false);
-    }
-
-    const search = useCallback(async (q) => {
-      const sq = (q || query).trim();
-      if (!sq || !apiKey) return;
-      setLoading(true);
-      setResult(null);
-      setError(null);
-      setTab('search');
-      try {
-        const data = await fetchShirtData(sq, apiKey);
-        if (data.found === false) {
-          setError(data.message || 'Shirt not found in the archive.');
-        } else {
-          setResult(data);
-        }
-      } catch (e) {
-        setError(e.message || 'Something went wrong. Please try again.');
-      }
-      setLoading(false);
-    }, [query, apiKey]);
-
-    const inCollection = result
-      ? collection.some(s => s.club === result.club && s.season === result.season && s.kitType === result.kitType)
-      : false;
-
-    function handleAdd() {
-      if (inCollection) return;
-      setModal(true);
-    }
-
-    function confirmAdd(notes) {
-      saveCollection([...collection, { ...result, notes, addedAt: Date.now() }]);
-      setModal(false);
-    }
-
-    if (!apiKey) return <ApiKeyModal onSave={k => { setApiKey(k); localStorage.setItem(API_KEY_STORAGE, k); }} />;
-
-    return (
-      <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
-        <nav className="nav">
-          <div className="nav-logo" onClick={() => { setTab('search'); setResult(null); setError(null); }}>
-            FOOTBALL SHIRT <span>RACK</span>
-          </div>
-          <div className="nav-links">
-            <button className={'nav-link' + (tab === 'search' ? ' active' : '')} onClick={() => setTab('search')}>Archive</button>
-            <button className={'nav-link' + (tab === 'collection' ? ' active' : '')} onClick={() => { setTab('collection'); setViewingShirt(null); }}>
-              My Rack {collection.length > 0 && <span className="nav-count">{collection.length}</span>}
-            </button>
-          </div>
-          <button className="nav-settings" onClick={() => setSettingsOpen(true)} title="Settings">
-            <i className="ti ti-settings" />
+          <button
+            className={'btn-add' + (inRack ? ' in-rack' : '')}
+            onClick={onAdd}
+          >
+            {inRack ? '✓ In Your Rack' : '+ Add to Rack'}
           </button>
-        </nav>
+        </div>
+      </div>
 
-        {tab === 'search' && (
-          <>
-            <div className="hero">
+      <div className="sections">
+        <div className="section-card">
+          <div className="section-label">Kit Details</div>
+          {Object.entries(shirt.details || {}).map(([k, v]) => (
+            <div className="detail-row" key={k}>
+              <span className="detail-key">{k}</span>
+              <span className="detail-val">{v}</span>
+            </div>
+          ))}
+          <div className="detail-row">
+            <span className="detail-key">Colourway</span>
+            <span className="detail-val">{shirt.colourway}</span>
+          </div>
+          <div className="detail-row">
+            <span className="detail-key">Sponsor</span>
+            <span className="detail-val">{shirt.sponsor}</span>
+          </div>
+          <div className="detail-row">
+            <span className="detail-key">Material</span>
+            <span className="detail-val">{shirt.material}</span>
+          </div>
+        </div>
+
+        <div className="section-card">
+          <div className="section-label">Market Value</div>
+          <div className="value-grid">
+            {Object.entries(shirt.marketValue || {}).map(([k, v]) => (
+              <div className="value-item" key={k}>
+                <div className="value-label">{k}</div>
+                <div className="value-amount">{v}</div>
+              </div>
+            ))}
+          </div>
+          <div className="section-label" style={{ marginTop: '1.25rem' }}>Notable Players</div>
+          <div className="notable-list">
+            {(shirt.notablePlayers || []).map((p, i) => (
+              <div className="notable-item" key={i}>
+                <span className="notable-num">{p.number}</span>
+                <span>{p.name}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="section-card full">
+          <div className="section-label">Authenticity Guide</div>
+          <ul className="auth-list">
+            {(shirt.authenticityGuide || []).map((a, i) => (
+              <li className="auth-item" key={i}>
+                <span className="auth-icon">{a.icon}</span>
+                <div><strong>{a.feature}</strong>{a.description}</div>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="section-card full">
+          <div className="section-label">Historical Context</div>
+          <p className="history-text">{shirt.history}</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function AddModal({ shirt, onClose, onConfirm }) {
+  const [notes, setNotes] = React.useState('');
+  return (
+    <div className="modal-overlay" onClick={e => e.target === e.currentTarget && onClose()}>
+      <div className="modal">
+        <h2>Add to Rack</h2>
+        <p>{shirt.club} · {shirt.season} {shirt.kitType}</p>
+        <textarea
+          placeholder="Notes (optional) — condition, where you got it, memories…"
+          value={notes}
+          onChange={e => setNotes(e.target.value)}
+        />
+        <div className="modal-actions">
+          <button className="btn-cancel" onClick={onClose}>Cancel</button>
+          <button className="btn-confirm" onClick={() => onConfirm(notes)}>Add Shirt</button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ============================================================
+   MAIN APP
+   ============================================================ */
+function App() {
+  const [tab, setTab] = useState('archive');
+  const [query, setQuery] = useState('');
+  const [eraFilter, setEraFilter] = useState('All');
+  const [kitFilter, setKitFilter] = useState('All');
+  const [makerFilter, setMakerFilter] = useState('All');
+  const [selectedShirt, setSelectedShirt] = useState(null);
+  const [rack, setRack] = useState([]);
+  const [addModal, setAddModal] = useState(null);
+  const [viewingRackShirt, setViewingRackShirt] = useState(null);
+
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) setRack(JSON.parse(saved));
+    } catch (_) {}
+  }, []);
+
+  function saveRack(updated) {
+    setRack(updated);
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(updated)); } catch (_) {}
+  }
+
+  const filtered = useMemo(() => {
+    return SHIRTS.filter(s => {
+      const q = query.toLowerCase();
+      const matchQuery = !q ||
+        s.club.toLowerCase().includes(q) ||
+        s.season.includes(q) ||
+        s.manufacturer.toLowerCase().includes(q) ||
+        s.kitType.toLowerCase().includes(q) ||
+        s.sponsor.toLowerCase().includes(q);
+      const matchEra = eraFilter === 'All' || getEra(s.season) === eraFilter;
+      const matchKit = kitFilter === 'All' || s.kitType === kitFilter;
+      const matchMaker = makerFilter === 'All' || s.manufacturer === makerFilter;
+      return matchQuery && matchEra && matchKit && matchMaker;
+    });
+  }, [query, eraFilter, kitFilter, makerFilter]);
+
+  function inRack(shirt) {
+    return rack.some(r => r.id === shirt.id);
+  }
+
+  function handleAdd(shirt) {
+    if (inRack(shirt)) return;
+    setAddModal(shirt);
+  }
+
+  function confirmAdd(notes) {
+    saveRack([...rack, { ...addModal, notes, addedAt: Date.now() }]);
+    setAddModal(null);
+  }
+
+  const clubs = new Set(rack.map(s => s.club)).size;
+  const makers = new Set(rack.map(s => s.manufacturer)).size;
+
+  return (
+    <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+      {/* NAV */}
+      <nav className="nav">
+        <div className="nav-logo" onClick={() => { setTab('archive'); setSelectedShirt(null); }}>
+          FOOTBALL SHIRT <span>RACK</span>
+        </div>
+        <div className="nav-links">
+          <button className={'nav-link' + (tab === 'archive' ? ' active' : '')}
+            onClick={() => { setTab('archive'); setSelectedShirt(null); }}>
+            Archive
+          </button>
+          <button className={'nav-link' + (tab === 'rack' ? ' active' : '')}
+            onClick={() => { setTab('rack'); setViewingRackShirt(null); }}>
+            My Rack {rack.length > 0 && <span className="nav-count">{rack.length}</span>}
+          </button>
+        </div>
+      </nav>
+
+      {/* ARCHIVE TAB */}
+      {tab === 'archive' && !selectedShirt && (
+        <>
+          <div className="hero">
+            <div className="hero-inner">
               <div className="hero-eyebrow">The Football Shirt Archive</div>
               <h1 className="hero-title">FOOTBALL<br /><em>SHIRT RACK</em></h1>
-              <p className="hero-sub">Search any football shirt — get the full reference: design details, authenticity guide, market value, and history.</p>
               <div className="search-bar">
                 <input
                   className="search-input"
-                  placeholder="e.g. Liverpool 1989 home, Italy 2006 away…"
+                  placeholder="Search by club, season, maker…"
                   value={query}
                   onChange={e => setQuery(e.target.value)}
-                  onKeyDown={e => e.key === 'Enter' && search()}
                 />
-                <button className="search-btn" onClick={() => search()} disabled={loading || !query.trim()}>
-                  {loading ? '…' : 'SEARCH'}
-                </button>
+                {query && (
+                  <button className="search-btn" style={{ background: 'rgba(255,255,255,0.15)' }}
+                    onClick={() => setQuery('')}>✕</button>
+                )}
               </div>
-              <div className="search-examples">
-                <span style={{ color: 'rgba(255,255,255,0.25)', fontSize: 11 }}>Try:</span>
-                {EXAMPLES.map(ex => (
-                  <button key={ex} className="search-chip" onClick={() => { setQuery(ex); search(ex); }}>{ex}</button>
+            </div>
+          </div>
+
+          <div className="filters-bar">
+            <div className="filters-inner">
+              <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: 'var(--muted)', marginRight: 4, whiteSpace: 'nowrap' }}>Era:</span>
+              {ERAS.map(e => (
+                <button key={e} className={'filter-btn' + (eraFilter === e ? ' active' : '')}
+                  onClick={() => setEraFilter(e)}>{e}</button>
+              ))}
+              <span style={{ width: 1, background: 'var(--border-strong)', margin: '0 4px', alignSelf: 'stretch' }} />
+              {KIT_TYPES.filter(k => k !== 'All').map(k => (
+                <button key={k} className={'filter-btn' + (kitFilter === k ? ' active' : '')}
+                  onClick={() => setKitFilter(kitFilter === k ? 'All' : k)}>{k}</button>
+              ))}
+            </div>
+          </div>
+
+          <div className="main">
+            <div className="results-meta">
+              {filtered.length === SHIRTS.length
+                ? `${SHIRTS.length} shirts in the archive`
+                : `${filtered.length} of ${SHIRTS.length} shirts`}
+            </div>
+            {filtered.length === 0 ? (
+              <div className="no-results">
+                <div className="no-results-icon">🔍</div>
+                <h3>No shirts found</h3>
+                <p>Try a different search or clear the filters</p>
+              </div>
+            ) : (
+              <div className="archive-grid">
+                {filtered.map(shirt => (
+                  <div key={shirt.id} className="shirt-card" onClick={() => setSelectedShirt(shirt)}>
+                    <div className="shirt-card-top">
+                      <div className="shirt-emoji">{kitEmoji(shirt.kitType)}</div>
+                      <div className="shirt-club">{shirt.club}</div>
+                      <div className="shirt-season">{shirt.season}</div>
+                    </div>
+                    <div className="shirt-card-body">
+                      <div className="shirt-card-meta">
+                        <span className="shirt-kit-type">{shirt.kitType}</span>
+                        <span className={`rarity-dot ${rarityClass(shirt.rarity)}`} title={shirt.rarity} />
+                      </div>
+                      <div className="shirt-maker">{shirt.manufacturer}</div>
+                    </div>
+                  </div>
                 ))}
               </div>
-            </div>
-
-            <div className="main">
-              {loading && (
-                <div className="loading-wrap">
-                  <div className="loader-ring" />
-                  <h3>Searching the archive…</h3>
-                  <p>Looking up kit details, authenticity markers, and history</p>
-                </div>
-              )}
-              {error && !loading && (
-                <div style={{ textAlign: 'center', padding: '3rem 1rem' }}>
-                  <div style={{ fontSize: 36, marginBottom: 12 }}>🔍</div>
-                  <p style={{ fontFamily: 'var(--font-display)', fontSize: 22, letterSpacing: '0.05em', marginBottom: 8 }}>NOT FOUND</p>
-                  <p style={{ fontSize: 14, color: 'var(--muted)' }}>{error}</p>
-                </div>
-              )}
-              {result && !loading && (
-                <ShirtResult shirt={result} onAdd={handleAdd} inCollection={inCollection} />
-              )}
-              {!result && !loading && !error && (
-                <div style={{ textAlign: 'center', padding: '4rem 1rem', color: 'var(--muted)' }}>
-                  <div style={{ fontSize: 48, marginBottom: 12 }}>📋</div>
-                  <p style={{ fontFamily: 'var(--font-display)', fontSize: 20, letterSpacing: '0.05em', color: 'var(--ink)', marginBottom: 8 }}>SEARCH THE ARCHIVE</p>
-                  <p style={{ fontSize: 14 }}>Any club, any era — home kits, aways, thirds, keepers</p>
-                </div>
-              )}
-            </div>
-          </>
-        )}
-
-        {tab === 'collection' && (
-          <div className="main" style={{ paddingTop: '2rem' }}>
-            {viewingShirt ? (
-              <>
-                <button className="detail-back" onClick={() => setViewingShirt(null)}>← Back to rack</button>
-                <ShirtResult shirt={viewingShirt} onAdd={() => {}} inCollection={true} />
-              </>
-            ) : (
-              <CollectionView
-                collection={collection}
-                onRemove={i => saveCollection(collection.filter((_, idx) => idx !== i))}
-                onViewShirt={setViewingShirt}
-                onGoSearch={() => setTab('search')}
-              />
             )}
           </div>
-        )}
+        </>
+      )}
 
-        {modal && (
-          <AddModal shirt={result} onClose={() => setModal(false)} onConfirm={confirmAdd} />
-        )}
-        {settingsOpen && (
-          <SettingsModal currentKey={apiKey} onSave={saveApiKey} onClose={() => setSettingsOpen(false)} />
-        )}
-      </div>
-    );
-  }
+      {/* SHIRT DETAIL */}
+      {tab === 'archive' && selectedShirt && (
+        <div className="main" style={{ paddingTop: '2rem' }}>
+          <ShirtDetail
+            shirt={selectedShirt}
+            inRack={inRack(selectedShirt)}
+            onAdd={() => handleAdd(selectedShirt)}
+            onBack={() => setSelectedShirt(null)}
+          />
+        </div>
+      )}
 
-  ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+      {/* MY RACK TAB */}
+      {tab === 'rack' && (
+        <div className="main" style={{ paddingTop: '2rem' }}>
+          {viewingRackShirt ? (
+            <ShirtDetail
+              shirt={viewingRackShirt}
+              inRack={true}
+              onAdd={() => {}}
+              onBack={() => setViewingRackShirt(null)}
+            />
+          ) : (
+            <>
+              <h2 className="page-title">My Rack</h2>
+              {rack.length > 0 && (
+                <div className="coll-stats">
+                  <div className="stat-box">
+                    <div className="stat-val">{rack.length}</div>
+                    <div className="stat-key">Shirts</div>
+                  </div>
+                  <div className="stat-box">
+                    <div className="stat-val">{clubs}</div>
+                    <div className="stat-key">Clubs</div>
+                  </div>
+                  <div className="stat-box">
+                    <div className="stat-val">{makers}</div>
+                    <div className="stat-key">Makers</div>
+                  </div>
+                </div>
+              )}
+              {rack.length === 0 ? (
+                <div className="collection-empty">
+                  <div className="empty-icon">👕</div>
+                  <div className="empty-title">Your rack is empty</div>
+                  <p className="empty-sub">Browse the archive and add shirts to build your collection</p>
+                  <button className="btn-primary" onClick={() => setTab('archive')}>Browse the Archive</button>
+                </div>
+              ) : (
+                <div className="archive-grid">
+                  {rack.map((shirt, i) => (
+                    <div key={i} className="coll-card" onClick={() => setViewingRackShirt(shirt)}>
+                      <div className="coll-card-top">
+                        <div className="coll-emoji">{kitEmoji(shirt.kitType)}</div>
+                        <div className="coll-club">{shirt.club}</div>
+                        <div className="coll-season">{shirt.season}</div>
+                      </div>
+                      <div className="coll-body">
+                        <div className="coll-meta">
+                          <span className="coll-kit">{shirt.kitType} · {shirt.manufacturer}</span>
+                          <button className="coll-remove"
+                            onClick={e => { e.stopPropagation(); saveRack(rack.filter((_, idx) => idx !== i)); }}
+                            title="Remove">✕</button>
+                        </div>
+                        {shirt.notes && <div className="coll-notes">"{shirt.notes}"</div>}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </>
+          )}
+        </div>
+      )}
+
+      {addModal && (
+        <AddModal shirt={addModal} onClose={() => setAddModal(null)} onConfirm={confirmAdd} />
+      )}
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 </script>
 </body>
 </html>
