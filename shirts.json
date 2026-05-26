@@ -7,8 +7,6 @@
     "manufacturer": "Umbro",
     "sponsor": "Sharp",
     "colourway": "Red body, white collar and sleeves",
-    "material": "Polyester",
-    "rarity": "Iconic",
     "history": "The shirt worn during United's historic Treble-winning season \u2014 Premier League, FA Cup and Champions League. The comeback win over Bayern Munich in Barcelona on 26 May 1999 made this one of the most iconic kits in football history.",
     "authenticityGuide": [
       {
@@ -67,8 +65,6 @@
     "manufacturer": "Umbro",
     "sponsor": "Sharp",
     "colourway": "White with navy and gold pinstripe",
-    "material": "Polyester",
-    "rarity": "Iconic",
     "history": "The away shirt of the Treble season, worn in several key Champions League group stage matches. The white with navy pinstripe design was considered one of Umbro's finest away kits of the era.",
     "authenticityGuide": [
       {
@@ -123,8 +119,6 @@
     "manufacturer": "Nike",
     "sponsor": "O2",
     "colourway": "Red and white with gold detail",
-    "material": "Nike Dri-FIT polyester",
-    "rarity": "Iconic",
     "history": "The Invincibles shirt. Worn by Ars\u00e8ne Wenger's Arsenal side through the entire 2003/04 Premier League season unbeaten \u2014 26 wins and 12 draws across 38 games. Widely considered the most famous Arsenal kit ever produced.",
     "authenticityGuide": [
       {
@@ -183,8 +177,6 @@
     "manufacturer": "Adidas",
     "sponsor": "Crown Paints",
     "colourway": "All red with white Adidas stripes",
-    "material": "Cotton-polyester blend",
-    "rarity": "Iconic",
     "history": "Liverpool's title-winning shirt from the last time they won the First Division championship before a 30-year wait. The classic Adidas three-stripe design on a plain red base is one of the purest Liverpool kits ever made.",
     "authenticityGuide": [
       {
@@ -233,66 +225,6 @@
       "Kit number font": "Plain block, non-standardised era",
       "Sleeve detail": "White Adidas three stripes on sleeves",
       "Tagging": "Woven Adidas neck label, Made in England"
-    }
-  },
-  {
-    "id": 5,
-    "club": "Newcastle United",
-    "season": "1995/96",
-    "kitType": "Home",
-    "manufacturer": "Adidas",
-    "sponsor": "Brown Ale",
-    "colourway": "Black and white stripes",
-    "material": "Polyester",
-    "rarity": "Iconic",
-    "history": "The shirt of Newcastle's famous title challenge under Kevin Keegan, when they led the Premier League by 12 points before famously being pipped by Manchester United. Associated with the iconic 4-3 match against Liverpool and Keegan's emotional 'I would love it' speech.",
-    "authenticityGuide": [
-      {
-        "icon": "\ud83d\udd0d",
-        "feature": "Stripe Width",
-        "description": "Genuine Adidas Newcastle shirts have precisely equal black and white stripe widths. Many fakes have slightly uneven stripes."
-      },
-      {
-        "icon": "\ud83c\udff7\ufe0f",
-        "feature": "Brown Ale Logo",
-        "description": "The Newcastle Brown Ale logo should be a clean woven badge. The eagle and lettering are often poorly reproduced on counterfeits."
-      },
-      {
-        "icon": "\ud83e\uddf5",
-        "feature": "Collar Detail",
-        "description": "Features a black and white striped collar with a small V. The stripe alignment at the collar join is a key authenticity indicator."
-      },
-      {
-        "icon": "\ud83d\udccb",
-        "feature": "Adidas Equipment Logo",
-        "description": "This era used the Adidas Equipment logo (three bars). Fakes sometimes incorrectly use the trefoil or Performance logos."
-      }
-    ],
-    "notablePlayers": [
-      {
-        "number": "9",
-        "name": "Alan Shearer"
-      },
-      {
-        "number": "10",
-        "name": "Les Ferdinand"
-      },
-      {
-        "number": "11",
-        "name": "David Ginola"
-      }
-    ],
-    "marketValue": {
-      "replica": "\u00a345\u201375",
-      "playerIssue": "\u00a3120\u2013200",
-      "signed": "\u00a3300+"
-    },
-    "details": {
-      "Collar style": "Striped V-neck collar",
-      "Badge style": "Embroidered club crest, left chest",
-      "Kit number font": "Premier League standard (1994\u20131997)",
-      "Sleeve detail": "Adidas Equipment three-bar tape on sleeves",
-      "Tagging": "Woven Adidas neck label + PL hologram tag"
     }
   },
   {
