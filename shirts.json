@@ -772,5 +772,4537 @@
       "Sleeve detail": "Adidas three-stripe tape on sleeves",
       "Tagging": "Woven Adidas neck label + LFP label"
     }
+  },
+  [
+  {
+    "id": 26,
+    "club": "Newcastle United",
+    "season": "1991/92",
+    "kitType": "Home",
+    "manufacturer": "Umbro",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "Black and white vertical stripes, black V-neck collar",
+    "history": "Kevin Keegan's first full season in charge after saving the club from relegation. Newcastle finished 11th in the old Second Division, laying foundations for the dramatic promotion push the following year.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Umbro Diamond",
+        "description": "Woven double diamond on the left chest. Early 90s Umbro diamonds have specific proportions that differ from later versions."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Stripe Evenness",
+        "description": "Black and white stripes should be perfectly equal in width and align cleanly at all seams. Uneven stripes indicate a fake."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Brown Ale Badge",
+        "description": "The Newcastle Brown Ale star-and-circle logo should be cleanly applied with crisp edges. Blurred or smudged logos indicate a counterfeit."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Fabric Weight",
+        "description": "Early 90s Umbro used a heavier cotton-polyester blend. Purely synthetic reproductions feel noticeably lighter."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Mick Quinn"
+      },
+      {
+        "number": "7",
+        "name": "Liam O'Brien"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a320\u201335",
+      "playerIssue": "\u00a360\u2013100",
+      "signed": "\u00a3120+"
+    },
+    "details": {
+      "Collar style": "Black V-neck with white ribbed trim",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Plain block, pre-PL era",
+      "Sleeve detail": "Umbro diamond on sleeve",
+      "Tagging": "Woven Umbro neck label"
+    }
+  },
+  {
+    "id": 27,
+    "club": "Newcastle United",
+    "season": "1991/92",
+    "kitType": "Away",
+    "manufacturer": "Umbro",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "Yellow with black trim and black Umbro stripes",
+    "history": "The away strip for Newcastle's Second Division survival season. Yellow has long been Newcastle's traditional away colour and this early Umbro design established that identity.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Yellow Shade",
+        "description": "A warm, mid-tone canary yellow. Too bright or too orange indicates an incorrect reproduction."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Umbro Diamond",
+        "description": "Woven double diamond on left chest. Same proportions and construction as the home shirt."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Black Trim Detail",
+        "description": "Black collar and cuff trim should be a separate ribbed piece with clean join stitching, not a printed detail."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Brown Ale on Yellow",
+        "description": "The Brown Ale badge should have clear contrast against the yellow base. Poor reproductions have a washed-out badge."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Mick Quinn"
+      },
+      {
+        "number": "4",
+        "name": "Lee Clark"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a320\u201335",
+      "playerIssue": "\u00a355\u201390",
+      "signed": "\u00a3110+"
+    },
+    "details": {
+      "Collar style": "Black ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Plain block, pre-PL era",
+      "Sleeve detail": "Black Umbro sleeve detail",
+      "Tagging": "Woven Umbro neck label"
+    }
+  },
+  {
+    "id": 28,
+    "club": "Newcastle United",
+    "season": "1992/93",
+    "kitType": "Home",
+    "manufacturer": "Umbro",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "Black and white vertical stripes, white polo collar",
+    "history": "The shirt worn as Newcastle won the newly-renamed First Division title under Kevin Keegan, earning promotion to the inaugural Premier League season. Andy Cole finished with 12 goals as the club returned to top-flight football.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Umbro Diamond",
+        "description": "Woven double diamond on left chest. Slightly updated from 1991/92 with a marginally cleaner weave finish."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "White Polo Collar",
+        "description": "This season features a white collar \u2014 an important distinction from the previous year's black collar. Black-collared versions are incorrect."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Stripe Construction",
+        "description": "Equal-width stripes with clean alignment at all seams. Tight, uniform stitching throughout."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Neck Label",
+        "description": "Genuine shirts have a woven label with manufacturer, size and fabric composition. Missing or incorrect info indicates a fake."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Andy Cole"
+      },
+      {
+        "number": "4",
+        "name": "Lee Clark"
+      },
+      {
+        "number": "10",
+        "name": "David Kelly"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a325\u201340",
+      "playerIssue": "\u00a365\u2013110",
+      "signed": "\u00a3150+"
+    },
+    "details": {
+      "Collar style": "White ribbed polo collar",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Plain block, pre-PL era",
+      "Sleeve detail": "Umbro tape detail on sleeves",
+      "Tagging": "Woven Umbro neck label"
+    }
+  },
+  {
+    "id": 29,
+    "club": "Newcastle United",
+    "season": "1992/93",
+    "kitType": "Away",
+    "manufacturer": "Umbro",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "Yellow with black polo collar and black Umbro trim",
+    "history": "The away shirt for the First Division title-winning campaign. Yellow remained the colour of choice as Keegan's side clinched promotion back to the top flight.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Yellow Shade",
+        "description": "Canary yellow should be even across the entire shirt. Fading or uneven dye distribution is common on aged reproductions."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Umbro Diamond",
+        "description": "Woven diamond badge on left chest, consistent with the home shirt's badge construction."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Black Polo Collar",
+        "description": "Black polo collar with tight ribbed construction. This season's collar is slightly cleaner in form than 1991/92."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Brown Ale Placement",
+        "description": "The Brown Ale badge sits centrally on the chest. Correct vertical placement is important \u2014 too high or low indicates a counterfeit."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Andy Cole"
+      },
+      {
+        "number": "11",
+        "name": "Franz Carr"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a320\u201335",
+      "playerIssue": "\u00a360\u2013100",
+      "signed": "\u00a3140+"
+    },
+    "details": {
+      "Collar style": "Black ribbed polo collar",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Plain block, pre-PL era",
+      "Sleeve detail": "Black Umbro sleeve detail",
+      "Tagging": "Woven Umbro neck label"
+    }
+  },
+  {
+    "id": 30,
+    "club": "Newcastle United",
+    "season": "1993/94",
+    "kitType": "Home",
+    "manufacturer": "Adidas",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "Black and white vertical stripes with black Adidas shoulder stripes",
+    "history": "Newcastle's first Premier League season, and Andy Cole's breakout campaign \u2014 he scored 34 league goals, a record at the time. The move to Adidas began a long iconic partnership and the club finished third in the table.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Adidas Equipment Logo",
+        "description": "This era used the Adidas Equipment three-bar logo, not the trefoil or Performance mark. Incorrect logo is an immediate fake indicator."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Shoulder Stripes",
+        "description": "Black Adidas three stripes on the shoulder seams, sewn as separate fabric strips. Printed or heat-applied stripes indicate a fake."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Stripe Alignment",
+        "description": "The vertical black and white stripes must align precisely at every seam. Any offset at shoulders or sides is an immediate fake indicator."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "PL Hologram",
+        "description": "Premier League hologram authentication tag introduced for the first PL season. Its presence and correct format are essential."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Andy Cole"
+      },
+      {
+        "number": "7",
+        "name": "Rob Lee"
+      },
+      {
+        "number": "4",
+        "name": "Lee Clark"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a330\u201350",
+      "playerIssue": "\u00a380\u2013130",
+      "signed": "\u00a3200+"
+    },
+    "details": {
+      "Collar style": "Black and white striped V-neck collar",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (1993\u20131994)",
+      "Sleeve detail": "Black Adidas three-stripe tape on shoulders",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 31,
+    "club": "Newcastle United",
+    "season": "1993/94",
+    "kitType": "Away",
+    "manufacturer": "Adidas",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "Yellow with black Adidas shoulder stripes and black trim",
+    "history": "The away shirt for Newcastle's debut Premier League season. Yellow remained the traditional away colour as the club established themselves in the top flight under Keegan with a fine third-place finish.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Adidas Equipment Logo",
+        "description": "The Equipment three-bar logo on the right chest must be correct for this era. Performance or trefoil logos indicate a wrong-era shirt."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Black Shoulder Stripes",
+        "description": "Sewn black three-stripe panels on the shoulders. Must be fabric strips, not printed, to be genuine Adidas construction."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Yellow Shade",
+        "description": "Adidas used a clean mid-tone yellow slightly warmer in tone than Umbro's version."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "PL Hologram Tag",
+        "description": "Premier League hologram authentication tag on the back collar, introduced for this inaugural PL season."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Andy Cole"
+      },
+      {
+        "number": "7",
+        "name": "Rob Lee"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a325\u201345",
+      "playerIssue": "\u00a370\u2013120",
+      "signed": "\u00a3180+"
+    },
+    "details": {
+      "Collar style": "Black ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (1993\u20131994)",
+      "Sleeve detail": "Black Adidas three-stripe tape on shoulders",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 32,
+    "club": "Newcastle United",
+    "season": "1994/95",
+    "kitType": "Home",
+    "manufacturer": "Adidas",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "Black and white vertical stripes, white V-neck collar and cuffs",
+    "history": "A season disrupted by the controversial sale of Andy Cole to Manchester United in January 1995. Despite the upheaval Newcastle finished sixth, and Les Ferdinand was already signed for the summer \u2014 signalling the ambition that would almost deliver the title in 1995/96.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Adidas Equipment Logo",
+        "description": "Equipment three-bar logo on the right chest. Same placement and proportions as 1993/94."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "White Collar Change",
+        "description": "This season introduced a white collar and cuffs, distinguishing it from 1993/94. Black-collared versions claiming to be 1994/95 are wrong."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Stripe Precision",
+        "description": "Equal-width black and white stripes with tight seam stitching. Even minor width differences indicate a poor reproduction."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "PL Hologram",
+        "description": "Second season of the PL hologram tag. The hologram format changed slightly from 1993/94 \u2014 check the specific version."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Andy Cole"
+      },
+      {
+        "number": "10",
+        "name": "Peter Beardsley"
+      },
+      {
+        "number": "7",
+        "name": "Rob Lee"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a330\u201350",
+      "playerIssue": "\u00a380\u2013130",
+      "signed": "\u00a3200+"
+    },
+    "details": {
+      "Collar style": "White ribbed V-neck with black trim",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (1994\u20131997)",
+      "Sleeve detail": "Black Adidas three-stripe tape on shoulders",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 33,
+    "club": "Newcastle United",
+    "season": "1994/95",
+    "kitType": "Away",
+    "manufacturer": "Adidas",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "Yellow body with navy blue Adidas stripes and navy trim",
+    "history": "The away shirt for a season of frustration and ambition in equal measure. Despite Cole's sale, the club's horizons were expanding rapidly under Keegan.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Navy and Yellow Combination",
+        "description": "The contrast between yellow body and navy trim should be strong. Faded or wrong-shade navy indicates a lower quality reproduction."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Navy Adidas Equipment Logo",
+        "description": "Navy Equipment logo on the right chest. On the yellow away shirt the logo should stand out clearly \u2014 poor application causes bleeding."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Navy Shoulder Stripes",
+        "description": "Navy three-stripe panels sewn on the yellow shoulders. Fabric application, not print \u2014 check by feel."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Collar Construction",
+        "description": "Navy ribbed collar should be a separate sewn piece. The stitch line where it meets the body is a good authenticity check."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Andy Cole"
+      },
+      {
+        "number": "10",
+        "name": "Peter Beardsley"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a330\u201350",
+      "playerIssue": "\u00a380\u2013130",
+      "signed": "\u00a3180+"
+    },
+    "details": {
+      "Collar style": "Navy ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (1994\u20131997)",
+      "Sleeve detail": "Navy Adidas three-stripe tape on shoulders",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 34,
+    "club": "Newcastle United",
+    "season": "1995/96",
+    "kitType": "Home",
+    "manufacturer": "Adidas",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "Black and white vertical stripes with black and white striped polo collar",
+    "history": "One of the most iconic shirts in Premier League history, worn during the famous title challenge. Newcastle led the table by 12 points at Christmas before finishing runners-up to Manchester United. Kevin Keegan's 'I would love it if we beat them' outburst is one of football's defining moments. Les Ferdinand, David Ginola and Peter Beardsley were at their electrifying peak.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Adidas Equipment Logo",
+        "description": "Equipment three-bar logo, right chest. One of the most faked Newcastle shirts \u2014 ensure the Equipment version is used, not trefoil or Performance."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Striped Polo Collar",
+        "description": "Distinctive black and white striped polo collar mirroring the shirt itself. Solid black or white collars claiming to be 1995/96 are wrong."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Stripe Alignment at Collar",
+        "description": "The vertical stripes should flow continuously into the collar stripes without interruption. This alignment is notoriously difficult to replicate accurately."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Brown Ale Badge Position",
+        "description": "The Brown Ale badge sits centrally between the crest and bottom hem. Precise vertical positioning is a key authenticity check."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Les Ferdinand"
+      },
+      {
+        "number": "11",
+        "name": "David Ginola"
+      },
+      {
+        "number": "10",
+        "name": "Peter Beardsley"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a345\u201375",
+      "playerIssue": "\u00a3120\u2013200",
+      "signed": "\u00a3350+"
+    },
+    "details": {
+      "Collar style": "Black and white striped polo collar",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (1994\u20131997)",
+      "Sleeve detail": "Black Adidas three-stripe tape on shoulders",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 35,
+    "club": "Newcastle United",
+    "season": "1995/96",
+    "kitType": "Away",
+    "manufacturer": "Adidas",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "Yellow with black Adidas stripes and black collar",
+    "history": "The away shirt for the iconic title challenge season. Worn in memorable away fixtures including the extraordinary 4-3 defeat at Anfield \u2014 often cited as the greatest Premier League game ever played.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Yellow and Black Combination",
+        "description": "Clean yellow body with black details is distinctive. Check that the yellow exactly matches reference images for this specific season."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Equipment Logo on Yellow",
+        "description": "Black Equipment logo on the yellow body. On genuine shirts the logo is clean and slightly raised \u2014 flat or bleeding logos indicate a fake."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Black Adidas Stripes",
+        "description": "Black sewn three-stripe panels on the shoulders. The stripe fabric weight should feel the same as the body."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "PL Hologram",
+        "description": "Premier League hologram tag on the back collar. The 1995/96 format is specific \u2014 check against reference images."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Les Ferdinand"
+      },
+      {
+        "number": "11",
+        "name": "David Ginola"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a340\u201365",
+      "playerIssue": "\u00a3110\u2013180",
+      "signed": "\u00a3300+"
+    },
+    "details": {
+      "Collar style": "Black ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (1994\u20131997)",
+      "Sleeve detail": "Black Adidas three-stripe tape",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 36,
+    "club": "Newcastle United",
+    "season": "1996/97",
+    "kitType": "Home",
+    "manufacturer": "Adidas",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "Black and white vertical stripes with black collar and gold Adidas detailing",
+    "history": "Alan Shearer's first season at Newcastle after his world record \u00a315m transfer from Blackburn Rovers. Kevin Keegan resigned in January 1997 and was replaced by Kenny Dalglish. Despite the upheaval, the season ended with a run to the FA Cup final \u2014 a campaign defined by Shearer's immediate impact.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Gold Adidas Detailing",
+        "description": "Gold appears in the Adidas branding and collar trim this season \u2014 distinguishing 1996/97 from the all-black detailing of 1995/96. Missing gold indicates a wrong-era shirt."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Adidas Equipment Logo",
+        "description": "Equipment three-bar logo with gold accent. The subtle gold on the Equipment mark is a key dating detail."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Stripe Precision",
+        "description": "Same high-quality Adidas stripe construction as previous seasons. The third year of this template \u2014 check all seams for tight, consistent stitching."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Brown Ale Badge",
+        "description": "Same woven Brown Ale badge as previous seasons. The star-and-ring design should be clearly defined with tight stitching."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Alan Shearer"
+      },
+      {
+        "number": "11",
+        "name": "David Ginola"
+      },
+      {
+        "number": "10",
+        "name": "Peter Beardsley"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a340\u201370",
+      "playerIssue": "\u00a3110\u2013185",
+      "signed": "\u00a3350+"
+    },
+    "details": {
+      "Collar style": "Black V-neck with gold Adidas trim",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (1994\u20131997)",
+      "Sleeve detail": "Black Adidas three-stripe tape with gold accent",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 37,
+    "club": "Newcastle United",
+    "season": "1996/97",
+    "kitType": "Away",
+    "manufacturer": "Adidas",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "Navy blue with gold Adidas stripes and gold trim",
+    "history": "A move away from the traditional yellow \u2014 this navy and gold away kit is one of the most popular in the club's history. Worn in the FA Cup run that took Newcastle all the way to Wembley.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Navy and Gold Combination",
+        "description": "Deep navy with warm gold. The specific shade of gold is important; too yellow or too bronze indicates an inaccurate reproduction."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Gold Equipment Logo",
+        "description": "Gold Equipment three-bar logo on the navy body. The gold should match the stripe colour precisely \u2014 a common inconsistency on fakes."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Gold Adidas Shoulder Stripes",
+        "description": "Gold sewn three-stripe panels on navy shoulders. The gold fabric should match the collar and trim exactly."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "PL Hologram Tag",
+        "description": "PL hologram on the back collar. Check the 1996/97 format \u2014 it differs from 1995/96."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Alan Shearer"
+      },
+      {
+        "number": "11",
+        "name": "David Ginola"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a340\u201365",
+      "playerIssue": "\u00a3110\u2013180",
+      "signed": "\u00a3300+"
+    },
+    "details": {
+      "Collar style": "Gold ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (1994\u20131997)",
+      "Sleeve detail": "Gold Adidas three-stripe tape on shoulders",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 38,
+    "club": "Newcastle United",
+    "season": "1997/98",
+    "kitType": "Home",
+    "manufacturer": "Adidas",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "Black and white vertical stripes with white V-neck collar",
+    "history": "Kenny Dalglish's Newcastle reached the FA Cup final but lost 2-0 to Arsenal's Double-winning side. Shearer was in fine form but the team lacked the creative brilliance of the Keegan era. This season saw the transition from Adidas Equipment to Adidas Performance branding.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Adidas Performance Logo",
+        "description": "Newcastle transitioned to the Adidas Performance (three-bar) logo this season, replacing the Equipment mark. An Equipment logo on this shirt would be wrong."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "White V-Neck Collar",
+        "description": "A white V-neck collar replaced the gold-trimmed black of 1996/97. Collar colour is a key dating tool across this entire Adidas era."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Stripe Quality",
+        "description": "Consistent stripe quality from previous Adidas seasons but on an updated template. Check stitching pattern at seams."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Updated PL Patch",
+        "description": "The Premier League sleeve patch updated for 1997/98. The format differs from the 1996/97 version \u2014 check against reference images."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Alan Shearer"
+      },
+      {
+        "number": "16",
+        "name": "Dietmar Hamann"
+      },
+      {
+        "number": "7",
+        "name": "Rob Lee"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a335\u201355",
+      "playerIssue": "\u00a390\u2013150",
+      "signed": "\u00a3280+"
+    },
+    "details": {
+      "Collar style": "White ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (1997\u20132000)",
+      "Sleeve detail": "Adidas three-stripe tape on shoulders, PL patch on sleeve",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 39,
+    "club": "Newcastle United",
+    "season": "1997/98",
+    "kitType": "Away",
+    "manufacturer": "Adidas",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "Yellow with black Adidas stripes and black trim",
+    "history": "Yellow returned as the away colour for the FA Cup final season. The away kit was worn in several notable league fixtures as Newcastle maintained a mid-table Premier League position while their cup run continued.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Adidas Performance Logo",
+        "description": "Same transition to Performance logo as the home shirt. Check for the three-bar Performance mark rather than the Equipment version."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Yellow Shade",
+        "description": "Adidas used a slightly brighter yellow in this era compared to earlier seasons. The shade evolved between the 1994/95 and 1997/98 away kits."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Black Stripes on Yellow",
+        "description": "Clean black three-stripe panels on yellow shoulders. The contrast between black stripes and yellow body should be sharp."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "PL Sleeve Patch",
+        "description": "Updated PL patch for 1997/98. The patch format is a key dating tool when distinguishing this shirt from the 1995/96 away."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Alan Shearer"
+      },
+      {
+        "number": "16",
+        "name": "Dietmar Hamann"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a330\u201350",
+      "playerIssue": "\u00a380\u2013130",
+      "signed": "\u00a3240+"
+    },
+    "details": {
+      "Collar style": "Black ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (1997\u20132000)",
+      "Sleeve detail": "Black Adidas three-stripe tape, PL patch on sleeve",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 40,
+    "club": "Newcastle United",
+    "season": "1997/98",
+    "kitType": "Third",
+    "manufacturer": "Adidas",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "Navy blue with yellow Adidas stripes and yellow trim",
+    "history": "A navy and yellow third kit used when home and away caused colour clashes. The combination revisited the popular palette from the 1996/97 away, giving fans a further opportunity to own that much-loved colourway.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Navy and Yellow Balance",
+        "description": "Deep navy tone against warm yellow trim. Washed-out navy or wrong-shade yellow is the most common reproduction error."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Adidas Performance Logo",
+        "description": "Yellow Performance three-bar logo on the navy body. Same logo transition as the home and away shirts this season."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Yellow Stripe Panels",
+        "description": "Sewn yellow three-stripe panels on navy shoulders. Should match the collar and trim colour exactly."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Third Kit Label",
+        "description": "Genuine third kits carry the same neck label as home and away. Some reproductions use a different label format."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Alan Shearer"
+      },
+      {
+        "number": "7",
+        "name": "Rob Lee"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a330\u201350",
+      "playerIssue": "\u00a380\u2013130",
+      "signed": "\u00a3220+"
+    },
+    "details": {
+      "Collar style": "Yellow ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (1997\u20132000)",
+      "Sleeve detail": "Yellow Adidas three-stripe tape on shoulders",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 41,
+    "club": "Newcastle United",
+    "season": "1998/99",
+    "kitType": "Home",
+    "manufacturer": "Adidas",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "Black and white vertical stripes with black crew neck collar",
+    "history": "Ruud Gullit's ill-fated season, overshadowed by his decision to drop Alan Shearer and Duncan Ferguson for the Tyne-Wear derby \u2014 a game Newcastle lost 2-1. Gullit was sacked the following day. Bobby Robson was eventually appointed and began transforming the club's fortunes.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Adidas Performance Logo",
+        "description": "Performance three-bar logo consistent with 1997/98. Same placement and proportions as the previous season."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Crew Neck Collar",
+        "description": "A crew neck replaced the V-neck of 1997/98 \u2014 an important distinguishing feature. V-neck versions claiming to be 1998/99 are incorrect."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Stripe Construction",
+        "description": "Same Adidas stripe quality as previous seasons. Any degradation in stripe evenness or seam alignment should be investigated."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Brown Ale Badge",
+        "description": "The Brown Ale badge continued this season. Check the specific version matches 1998/99 reference imagery."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Alan Shearer"
+      },
+      {
+        "number": "10",
+        "name": "Gary Speed"
+      },
+      {
+        "number": "11",
+        "name": "Temuri Ketsbaia"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a330\u201350",
+      "playerIssue": "\u00a380\u2013130",
+      "signed": "\u00a3240+"
+    },
+    "details": {
+      "Collar style": "Black ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (1997\u20132000)",
+      "Sleeve detail": "Adidas three-stripe tape, PL patch on sleeve",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 42,
+    "club": "Newcastle United",
+    "season": "1998/99",
+    "kitType": "Away",
+    "manufacturer": "Adidas",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "Grey with black Adidas stripes and black trim",
+    "history": "A distinctive grey away kit for the turbulent Gullit season. Grey was fashionable across the Premier League in the late 90s and this is a relatively rare Newcastle colourway.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Grey Shade",
+        "description": "A mid-tone silver-grey, not too light or dark. The specific shade is hard to replicate \u2014 many fakes use a slightly wrong tone."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Black Adidas Stripes on Grey",
+        "description": "Black three-stripe panels on grey shoulders. The contrast between the two colours should be sharp and even."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Performance Logo",
+        "description": "Black Performance three-bar logo on the grey body. Same construction as the home shirt."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Collar Match",
+        "description": "The crew neck collar should be the same grey as the body fabric, not a slightly different shade \u2014 a common production error on reproductions."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Alan Shearer"
+      },
+      {
+        "number": "10",
+        "name": "Gary Speed"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a325\u201345",
+      "playerIssue": "\u00a370\u2013120",
+      "signed": "\u00a3200+"
+    },
+    "details": {
+      "Collar style": "Grey ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (1997\u20132000)",
+      "Sleeve detail": "Black Adidas three-stripe tape, PL patch on sleeve",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 43,
+    "club": "Newcastle United",
+    "season": "1999/00",
+    "kitType": "Home",
+    "manufacturer": "Adidas",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "Black and white vertical stripes with white V-neck collar",
+    "history": "Bobby Robson's first full season in charge, transforming the mood at St James' Park after the Gullit disaster. Shearer returned to form and Newcastle finished 11th. Robson's warmth and football intelligence immediately reconnected the club with its supporters.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Adidas Performance Logo",
+        "description": "Continued Performance three-bar logo. Placement moved slightly compared to 1998/99 \u2014 check against reference images."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "White V-Neck Return",
+        "description": "White V-neck returned after the 1998/99 crew neck. V-neck distinguishes this from 1998/99; crew neck versions would be incorrect for this season."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Updated Fabric",
+        "description": "Adidas updated their polyester construction for 1999/2000. The fabric has a marginally finer weave than earlier season shirts."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "PL Patch Format",
+        "description": "The Premier League patch format updated for 1999/2000. Check against reference images from this specific season."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Alan Shearer"
+      },
+      {
+        "number": "10",
+        "name": "Gary Speed"
+      },
+      {
+        "number": "8",
+        "name": "Kieron Dyer"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a325\u201345",
+      "playerIssue": "\u00a370\u2013120",
+      "signed": "\u00a3220+"
+    },
+    "details": {
+      "Collar style": "White ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (1997\u20132000)",
+      "Sleeve detail": "Adidas three-stripe tape, PL patch on sleeve",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 44,
+    "club": "Newcastle United",
+    "season": "1999/00",
+    "kitType": "Away",
+    "manufacturer": "Adidas",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "Royal blue with white Adidas stripes and white trim",
+    "history": "A fresh royal blue away for Bobby Robson's first season, departing from the recent yellow and grey traditions. The new manager's energy and optimism was reflected in a clean, modern away design.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Royal Blue Shade",
+        "description": "A bright vivid royal blue \u2014 not navy and not sky blue. The specific shade is distinctive and often wrong on reproductions."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "White Adidas Stripes",
+        "description": "White three-stripe panels on royal blue shoulders. The contrast should be crisp and even across both strips."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Performance Logo",
+        "description": "White Performance three-bar logo on the blue body. Check proportions and placement are correct for this era."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Away Kit Label",
+        "description": "Same neck labelling as the home shirt. Some reproductions use a generic Adidas label rather than the season-specific version."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Alan Shearer"
+      },
+      {
+        "number": "8",
+        "name": "Kieron Dyer"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a325\u201340",
+      "playerIssue": "\u00a365\u2013110",
+      "signed": "\u00a3180+"
+    },
+    "details": {
+      "Collar style": "White ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (1997\u20132000)",
+      "Sleeve detail": "White Adidas three-stripe tape, PL patch on sleeve",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 45,
+    "club": "Newcastle United",
+    "season": "2000/01",
+    "kitType": "Home",
+    "manufacturer": "Adidas",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "Black and white vertical stripes with black V-neck collar",
+    "history": "Robson's second season continued the revival, finishing 11th with greater consistency. Shearer, Dyer and the emerging Laurent Robert were beginning to form a cohesive attacking unit.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Updated Adidas Logo",
+        "description": "Adidas updated their logo placement and sizing for 2000/01. Check the exact position on the right chest against reference images."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Black V-Neck",
+        "description": "A black V-neck for this season \u2014 distinguishing it from the white V-neck of 1999/00. An important detail for collectors."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "ClimaCool Introduction",
+        "description": "Adidas began introducing ClimaCool technology around this period. The fabric has a distinct moisture-management texture."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Brown Ale Badge",
+        "description": "The Newcastle Brown Ale badge continued to evolve subtly. Check the specific version matches 2000/01 reference imagery."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Alan Shearer"
+      },
+      {
+        "number": "8",
+        "name": "Kieron Dyer"
+      },
+      {
+        "number": "11",
+        "name": "Laurent Robert"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a325\u201340",
+      "playerIssue": "\u00a365\u2013110",
+      "signed": "\u00a3200+"
+    },
+    "details": {
+      "Collar style": "Black ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2000\u20132004)",
+      "Sleeve detail": "Adidas three-stripe tape, PL patch on sleeve",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 46,
+    "club": "Newcastle United",
+    "season": "2000/01",
+    "kitType": "Away",
+    "manufacturer": "Adidas",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "White with black Adidas stripes and black trim",
+    "history": "A clean all-white away kit for Robson's second season. White away kits were occasionally used by Newcastle and this design offered sharp contrast to the traditional home stripes.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Pure White",
+        "description": "Newcastle's white away must be a clean, cool white. Cream or off-white tones indicate a poor quality reproduction."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Black Adidas Stripes on White",
+        "description": "Black three-stripe panels on white shoulders. Bleeding black dye onto white fabric is a fake indicator."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Performance Logo",
+        "description": "Black Performance logo on the white body. On white shirts the logo precision is very visible \u2014 check for sharp edges."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "PL Patch",
+        "description": "Updated PL patch format for 2000/01. The patch should sit correctly on the right sleeve."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Alan Shearer"
+      },
+      {
+        "number": "11",
+        "name": "Laurent Robert"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a325\u201340",
+      "playerIssue": "\u00a365\u2013105",
+      "signed": "\u00a3175+"
+    },
+    "details": {
+      "Collar style": "Black ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2000\u20132004)",
+      "Sleeve detail": "Black Adidas three-stripe tape, PL patch on sleeve",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 47,
+    "club": "Newcastle United",
+    "season": "2001/02",
+    "kitType": "Home",
+    "manufacturer": "Adidas",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "Black and white vertical stripes with white crew neck collar",
+    "history": "Bobby Robson's finest season at the club. Newcastle finished 4th in the Premier League, qualifying for the Champions League \u2014 their first appearance in the competition. Craig Bellamy, Kieron Dyer and Laurent Robert were electric going forward. A season that revived memories of the Keegan glory years.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Adidas Performance Logo",
+        "description": "Performance three-bar logo consistent with 2000/01. Check the right chest for correct placement."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "White Crew Neck",
+        "description": "White crew neck for 2001/02. V-neck versions claiming to be this season are incorrect \u2014 collar style is a key dating tool."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Stripe Precision",
+        "description": "The same high-quality Adidas stripe construction throughout. Any deviation from equal stripe widths should be investigated."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Champions League Badge",
+        "description": "Player issue shirts from European games carry the UEFA Champions League badge on the sleeve \u2014 a highly sought detail for collectors."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Alan Shearer"
+      },
+      {
+        "number": "8",
+        "name": "Craig Bellamy"
+      },
+      {
+        "number": "11",
+        "name": "Laurent Robert"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a330\u201350",
+      "playerIssue": "\u00a385\u2013140",
+      "signed": "\u00a3250+"
+    },
+    "details": {
+      "Collar style": "White ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2000\u20132004)",
+      "Sleeve detail": "Adidas three-stripe tape, PL patch on sleeve",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 48,
+    "club": "Newcastle United",
+    "season": "2001/02",
+    "kitType": "Away",
+    "manufacturer": "Adidas",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "Navy blue with gold Adidas stripes and gold trim",
+    "history": "The away shirt for Newcastle's Champions League qualifying season. The navy and gold palette recalled the popular 1996/97 away kit and was worn in away league fixtures as the club secured their top-four finish.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Navy and Gold",
+        "description": "Deep navy with warm gold \u2014 revisiting the 1996/97 away palette. Each shade must match. Too bright a gold or too light a navy indicates a fake."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Gold Adidas Stripes",
+        "description": "Gold three-stripe panels on navy shoulders. Fabric quality should match the home shirt. Check gold consistency against collar and trim."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Performance Logo in Gold",
+        "description": "Gold Performance three-bar logo on the navy body. Application should be clean without any gold bleed onto the navy fabric."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "PL Patch on Dark Body",
+        "description": "The PL patch on a dark navy background. Check that the patch colours are correct and it sits flat without puckering."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Alan Shearer"
+      },
+      {
+        "number": "8",
+        "name": "Craig Bellamy"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a325\u201345",
+      "playerIssue": "\u00a370\u2013120",
+      "signed": "\u00a3220+"
+    },
+    "details": {
+      "Collar style": "Gold ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2000\u20132004)",
+      "Sleeve detail": "Gold Adidas three-stripe tape, PL patch on sleeve",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 49,
+    "club": "Newcastle United",
+    "season": "2002/03",
+    "kitType": "Home",
+    "manufacturer": "Adidas",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "Black and white vertical stripes with black V-neck collar",
+    "history": "Newcastle's first Champions League season, reaching the second group stage. Shearer and Bellamy were a dangerous partnership, and the 4-3 victory against Bayer Leverkusen at St James' Park was a European highlight. A season that captured the imagination of the whole city.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Champions League Badge",
+        "description": "Match-worn and player issue shirts from the CL campaign carry the UEFA badge on the sleeve \u2014 among the most collectible Newcastle shirt variations."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Black V-Neck Collar",
+        "description": "Black V-neck for 2002/03. Ensure this matches reference images \u2014 the collar style changed between seasons in this era."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Adidas Fabric Quality",
+        "description": "By 2002/03 Adidas had refined their polyester construction. The fabric has a fine texture and clean finish."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Brown Ale Badge",
+        "description": "The Brown Ale badge remains central on the chest. This is one of the last seasons with the original-style badge \u2014 check against period imagery."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Alan Shearer"
+      },
+      {
+        "number": "8",
+        "name": "Craig Bellamy"
+      },
+      {
+        "number": "4",
+        "name": "Jermaine Jenas"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a330\u201350",
+      "playerIssue": "\u00a385\u2013140",
+      "signed": "\u00a3250+"
+    },
+    "details": {
+      "Collar style": "Black ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2000\u20132004)",
+      "Sleeve detail": "Adidas three-stripe tape, PL patch on sleeve",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 50,
+    "club": "Newcastle United",
+    "season": "2002/03",
+    "kitType": "Away",
+    "manufacturer": "Adidas",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "Amber with black Adidas stripes and black trim",
+    "history": "A distinctive amber away kit for the Champions League season. The warm amber colourway was used for away league fixtures while the home stripes were worn at St James' in European competition.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Amber Shade",
+        "description": "A warm, deep amber \u2014 not yellow and not orange. Often reproduced incorrectly \u2014 usually too orange or too yellow. Check against period match photography."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Black Adidas Stripes on Amber",
+        "description": "Black three-stripe panels on amber body creating strong contrast. Precision of stripe edges is important."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Performance Logo",
+        "description": "Black Performance three-bar logo on the amber body. Should sit centrally on the right chest at the correct height."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "CL Badge Option",
+        "description": "Away shirts used in Champions League games may carry a UEFA CL badge \u2014 highly sought-after compared to league-issue versions."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Alan Shearer"
+      },
+      {
+        "number": "21",
+        "name": "Laurent Robert"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a325\u201345",
+      "playerIssue": "\u00a375\u2013125",
+      "signed": "\u00a3220+"
+    },
+    "details": {
+      "Collar style": "Black ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2000\u20132004)",
+      "Sleeve detail": "Black Adidas three-stripe tape, PL patch on sleeve",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 51,
+    "club": "Newcastle United",
+    "season": "2003/04",
+    "kitType": "Home",
+    "manufacturer": "Adidas",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "Black and white vertical stripes with white V-neck collar and gold piping",
+    "history": "Newcastle's second consecutive Champions League season, again reaching the second group stage. Alan Shearer passed the 200 Premier League goals mark this season \u2014 a landmark moment. The club finished 5th under Bobby Robson.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Gold Collar Piping",
+        "description": "A distinctive gold trim was introduced on the white collar for 2003/04 \u2014 absent from the previous season. Missing gold piping indicates either a wrong season or a fake."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "CL Star Badge",
+        "description": "Player issue Champions League shirts carry the iconic UEFA four-star badge on the sleeve. The star detail is a common area where fakes cut corners."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Stripe Alignment",
+        "description": "Adidas maintained consistent stripe quality. This shirt uses a slightly updated template from 2002/03 \u2014 check seam alignments throughout."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Brown Ale Badge",
+        "description": "2003/04 was the penultimate season of Newcastle Brown Ale sponsorship. Check the specific badge version against period imagery."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Alan Shearer"
+      },
+      {
+        "number": "16",
+        "name": "Kieron Dyer"
+      },
+      {
+        "number": "4",
+        "name": "Jermaine Jenas"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a330\u201350",
+      "playerIssue": "\u00a385\u2013140",
+      "signed": "\u00a3260+"
+    },
+    "details": {
+      "Collar style": "White V-neck with gold piping",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2000\u20132004)",
+      "Sleeve detail": "Adidas three-stripe tape, PL patch on sleeve",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 52,
+    "club": "Newcastle United",
+    "season": "2003/04",
+    "kitType": "Away",
+    "manufacturer": "Adidas",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "Green with black Adidas stripes and black trim",
+    "history": "A striking green away kit for the Champions League season \u2014 a bold departure from yellow or navy. Worn in away league fixtures as Newcastle maintained their European campaign.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Green Shade",
+        "description": "A clean, vivid mid-green. Reproductions frequently use the wrong shade \u2014 too dark or too lime."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Black Adidas Stripes on Green",
+        "description": "Strong contrast between green body and black stripe panels. Stripe application should be fabric, not printed, on genuine Adidas."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Performance Logo",
+        "description": "Black Performance three-bar logo on the green body. Check the right chest for correct placement and proportion."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "CL Badge Option",
+        "description": "Green shirts used in European away fixtures may carry the Champions League badge \u2014 among the more collectible Newcastle away variations."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Alan Shearer"
+      },
+      {
+        "number": "11",
+        "name": "Laurent Robert"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a325\u201345",
+      "playerIssue": "\u00a375\u2013125",
+      "signed": "\u00a3210+"
+    },
+    "details": {
+      "Collar style": "Black ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2000\u20132004)",
+      "Sleeve detail": "Black Adidas three-stripe tape, PL patch on sleeve",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 53,
+    "club": "Newcastle United",
+    "season": "2004/05",
+    "kitType": "Home",
+    "manufacturer": "Adidas",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "Black and white vertical stripes with black crew neck collar",
+    "history": "Alan Shearer's final season as a professional footballer, ending his nine-year association with Newcastle. Shearer retired having scored 206 Premier League goals and 148 for the club. The club finished 14th \u2014 a disappointing return for what was supposed to be a celebratory farewell for their greatest ever player.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Shearer's Final Season",
+        "description": "Shearer number 9 shirts from this campaign are among the most collected Newcastle shirts of the era. Check the PL font on the number 9 is correct."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Crew Neck Collar",
+        "description": "A black crew neck for 2004/05. V-neck versions claiming to be this season are incorrect \u2014 collar style is a key dating tool."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Updated Adidas Template",
+        "description": "Adidas updated their shirt template for 2004/05 with a slightly slimmer cut. The fit is noticeably different from 2003/04 replicas."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Final Brown Ale Season",
+        "description": "2004/05 was the last season with Newcastle Brown Ale as shirt sponsor after over a decade. The badge on this shirt is historically significant for collectors."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Alan Shearer"
+      },
+      {
+        "number": "16",
+        "name": "Kieron Dyer"
+      },
+      {
+        "number": "10",
+        "name": "Patrick Kluivert"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a330\u201350",
+      "playerIssue": "\u00a390\u2013150",
+      "signed": "\u00a3350+"
+    },
+    "details": {
+      "Collar style": "Black ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2004\u20132007)",
+      "Sleeve detail": "Adidas three-stripe tape, PL patch on sleeve",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 54,
+    "club": "Newcastle United",
+    "season": "2004/05",
+    "kitType": "Away",
+    "manufacturer": "Adidas",
+    "sponsor": "Newcastle Brown Ale",
+    "colourway": "White with black Adidas stripes and black trim",
+    "history": "The away shirt for Shearer's final season. A clean white design worn in away fixtures as the club struggled to recapture Champions League-era form.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Clean White Body",
+        "description": "Pure white, no tinting. On the 2004/05 away shirt the white is particularly clean \u2014 yellowing or cream tones indicate heavy wear or a reproduction."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Black Adidas Stripes on White",
+        "description": "Clean black three-stripe panels. The contrast must be sharp with no colour transfer between fabrics."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Updated Template",
+        "description": "Same slimmer 2004/05 Adidas template as the home shirt. Check the cut against reference images \u2014 the fit changed this season."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "PL Patch Format",
+        "description": "Updated PL patch for 2004/05. The format changed from the previous season \u2014 check reference images for the correct version."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Alan Shearer"
+      },
+      {
+        "number": "7",
+        "name": "Nolberto Solano"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a325\u201340",
+      "playerIssue": "\u00a370\u2013115",
+      "signed": "\u00a3260+"
+    },
+    "details": {
+      "Collar style": "Black ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2004\u20132007)",
+      "Sleeve detail": "Black Adidas three-stripe tape, PL patch on sleeve",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 55,
+    "club": "Newcastle United",
+    "season": "2005/06",
+    "kitType": "Home",
+    "manufacturer": "Adidas",
+    "sponsor": "Northern Rock",
+    "colourway": "Black and white vertical stripes with black V-neck collar",
+    "history": "The post-Shearer era began with Graeme Souness as manager and a new shirt sponsor in Northern Rock, ending the long Brown Ale association. Souness was sacked in February 2006. Michael Owen \u2014 signed from Real Madrid \u2014 scored 16 goals before a serious World Cup injury cut short a promising campaign.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Northern Rock Sponsor",
+        "description": "The Northern Rock bank logo replaced Brown Ale. The Northern Rock typeface is a clean sans-serif \u2014 incorrect fonts immediately identify a fake."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Sponsor Change",
+        "description": "Any Brown Ale badge on this shirt is wrong \u2014 2005/06 onwards is definitively Northern Rock. Watch for dishonest sellers re-applying old badges."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Adidas Updated Collar",
+        "description": "V-neck collar with updated styling for 2005/06. The collar construction is slightly slimmer than the 2003/04 version."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "PL Patch",
+        "description": "PL patch format updated for 2005/06. Check the specific version against reference images from this season."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "10",
+        "name": "Michael Owen"
+      },
+      {
+        "number": "16",
+        "name": "Kieron Dyer"
+      },
+      {
+        "number": "11",
+        "name": "Charles N'Zogbia"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a325\u201340",
+      "playerIssue": "\u00a365\u2013110",
+      "signed": "\u00a3200+"
+    },
+    "details": {
+      "Collar style": "Black ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2004\u20132007)",
+      "Sleeve detail": "Adidas three-stripe tape, PL patch on sleeve",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 56,
+    "club": "Newcastle United",
+    "season": "2005/06",
+    "kitType": "Away",
+    "manufacturer": "Adidas",
+    "sponsor": "Northern Rock",
+    "colourway": "Red with black Adidas stripes and black trim",
+    "history": "A bold red away kit \u2014 a significant departure from yellow or navy. Red has rarely been used by Newcastle and this stands out as one of the more unusual entries in the club's away shirt history.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Red Shade",
+        "description": "A strong vivid red \u2014 not scarlet and not maroon. The exact shade is unusual for Newcastle and often wrong on reproductions."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Northern Rock on Red",
+        "description": "White Northern Rock lettering on a red background. The lettering should be crisp with no red bleed."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Black Adidas Stripes",
+        "description": "Black sewn three-stripe panels on the red body. The fabric strips should sit flat without puckering on the shoulder seams."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Adidas Neck Label",
+        "description": "Same woven Adidas neck label as the home shirt. Any deviation in label format from the home shirt indicates a problem."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "10",
+        "name": "Michael Owen"
+      },
+      {
+        "number": "9",
+        "name": "Shola Ameobi"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a320\u201335",
+      "playerIssue": "\u00a360\u2013100",
+      "signed": "\u00a3180+"
+    },
+    "details": {
+      "Collar style": "Black ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2004\u20132007)",
+      "Sleeve detail": "Black Adidas three-stripe tape, PL patch on sleeve",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 57,
+    "club": "Newcastle United",
+    "season": "2006/07",
+    "kitType": "Home",
+    "manufacturer": "Adidas",
+    "sponsor": "Northern Rock",
+    "colourway": "Black and white vertical stripes with white V-neck collar",
+    "history": "Glenn Roeder's only full season as manager, ending with 13th place. The club was in transition, without Shearer and without a proven goalscorer. Sam Allardyce was appointed at the end of the season to begin a new chapter.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Northern Rock \u2014 Second Season",
+        "description": "Second season of Northern Rock sponsorship. Font and logo are consistent with 2005/06 but check for any minor badge updates."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "White V-Neck Return",
+        "description": "White V-neck returns for 2006/07 after the black collar of 2005/06. Collar colour is a reliable dating detail in this era."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Adidas Formotion",
+        "description": "Adidas introduced Formotion technology in their construction around this period. Player issue shirts have a distinctive cut and material."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "PL Patch Update",
+        "description": "The PL patch format updated again for 2006/07. Check period photography to confirm the specific format."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "10",
+        "name": "Michael Owen"
+      },
+      {
+        "number": "9",
+        "name": "Shola Ameobi"
+      },
+      {
+        "number": "19",
+        "name": "Obafemi Martins"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a320\u201335",
+      "playerIssue": "\u00a360\u2013100",
+      "signed": "\u00a3160+"
+    },
+    "details": {
+      "Collar style": "White ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2004\u20132007)",
+      "Sleeve detail": "Adidas three-stripe tape, PL patch on sleeve",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 58,
+    "club": "Newcastle United",
+    "season": "2006/07",
+    "kitType": "Away",
+    "manufacturer": "Adidas",
+    "sponsor": "Northern Rock",
+    "colourway": "Blue with white Adidas stripes and white trim",
+    "history": "A royal blue away for the 2006/07 transition season. Away from home Newcastle struggled for consistency under a manager who would leave at the season's end.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Blue Shade",
+        "description": "A royal to mid-blue \u2014 check against period match photography. The shade sits between navy and sky blue."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Northern Rock on Blue",
+        "description": "White Northern Rock lettering on the blue body. The same sans-serif font as the home shirt \u2014 any font differences indicate a counterfeit."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "White Adidas Stripes",
+        "description": "White three-stripe panels on blue shoulders. The white should be clean and pure with sharp contrast against the blue."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Adidas Neck Label",
+        "description": "Consistent Adidas neck labelling with the home shirt. Match the label format exactly."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "10",
+        "name": "Michael Owen"
+      },
+      {
+        "number": "19",
+        "name": "Obafemi Martins"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a318\u201330",
+      "playerIssue": "\u00a355\u201390",
+      "signed": "\u00a3140+"
+    },
+    "details": {
+      "Collar style": "White ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2004\u20132007)",
+      "Sleeve detail": "White Adidas three-stripe tape, PL patch on sleeve",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 59,
+    "club": "Newcastle United",
+    "season": "2007/08",
+    "kitType": "Home",
+    "manufacturer": "Adidas",
+    "sponsor": "Northern Rock",
+    "colourway": "Black and white vertical stripes with black crew neck collar",
+    "history": "Sam Allardyce's only season before Kevin Keegan returned dramatically in January 2008. Keegan's second spell lasted only eight months before he resigned citing boardroom interference. Northern Rock, Newcastle's shirt sponsor, suffered the first bank run in the UK since 1866.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Northern Rock \u2014 Crisis Context",
+        "description": "Northern Rock suffered a famous bank run in September 2007 while on Newcastle's shirt \u2014 giving these shirts unusual historical significance beyond football."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Updated Adidas Template",
+        "description": "Adidas updated their shirt template for 2007/08 with new technical construction. The fit and fabric feel noticeably different from 2006/07."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Black Crew Neck",
+        "description": "A black crew neck for 2007/08. Collar style is a consistent dating tool \u2014 compare against period imagery."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "PL Patch Format",
+        "description": "Updated PL patch for 2007/08. The format changed from 2006/07 \u2014 check the specific version."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "10",
+        "name": "Michael Owen"
+      },
+      {
+        "number": "19",
+        "name": "Obafemi Martins"
+      },
+      {
+        "number": "11",
+        "name": "Charles N'Zogbia"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a320\u201335",
+      "playerIssue": "\u00a360\u2013100",
+      "signed": "\u00a3160+"
+    },
+    "details": {
+      "Collar style": "Black ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2007\u20132010)",
+      "Sleeve detail": "Adidas three-stripe tape, PL patch on sleeve",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 60,
+    "club": "Newcastle United",
+    "season": "2007/08",
+    "kitType": "Away",
+    "manufacturer": "Adidas",
+    "sponsor": "Northern Rock",
+    "colourway": "Yellow with black Adidas stripes and black trim",
+    "history": "Yellow returned as the away colour after a two-season absence, welcomed by supporters. The return to the traditional away colour was a bright spot in a season defined by off-field turbulence.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Yellow Return",
+        "description": "Yellow returning after red and blue. The Adidas yellow shade for 2007/08 is slightly different from 90s versions \u2014 check against period images."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Northern Rock on Yellow",
+        "description": "Dark Northern Rock lettering on the yellow body. The specific shade used for the lettering on yellow differs from other shirt colours."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Black Adidas Stripes",
+        "description": "Black sewn panels on yellow shoulders. Check fabric quality and application \u2014 consistent with the home shirt's construction."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Updated PL Patch",
+        "description": "2007/08 saw the PL introduce a new patch format \u2014 distinct from all previous season patches."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "10",
+        "name": "Michael Owen"
+      },
+      {
+        "number": "19",
+        "name": "Obafemi Martins"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a320\u201335",
+      "playerIssue": "\u00a360\u2013100",
+      "signed": "\u00a3155+"
+    },
+    "details": {
+      "Collar style": "Black ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2007\u20132010)",
+      "Sleeve detail": "Black Adidas three-stripe tape, PL patch on sleeve",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 61,
+    "club": "Newcastle United",
+    "season": "2008/09",
+    "kitType": "Home",
+    "manufacturer": "Adidas",
+    "sponsor": "Northern Rock",
+    "colourway": "Black and white vertical stripes with white V-neck collar",
+    "history": "The relegated shirt. Newcastle were relegated from the Premier League on the final day, finishing 18th after a dismal campaign under Joe Kinnear and interim manager Chris Hughton. One of the lowest points in the club's modern history.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Northern Rock Final PL Season",
+        "description": "The last season of Northern Rock as sponsor in the Premier League. The bank was nationalised in February 2008 \u2014 making these shirts historically notable."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "White V-Neck",
+        "description": "White V-neck for 2008/09 \u2014 returning after the 2007/08 crew neck. Collar identification is important in this era."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Relegation Season Shirts",
+        "description": "Match-worn shirts from the final months of this season carry exceptional collector value given the historical context of the relegation."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Final PL Badge",
+        "description": "The PL sleeve patch here marks the last time it appeared until promotion in 2010. Check it matches the 2008/09 format exactly."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "10",
+        "name": "Michael Owen"
+      },
+      {
+        "number": "9",
+        "name": "Shola Ameobi"
+      },
+      {
+        "number": "8",
+        "name": "Kevin Nolan"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a320\u201335",
+      "playerIssue": "\u00a365\u2013110",
+      "signed": "\u00a3180+"
+    },
+    "details": {
+      "Collar style": "White ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2007\u20132010)",
+      "Sleeve detail": "Adidas three-stripe tape, PL patch on sleeve",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 62,
+    "club": "Newcastle United",
+    "season": "2008/09",
+    "kitType": "Away",
+    "manufacturer": "Adidas",
+    "sponsor": "Northern Rock",
+    "colourway": "Green with black Adidas stripes and black trim",
+    "history": "The away shirt for the relegated season \u2014 a green design echoing the 2003/04 away. Worn during increasingly desperate away fixtures that couldn't prevent the drop to the Championship.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Green Shade",
+        "description": "A clean mid-green similar to the 2003/04 away. The specific shade should be verified against period match photography."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Northern Rock on Green",
+        "description": "White Northern Rock lettering on the green body. Contrast and font precision consistent with the home shirt."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Black Adidas Stripes",
+        "description": "Black sewn three-stripe panels on the green body. Check fabric application and stripe evenness."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Relegation Season Away",
+        "description": "The PL patch on an away shirt from a relegation season. Collectors place value on shirts from historically significant seasons."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Shola Ameobi"
+      },
+      {
+        "number": "8",
+        "name": "Kevin Nolan"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a320\u201335",
+      "playerIssue": "\u00a360\u2013100",
+      "signed": "\u00a3155+"
+    },
+    "details": {
+      "Collar style": "Black ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2007\u20132010)",
+      "Sleeve detail": "Black Adidas three-stripe tape, PL patch on sleeve",
+      "Tagging": "Woven Adidas neck label + PL hologram"
+    }
+  },
+  {
+    "id": 63,
+    "club": "Newcastle United",
+    "season": "2009/10",
+    "kitType": "Home",
+    "manufacturer": "Adidas",
+    "sponsor": "Northern Rock",
+    "colourway": "Black and white vertical stripes with black crew neck collar",
+    "history": "The Championship shirt. Newcastle bounced back at the first attempt, winning the Championship under Chris Hughton. Kevin Nolan and Andy Carroll were instrumental in a campaign that restored pride after the shock of relegation.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Championship Patch",
+        "description": "Carries the Football League Championship sleeve patch rather than the Premier League badge \u2014 an essential distinction from seasons before and after."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "No PL Hologram",
+        "description": "Championship shirts do not carry the PL hologram tag. Its absence is correct for this season \u2014 any PL hologram on this shirt indicates a faked Premier League version."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Adidas Championship Construction",
+        "description": "Adidas maintained the same kit quality for the Championship. Fabric and construction are consistent with the 2008/09 PL shirts."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Champions Badge Option",
+        "description": "Shirts from after the title was clinched may carry a champions badge. These are the most collected versions of the 2009/10 home shirt."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "8",
+        "name": "Kevin Nolan"
+      },
+      {
+        "number": "9",
+        "name": "Andy Carroll"
+      },
+      {
+        "number": "18",
+        "name": "Peter Lovenkrands"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a320\u201335",
+      "playerIssue": "\u00a360\u2013100",
+      "signed": "\u00a3175+"
+    },
+    "details": {
+      "Collar style": "Black ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Championship standard (2009/10)",
+      "Sleeve detail": "Adidas three-stripe tape, Championship patch on sleeve",
+      "Tagging": "Woven Adidas neck label"
+    }
+  },
+  {
+    "id": 64,
+    "club": "Newcastle United",
+    "season": "2009/10",
+    "kitType": "Away",
+    "manufacturer": "Adidas",
+    "sponsor": "Northern Rock",
+    "colourway": "Yellow with black Adidas stripes and black trim",
+    "history": "Yellow for the Championship promotion campaign. The promotion-winning away kit is a popular collector's item \u2014 associated with a season that restored pride after the shock of relegation.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Championship Sleeve Patch",
+        "description": "Football League Championship patch rather than Premier League \u2014 essential distinguishing detail between this and the 2007/08 yellow away."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Final Northern Rock Away",
+        "description": "2009/10 was the last season of Northern Rock sponsorship \u2014 the nationalised bank being wound down. The last shirts to carry that historically significant badge."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Black Adidas Stripes",
+        "description": "Black sewn three-stripe panels on the yellow shoulders. Same construction as previous Adidas yellow away shirts."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "No PL Hologram",
+        "description": "Championship shirts lack the PL hologram tag. Its absence on this shirt is correct."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "8",
+        "name": "Kevin Nolan"
+      },
+      {
+        "number": "9",
+        "name": "Andy Carroll"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a320\u201335",
+      "playerIssue": "\u00a360\u2013100",
+      "signed": "\u00a3170+"
+    },
+    "details": {
+      "Collar style": "Black ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Championship standard (2009/10)",
+      "Sleeve detail": "Black Adidas three-stripe tape, Championship patch on sleeve",
+      "Tagging": "Woven Adidas neck label"
+    }
+  },
+  {
+    "id": 65,
+    "club": "Newcastle United",
+    "season": "2010/11",
+    "kitType": "Home",
+    "manufacturer": "Puma",
+    "sponsor": "Virgin Money",
+    "colourway": "Black and white vertical stripes with white V-neck collar",
+    "history": "Newcastle's return to the Premier League after a one-season absence, now under Puma and with Virgin Money as shirt sponsor. Chris Hughton guided the newly-promoted side to a comfortable 12th place. The move to Puma ended a 17-year Adidas partnership.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Puma Cat Logo",
+        "description": "The leaping Puma cat replaces Adidas for the first time in nearly two decades. Cat silhouette proportions are specific \u2014 check the leap angle and tail position."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "New Manufacturer Transition",
+        "description": "The first Puma shirt looks and feels different from the Adidas years. Fabric construction, label position and logo placement all changed."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Virgin Money Sponsor",
+        "description": "Virgin Money's red wordmark is printed centrally. The Virgin Group's specific red shade and font should be checked."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "PL Return Badge",
+        "description": "The PL badge returns to the sleeve after the Championship year. Check the 2010/11 patch format specifically."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "8",
+        "name": "Kevin Nolan"
+      },
+      {
+        "number": "9",
+        "name": "Andy Carroll"
+      },
+      {
+        "number": "15",
+        "name": "Joey Barton"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a320\u201335",
+      "playerIssue": "\u00a360\u2013100",
+      "signed": "\u00a3160+"
+    },
+    "details": {
+      "Collar style": "White ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2007\u20132013)",
+      "Sleeve detail": "Puma logo tape on sleeves, PL patch on sleeve",
+      "Tagging": "Woven Puma neck label + PL hologram"
+    }
+  },
+  {
+    "id": 66,
+    "club": "Newcastle United",
+    "season": "2010/11",
+    "kitType": "Away",
+    "manufacturer": "Puma",
+    "sponsor": "Virgin Money",
+    "colourway": "Yellow with black Puma branding and black trim",
+    "history": "Yellow remained the away colour for the promotion return season. The first Puma away maintained the traditional Newcastle palette, reassuring supporters despite the manufacturer change.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "First Puma Yellow",
+        "description": "The Puma yellow shade differs slightly from Adidas yellow used in previous seasons. Adidas shirts sold as 2010/11 are incorrect."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Puma Cat on Yellow",
+        "description": "Black leaping Puma cat on the yellow body. The cat silhouette should be clean and precise against the yellow background."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Puma Construction",
+        "description": "First season of Puma's fabric construction for Newcastle. The feel and weave differ from Adidas \u2014 a useful authenticity marker."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "PL Patch Return",
+        "description": "PL patch back on the sleeve after the Championship year. The 2010/11 format should be confirmed against reference images."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "8",
+        "name": "Kevin Nolan"
+      },
+      {
+        "number": "9",
+        "name": "Andy Carroll"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a318\u201330",
+      "playerIssue": "\u00a355\u201390",
+      "signed": "\u00a3150+"
+    },
+    "details": {
+      "Collar style": "Black ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2007\u20132013)",
+      "Sleeve detail": "Puma logo detail, PL patch on sleeve",
+      "Tagging": "Woven Puma neck label + PL hologram"
+    }
+  },
+  {
+    "id": 67,
+    "club": "Newcastle United",
+    "season": "2011/12",
+    "kitType": "Home",
+    "manufacturer": "Puma",
+    "sponsor": "Virgin Money",
+    "colourway": "Black and white vertical stripes with black crew neck collar",
+    "history": "Newcastle's finest Premier League season since the Champions League era. Alan Pardew's side finished 5th, qualifying for the Europa League. Papiss Ciss\u00e9 arrived in January and scored 13 goals in 14 games. Cheick Tiot\u00e9's thunderous volley against Arsenal remains one of the goals of the decade.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Puma Cat \u2014 Second Season",
+        "description": "The Puma cat logo is consistent with 2010/11 but the second season saw minor template updates \u2014 check the specific 2011/12 fit."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "5th Place Context",
+        "description": "One of the most sought-after Newcastle shirts of the Puma era. Shirts with Papiss Ciss\u00e9 9 from this season are particularly collected."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Updated Puma Template",
+        "description": "Puma updated their shirt construction for 2011/12. The fit is slightly different from the previous season."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Europa League Patch Option",
+        "description": "Player issue shirts from the Europa League qualification campaign may carry a UEFA Europa League badge."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Papiss Ciss\u00e9"
+      },
+      {
+        "number": "8",
+        "name": "Cheick Tiot\u00e9"
+      },
+      {
+        "number": "7",
+        "name": "Hatem Ben Arfa"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a325\u201340",
+      "playerIssue": "\u00a370\u2013115",
+      "signed": "\u00a3200+"
+    },
+    "details": {
+      "Collar style": "Black ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2007\u20132013)",
+      "Sleeve detail": "Puma logo tape on sleeves, PL patch on sleeve",
+      "Tagging": "Woven Puma neck label + PL hologram"
+    }
+  },
+  {
+    "id": 68,
+    "club": "Newcastle United",
+    "season": "2011/12",
+    "kitType": "Away",
+    "manufacturer": "Puma",
+    "sponsor": "Virgin Money",
+    "colourway": "Blue with yellow Puma branding and yellow trim",
+    "history": "The away shirt for the best season of the Puma era. A blue design with yellow accents, worn in away league fixtures as Newcastle secured their 5th place finish.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Blue and Yellow Combination",
+        "description": "Dark blue with yellow trim accents. The yellow used for the Puma branding should match the trim exactly in shade."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Yellow Puma Cat on Blue",
+        "description": "Yellow leaping Puma cat on the blue body. The cat silhouette should stand out clearly against the blue background."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Puma Construction",
+        "description": "Consistent Puma construction with the home shirt. Fabric weight and weave should match when comparing the two shirts."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "PL Patch on Blue",
+        "description": "PL patch on the sleeve. The blue background makes patch placement very visible \u2014 check it sits correctly."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Papiss Ciss\u00e9"
+      },
+      {
+        "number": "7",
+        "name": "Hatem Ben Arfa"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a320\u201335",
+      "playerIssue": "\u00a365\u2013105",
+      "signed": "\u00a3175+"
+    },
+    "details": {
+      "Collar style": "Yellow ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2007\u20132013)",
+      "Sleeve detail": "Puma logo detail, PL patch on sleeve",
+      "Tagging": "Woven Puma neck label + PL hologram"
+    }
+  },
+  {
+    "id": 69,
+    "club": "Newcastle United",
+    "season": "2012/13",
+    "kitType": "Home",
+    "manufacturer": "Puma",
+    "sponsor": "Wonga",
+    "colourway": "Black and white vertical stripes with white V-neck collar",
+    "history": "The controversial arrival of Wonga, a payday loans company, as shirt sponsor caused significant supporter backlash. On the pitch, a Europa League campaign ended disappointingly and the season finished 16th. Former manager Alan Shearer publicly criticised the Wonga sponsorship.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Wonga Sponsor",
+        "description": "Wonga's bright orange and white logo replaced Virgin Money. The specific orange shade is vivid and distinctive \u2014 incorrect shades indicate a fake."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Orange on Black-and-White",
+        "description": "The Wonga orange stands out strongly against the stripes. Ensure the logo sits centrally and the orange is consistent in shade."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Puma Updated Template",
+        "description": "Puma updated their template for 2012/13. Fit and collar style changed from the previous season."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Europa League Badge Option",
+        "description": "Early-season shirts from the Europa League campaign carry the UEFA Europa League sleeve badge."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Papiss Ciss\u00e9"
+      },
+      {
+        "number": "7",
+        "name": "Hatem Ben Arfa"
+      },
+      {
+        "number": "10",
+        "name": "Yohan Cabaye"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a320\u201335",
+      "playerIssue": "\u00a360\u2013100",
+      "signed": "\u00a3160+"
+    },
+    "details": {
+      "Collar style": "White ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2013\u20132016)",
+      "Sleeve detail": "Puma logo tape on sleeves, PL patch on sleeve",
+      "Tagging": "Woven Puma neck label + PL hologram"
+    }
+  },
+  {
+    "id": 70,
+    "club": "Newcastle United",
+    "season": "2012/13",
+    "kitType": "Away",
+    "manufacturer": "Puma",
+    "sponsor": "Wonga",
+    "colourway": "Yellow with black Puma branding and black trim",
+    "history": "Yellow returned as the away colour under the new Wonga sponsorship. The away kit was worn in Europa League fixtures as well as league games.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Wonga on Yellow",
+        "description": "The Wonga orange logo on a yellow body \u2014 orange on yellow is a challenging combination to reproduce accurately. Check both shades carefully."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Puma Cat on Yellow",
+        "description": "Black leaping Puma cat consistent with previous Puma yellow away kits. Check the specific 2012/13 placement against reference images."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Yellow Shade Consistency",
+        "description": "Puma's yellow should be consistent across the 2012/13 range. Compare with any yellow trim on the home shirt."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Europa League Badge Option",
+        "description": "Away shirts used in Europa League fixtures carry the UEFA badge \u2014 the more collectible versions of the 2012/13 away kit."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "10",
+        "name": "Yohan Cabaye"
+      },
+      {
+        "number": "9",
+        "name": "Papiss Ciss\u00e9"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a318\u201330",
+      "playerIssue": "\u00a355\u201390",
+      "signed": "\u00a3145+"
+    },
+    "details": {
+      "Collar style": "Black ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2013\u20132016)",
+      "Sleeve detail": "Puma logo detail, PL patch on sleeve",
+      "Tagging": "Woven Puma neck label + PL hologram"
+    }
+  },
+  {
+    "id": 71,
+    "club": "Newcastle United",
+    "season": "2013/14",
+    "kitType": "Home",
+    "manufacturer": "Puma",
+    "sponsor": "Wonga",
+    "colourway": "Black and white vertical stripes with black crew neck collar",
+    "history": "A 10th place finish \u2014 one of the more stable Puma era seasons. Yohan Cabaye was sold to Paris Saint-Germain in January 2014, weakening the midfield and demonstrating the continued frustration with the ownership's approach to squad building.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Wonga \u2014 Second Season",
+        "description": "Second season of Wonga sponsorship. The logo format is consistent with 2012/13 \u2014 check for any minor updates to the badge between seasons."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Black Crew Neck",
+        "description": "Black crew neck for 2013/14. Compare against the white V-neck of 2012/13 \u2014 collar style is a reliable dating tool."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Puma Construction",
+        "description": "Puma continued to refine their construction. The 2013/14 shirt has a slightly different feel from 2012/13."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "PL Patch Standard",
+        "description": "Consistent PL patch format. Check the specific version used for 2013/14 against reference imagery."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "10",
+        "name": "Yohan Cabaye"
+      },
+      {
+        "number": "9",
+        "name": "Lo\u00efc R\u00e9my"
+      },
+      {
+        "number": "15",
+        "name": "Moussa Sissoko"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a318\u201330",
+      "playerIssue": "\u00a355\u201390",
+      "signed": "\u00a3140+"
+    },
+    "details": {
+      "Collar style": "Black ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2013\u20132016)",
+      "Sleeve detail": "Puma logo tape on sleeves, PL patch on sleeve",
+      "Tagging": "Woven Puma neck label + PL hologram"
+    }
+  },
+  {
+    "id": 72,
+    "club": "Newcastle United",
+    "season": "2013/14",
+    "kitType": "Away",
+    "manufacturer": "Puma",
+    "sponsor": "Wonga",
+    "colourway": "Green with black Puma branding and black trim",
+    "history": "A green away for 2013/14 \u2014 revisiting the green colourway from 2003/04 and 2008/09. Used in away league fixtures as the team consolidated a mid-table position.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Green Shade",
+        "description": "A vivid mid-green \u2014 consistent with previous green Newcastle aways but in Puma's specific shade, which is slightly more saturated than Adidas versions."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Wonga on Green",
+        "description": "Orange Wonga logo on a green body \u2014 orange on green is an unusual combination. Check that colour separation is clean without bleed."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Black Puma Branding",
+        "description": "Black Puma cat and black trim on the green body. Consistent construction with the home shirt."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "PL Patch",
+        "description": "PL sleeve patch in the correct 2013/14 format."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Lo\u00efc R\u00e9my"
+      },
+      {
+        "number": "15",
+        "name": "Moussa Sissoko"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a316\u201328",
+      "playerIssue": "\u00a350\u201385",
+      "signed": "\u00a3130+"
+    },
+    "details": {
+      "Collar style": "Black ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2013\u20132016)",
+      "Sleeve detail": "Puma logo detail, PL patch on sleeve",
+      "Tagging": "Woven Puma neck label + PL hologram"
+    }
+  },
+  {
+    "id": 73,
+    "club": "Newcastle United",
+    "season": "2014/15",
+    "kitType": "Home",
+    "manufacturer": "Puma",
+    "sponsor": "Wonga",
+    "colourway": "Black and white vertical stripes with white V-neck collar and gold piping",
+    "history": "A 15th place finish \u2014 uncomfortably close to relegation. Alan Pardew resigned in January 2015 to take the Crystal Palace job and was replaced by John Carver, who oversaw a damaging run of results. The club survived but the warning signs were clear.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Gold Collar Piping",
+        "description": "Gold piping introduced on the white collar for 2014/15 \u2014 a design change from 2013/14's plain collar. Missing gold piping indicates a wrong season or fake."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "White V-Neck with Gold",
+        "description": "The gold-piped white V-neck is distinctive. Check the gold shade matches the wider kit's gold detailing."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Wonga \u2014 Third Season",
+        "description": "Third season of Wonga sponsorship. The badge is consistent with previous seasons though minor design evolution should be checked."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Updated Puma Template",
+        "description": "Puma updated their shirt template for 2014/15. Fit and fabric construction differ from the 2013/14 version."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Papiss Ciss\u00e9"
+      },
+      {
+        "number": "15",
+        "name": "Moussa Sissoko"
+      },
+      {
+        "number": "11",
+        "name": "Sammy Ameobi"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a318\u201330",
+      "playerIssue": "\u00a355\u201390",
+      "signed": "\u00a3135+"
+    },
+    "details": {
+      "Collar style": "White V-neck with gold piping",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2013\u20132016)",
+      "Sleeve detail": "Puma logo tape on sleeves, PL patch on sleeve",
+      "Tagging": "Woven Puma neck label + PL hologram"
+    }
+  },
+  {
+    "id": 74,
+    "club": "Newcastle United",
+    "season": "2014/15",
+    "kitType": "Away",
+    "manufacturer": "Puma",
+    "sponsor": "Wonga",
+    "colourway": "Yellow and green two-tone with black Puma branding",
+    "history": "An unusual yellow and green combination for the away \u2014 an unexpected design that divided supporter opinion. Worn in away fixtures during a season that came uncomfortably close to relegation.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Yellow and Green Split",
+        "description": "A distinctive two-tone design. The precise split between the two colours should match reference imagery \u2014 wrong proportions indicate a fake."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Wonga on Two-Tone Design",
+        "description": "The Wonga badge sits across the colour divide. Check that it is correctly positioned relative to the yellow-green split."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Puma Construction",
+        "description": "Both halves of the two-tone design should use the same fabric weight. Any difference in texture between panels indicates a production issue."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "PL Patch",
+        "description": "PL sleeve patch in the 2014/15 format. Check the specific version."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Papiss Ciss\u00e9"
+      },
+      {
+        "number": "15",
+        "name": "Moussa Sissoko"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a316\u201328",
+      "playerIssue": "\u00a350\u201385",
+      "signed": "\u00a3125+"
+    },
+    "details": {
+      "Collar style": "Black ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2013\u20132016)",
+      "Sleeve detail": "Puma logo detail, PL patch on sleeve",
+      "Tagging": "Woven Puma neck label + PL hologram"
+    }
+  },
+  {
+    "id": 75,
+    "club": "Newcastle United",
+    "season": "2014/15",
+    "kitType": "Third",
+    "manufacturer": "Puma",
+    "sponsor": "Wonga",
+    "colourway": "Navy blue with gold Puma branding and gold trim",
+    "history": "A navy and gold third kit \u2014 revisiting the classic Newcastle away palette used in 1996/97 and 2001/02. Used as a clash option in fixtures where both home stripes and the yellow-green away caused colour conflicts.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Navy and Gold",
+        "description": "Deep navy with warm gold \u2014 the same classic palette but in Puma's specific fabric and shading. Compare against the 1996/97 away to note the generational difference."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Gold Puma Cat",
+        "description": "Gold leaping Puma cat on the navy body. The cat silhouette detail is the primary authenticity check."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Third Kit Construction",
+        "description": "Same Puma construction as home and away. Third kits are often lower print runs, making genuine versions somewhat easier to identify."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "PL Patch on Third",
+        "description": "Same PL patch as home and away. Some reproductions use a different patch format on third kits."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Papiss Ciss\u00e9"
+      },
+      {
+        "number": "15",
+        "name": "Moussa Sissoko"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a315\u201325",
+      "playerIssue": "\u00a350\u201380",
+      "signed": "\u00a3120+"
+    },
+    "details": {
+      "Collar style": "Gold ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2013\u20132016)",
+      "Sleeve detail": "Gold Puma logo detail, PL patch on sleeve",
+      "Tagging": "Woven Puma neck label + PL hologram"
+    }
+  },
+  {
+    "id": 76,
+    "club": "Newcastle United",
+    "season": "2015/16",
+    "kitType": "Home",
+    "manufacturer": "Puma",
+    "sponsor": "Wonga",
+    "colourway": "Black and white vertical stripes with black V-neck collar",
+    "history": "The relegation shirt. Despite a strong start under Steve McClaren, Newcastle were relegated in May 2016 with a 5-1 defeat at Manchester City on the final day. Wonga would enter administration the following year. A largely undistinguished campaign that confirmed the structural problems at the club.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Wonga Final Season",
+        "description": "The last season of Wonga sponsorship before the company's decline. Historically significant as the most controversial sponsor in the club's shirt history."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Relegation Season Shirts",
+        "description": "Match-worn shirts from the final home game or final day carry collector value as relegation artefacts, similar to the 2008/09 shirts."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Black V-Neck",
+        "description": "Black V-neck for 2015/16. The collar distinguishes this shirt from 2014/15 \u2014 check collar style carefully."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "PL Patch \u2014 Last Season",
+        "description": "The PL patch for the final time until 2017/18. Check the 2015/16 specific patch format."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Papiss Ciss\u00e9"
+      },
+      {
+        "number": "15",
+        "name": "Moussa Sissoko"
+      },
+      {
+        "number": "11",
+        "name": "Andros Townsend"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a318\u201330",
+      "playerIssue": "\u00a355\u201390",
+      "signed": "\u00a3150+"
+    },
+    "details": {
+      "Collar style": "Black ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2013\u20132016)",
+      "Sleeve detail": "Puma logo tape on sleeves, PL patch on sleeve",
+      "Tagging": "Woven Puma neck label + PL hologram"
+    }
+  },
+  {
+    "id": 77,
+    "club": "Newcastle United",
+    "season": "2015/16",
+    "kitType": "Away",
+    "manufacturer": "Puma",
+    "sponsor": "Wonga",
+    "colourway": "Blue with yellow Puma branding and yellow trim",
+    "history": "The blue away for the relegated season, worn in away fixtures culminating in the 5-1 defeat at Manchester City on the final day that confirmed relegation.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Blue Shade",
+        "description": "A dark royal blue \u2014 check the specific shade against period match photography. The blue deepened slightly from the 2011/12 away version."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Wonga on Blue",
+        "description": "Orange Wonga logo on the blue body. The orange-blue contrast should be sharp \u2014 blurring indicates a poor quality reproduction."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Yellow Puma Detail",
+        "description": "Yellow Puma cat and trim on the dark blue away. The yellow should be warm and distinct against the navy-like blue."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Final PL Away Patch",
+        "description": "The last PL patch on a Newcastle away shirt before relegation \u2014 giving these shirts some collector significance."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Papiss Ciss\u00e9"
+      },
+      {
+        "number": "11",
+        "name": "Andros Townsend"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a316\u201328",
+      "playerIssue": "\u00a350\u201385",
+      "signed": "\u00a3130+"
+    },
+    "details": {
+      "Collar style": "Yellow ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2013\u20132016)",
+      "Sleeve detail": "Puma logo detail, PL patch on sleeve",
+      "Tagging": "Woven Puma neck label + PL hologram"
+    }
+  },
+  {
+    "id": 78,
+    "club": "Newcastle United",
+    "season": "2015/16",
+    "kitType": "Third",
+    "manufacturer": "Puma",
+    "sponsor": "Wonga",
+    "colourway": "White with black Puma branding and black trim",
+    "history": "A clean white third kit for the relegated season, used when both stripes and blue caused colour conflicts. White third kits have appeared periodically throughout Newcastle's history.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Pure White Construction",
+        "description": "A clean, cool white \u2014 no off-white or cream tones. Check against the 2000/01 Adidas white away to note differences in shade and construction."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Wonga on White",
+        "description": "The Wonga orange logo on a white body. On white, the orange logo is particularly visible \u2014 any shade inconsistency stands out."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Puma Black Details",
+        "description": "Black Puma cat and trim on the white body. The contrast should be crisp with no dye bleed."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Third Kit Rarity",
+        "description": "Third kits typically sell in lower quantities, making genuine versions relatively scarcer in the secondary market."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Papiss Ciss\u00e9"
+      },
+      {
+        "number": "15",
+        "name": "Moussa Sissoko"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a314\u201325",
+      "playerIssue": "\u00a345\u201375",
+      "signed": "\u00a3115+"
+    },
+    "details": {
+      "Collar style": "Black ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2013\u20132016)",
+      "Sleeve detail": "Black Puma logo detail, PL patch on sleeve",
+      "Tagging": "Woven Puma neck label + PL hologram"
+    }
+  },
+  {
+    "id": 79,
+    "club": "Newcastle United",
+    "season": "2016/17",
+    "kitType": "Home",
+    "manufacturer": "Puma",
+    "sponsor": "Fun88",
+    "colourway": "Black and white vertical stripes with white V-neck collar",
+    "history": "Rafa Ben\u00edtez's first full season, winning the Championship with 94 points and returning the club to the Premier League as champions. Fun88, an Asian betting company, replaced the defunct Wonga as shirt sponsor. The transformation under Ben\u00edtez was rapid and convincing.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Fun88 Sponsor",
+        "description": "Fun88's blue and orange logo replaced Wonga. The specific Fun88 font and colour scheme should be checked \u2014 an unusual badge not widely counterfeited yet."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Championship Sleeve Patch",
+        "description": "The Football League Championship patch replaces the PL badge. The Championship patch format for 2016/17 is specific \u2014 check it against reference imagery."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Championship Winners Badge",
+        "description": "Shirts from the final matches of the season may carry a Championship winners badge. These are the most collected versions of this shirt."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Puma Updated Construction",
+        "description": "Puma updated their template for the Championship season. The fit and fabric are consistent with but distinct from the 2015/16 PL shirts."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Dwight Gayle"
+      },
+      {
+        "number": "15",
+        "name": "Matt Ritchie"
+      },
+      {
+        "number": "4",
+        "name": "Jonjo Shelvey"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a320\u201335",
+      "playerIssue": "\u00a365\u2013105",
+      "signed": "\u00a3180+"
+    },
+    "details": {
+      "Collar style": "White ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Championship standard (2016/17)",
+      "Sleeve detail": "Puma logo tape, Championship patch on sleeve",
+      "Tagging": "Woven Puma neck label"
+    }
+  },
+  {
+    "id": 80,
+    "club": "Newcastle United",
+    "season": "2016/17",
+    "kitType": "Away",
+    "manufacturer": "Puma",
+    "sponsor": "Fun88",
+    "colourway": "Yellow with black Puma branding and black trim",
+    "history": "Yellow away for the promotion-winning Championship campaign. Worn in away fixtures as Ben\u00edtez's side built an impressive points total on the road as well as at St James' Park.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Championship Away Patch",
+        "description": "Championship sleeve patch rather than PL \u2014 essential distinguishing feature from the 2010/11 or 2012/13 yellow Puma aways."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Fun88 on Yellow",
+        "description": "The Fun88 logo on the yellow body. The blue and orange badge on yellow requires careful colour matching."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Yellow Puma Construction",
+        "description": "Consistent Puma yellow construction with previous seasons but on the updated 2016/17 template."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Promotion Season Significance",
+        "description": "Away shirts from the promotion-winning season carry enhanced collector value. Match-worn examples from the title-clinching game are particularly prized."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Dwight Gayle"
+      },
+      {
+        "number": "4",
+        "name": "Jonjo Shelvey"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a318\u201330",
+      "playerIssue": "\u00a360\u2013100",
+      "signed": "\u00a3165+"
+    },
+    "details": {
+      "Collar style": "Black ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Championship standard (2016/17)",
+      "Sleeve detail": "Puma logo detail, Championship patch on sleeve",
+      "Tagging": "Woven Puma neck label"
+    }
+  },
+  {
+    "id": 81,
+    "club": "Newcastle United",
+    "season": "2016/17",
+    "kitType": "Third",
+    "manufacturer": "Puma",
+    "sponsor": "Fun88",
+    "colourway": "Red with black Puma branding and black trim",
+    "history": "A red third kit for the Championship promotion campaign \u2014 echoing the 2005/06 away. Used as a clash option in the Championship when both the home stripes and yellow away were unsuitable.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Red Shade",
+        "description": "A vivid strong red \u2014 Puma's specific formulation for this season. Check against period match photography."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Fun88 on Red",
+        "description": "The Fun88 blue-orange badge on a red body \u2014 a complex colour combination. Check that colour separation between badge and body is clean."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Championship Third Kit",
+        "description": "Same Puma construction as home and away. Championship third kits are lower volume and genuine versions are relatively scarcer."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Championship Sleeve Patch",
+        "description": "Championship patch \u2014 not Premier League \u2014 on the third kit sleeve. Important dating detail."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Dwight Gayle"
+      },
+      {
+        "number": "15",
+        "name": "Matt Ritchie"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a314\u201325",
+      "playerIssue": "\u00a350\u201380",
+      "signed": "\u00a3130+"
+    },
+    "details": {
+      "Collar style": "Black ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Championship standard (2016/17)",
+      "Sleeve detail": "Black Puma logo, Championship patch on sleeve",
+      "Tagging": "Woven Puma neck label"
+    }
+  },
+  {
+    "id": 82,
+    "club": "Newcastle United",
+    "season": "2017/18",
+    "kitType": "Home",
+    "manufacturer": "Puma",
+    "sponsor": "Fun88",
+    "colourway": "Black and white vertical stripes with black crew neck collar",
+    "history": "Newcastle's return to the Premier League under Rafa Ben\u00edtez, finishing a respectable 10th. The season was defined by frustration over a transfer policy that limited Ben\u00edtez despite the club's top-flight status.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "PL Return Patch",
+        "description": "The PL sleeve badge returns after the Championship year. Check the 2017/18 specific format."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Fun88 Second Season",
+        "description": "Second season of Fun88 sponsorship. Badge consistent with 2016/17 \u2014 check for any minor seasonal update."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Updated Puma PL Template",
+        "description": "Puma updated their PL template on the club's return to the top flight. The construction differs from the Championship version."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "PL Hologram Tag Returns",
+        "description": "The PL hologram tag returns to the back collar after its absence during the Championship season."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Joselu"
+      },
+      {
+        "number": "15",
+        "name": "Matt Ritchie"
+      },
+      {
+        "number": "4",
+        "name": "Jonjo Shelvey"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a320\u201335",
+      "playerIssue": "\u00a360\u2013100",
+      "signed": "\u00a3150+"
+    },
+    "details": {
+      "Collar style": "Black ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2016\u20132020)",
+      "Sleeve detail": "Puma logo tape, PL patch on sleeve",
+      "Tagging": "Woven Puma neck label + PL hologram"
+    }
+  },
+  {
+    "id": 83,
+    "club": "Newcastle United",
+    "season": "2017/18",
+    "kitType": "Away",
+    "manufacturer": "Puma",
+    "sponsor": "Fun88",
+    "colourway": "Green with black Puma branding and black trim",
+    "history": "Green returned as the away colour for the promotion return season. Worn in away PL fixtures as the club re-established themselves in the top flight.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "PL Away Patch Return",
+        "description": "PL patch on the away shirt for the first time since 2015/16. Check the 2017/18 specific format."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Green Shade 2017/18",
+        "description": "Puma's green for 2017/18 differs slightly from the 2013/14 green away. Check against period match photography."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Fun88 on Green",
+        "description": "The Fun88 blue-orange badge on the green body \u2014 check colour separation is clean."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "PL Hologram Returns",
+        "description": "PL hologram tag returns to the collar. Absence of the hologram indicates either the Championship version or a fake."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Joselu"
+      },
+      {
+        "number": "4",
+        "name": "Jonjo Shelvey"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a316\u201328",
+      "playerIssue": "\u00a355\u201390",
+      "signed": "\u00a3135+"
+    },
+    "details": {
+      "Collar style": "Black ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2016\u20132020)",
+      "Sleeve detail": "Puma logo detail, PL patch on sleeve",
+      "Tagging": "Woven Puma neck label + PL hologram"
+    }
+  },
+  {
+    "id": 84,
+    "club": "Newcastle United",
+    "season": "2018/19",
+    "kitType": "Home",
+    "manufacturer": "Puma",
+    "sponsor": "Fun88",
+    "colourway": "Black and white vertical stripes with white V-neck collar and gold trim",
+    "history": "Rafa Ben\u00edtez's final season at Newcastle, ending in his departure when the club failed to offer him a new contract. The 13th place finish was a disappointment, and the loss of Ben\u00edtez demonstrated the disconnect between manager and ownership.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Gold Collar Trim",
+        "description": "Gold trim returned on the white V-neck collar for 2018/19. Missing gold indicates a different season."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Ben\u00edtez Final Season",
+        "description": "Shirts from this season carry sentimental value. Any signed Ben\u00edtez items from 2018/19 carry a premium."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Updated Puma Template",
+        "description": "Puma further refined their shirt construction for 2018/19. The fit is slightly different from the 2017/18 version."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Fun88 Third Season",
+        "description": "Third season of Fun88 sponsorship. Badge is consistent across the Fun88 years \u2014 check against reference images."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "12",
+        "name": "Kenedy"
+      },
+      {
+        "number": "9",
+        "name": "Salom\u00f3n Rond\u00f3n"
+      },
+      {
+        "number": "4",
+        "name": "Jonjo Shelvey"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a320\u201335",
+      "playerIssue": "\u00a360\u2013100",
+      "signed": "\u00a3145+"
+    },
+    "details": {
+      "Collar style": "White V-neck with gold piping",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2016\u20132020)",
+      "Sleeve detail": "Puma logo tape, PL patch on sleeve",
+      "Tagging": "Woven Puma neck label + PL hologram"
+    }
+  },
+  {
+    "id": 85,
+    "club": "Newcastle United",
+    "season": "2018/19",
+    "kitType": "Away",
+    "manufacturer": "Puma",
+    "sponsor": "Fun88",
+    "colourway": "Dark blue with yellow Puma branding and yellow trim",
+    "history": "A dark blue away kit for Ben\u00edtez's final season. The blue and yellow combination revisited designs from the 2011/12 and 2015/16 away kits.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Dark Blue Shade",
+        "description": "The 2018/19 blue is a darker, more muted tone than some previous blue away kits. Check against period photography specifically."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Yellow Puma Detail on Dark Blue",
+        "description": "Yellow Puma cat and trim on the dark blue body. The yellow should be warm and distinct against the near-navy blue."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Puma Construction",
+        "description": "Consistent with the home shirt. Compare fabric weight and weave between the two."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "PL Patch Placement",
+        "description": "Check the sleeve patch placement is consistent with other 2018/19 Puma Newcastle shirts."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "9",
+        "name": "Salom\u00f3n Rond\u00f3n"
+      },
+      {
+        "number": "4",
+        "name": "Jonjo Shelvey"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a316\u201328",
+      "playerIssue": "\u00a355\u201388",
+      "signed": "\u00a3130+"
+    },
+    "details": {
+      "Collar style": "Yellow ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2016\u20132020)",
+      "Sleeve detail": "Puma logo detail, PL patch on sleeve",
+      "Tagging": "Woven Puma neck label + PL hologram"
+    }
+  },
+  {
+    "id": 86,
+    "club": "Newcastle United",
+    "season": "2019/20",
+    "kitType": "Home",
+    "manufacturer": "Puma",
+    "sponsor": "Fun88",
+    "colourway": "Black and white vertical stripes with black crew neck collar",
+    "history": "Steve Bruce's first season following Ben\u00edtez's departure. Newcastle finished 13th. Allan Saint-Maximin arrived and quickly became a crowd favourite with his direct, exciting style of play.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Fun88 Fourth Season",
+        "description": "Fourth season of Fun88 sponsorship. Badge remains consistent \u2014 check for any subtle revision between seasons."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Black Crew Neck",
+        "description": "Black crew neck for 2019/20 \u2014 compare against the white V-neck of 2018/19. Collar style distinguishes the two seasons."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Updated Puma Template",
+        "description": "Puma updated their template for 2019/20. Slightly slimmer fit and finer weave fabric than 2018/19."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "PL Patch 2019/20",
+        "description": "Check the specific PL patch format for 2019/20 \u2014 it updated for this season."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "10",
+        "name": "Allan Saint-Maximin"
+      },
+      {
+        "number": "9",
+        "name": "Joelinton"
+      },
+      {
+        "number": "4",
+        "name": "Jonjo Shelvey"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a320\u201335",
+      "playerIssue": "\u00a360\u2013100",
+      "signed": "\u00a3140+"
+    },
+    "details": {
+      "Collar style": "Black ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2016\u20132020)",
+      "Sleeve detail": "Puma logo tape, PL patch on sleeve",
+      "Tagging": "Woven Puma neck label + PL hologram"
+    }
+  },
+  {
+    "id": 87,
+    "club": "Newcastle United",
+    "season": "2019/20",
+    "kitType": "Away",
+    "manufacturer": "Puma",
+    "sponsor": "Fun88",
+    "colourway": "Amber with black Puma branding and black trim",
+    "history": "A warm amber away \u2014 revisiting the distinctive colourway from the 2002/03 Adidas away shirt. A popular design that nodded to the club's European away history.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Amber Shade",
+        "description": "A warm deep amber \u2014 not yellow and not orange. The Puma amber is slightly more orange-toned than the 2002/03 Adidas version. Check against period match photography."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Fun88 on Amber",
+        "description": "The Fun88 logo on the amber body \u2014 the blue-orange badge on amber requires careful colour matching."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Black Puma Details",
+        "description": "Black Puma cat and trim on the amber body. Clean, consistent contrast throughout."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "2019/20 Sleeve Patch",
+        "description": "Check the specific 2019/20 PL patch format on the sleeve."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "10",
+        "name": "Allan Saint-Maximin"
+      },
+      {
+        "number": "9",
+        "name": "Joelinton"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a318\u201330",
+      "playerIssue": "\u00a355\u201390",
+      "signed": "\u00a3130+"
+    },
+    "details": {
+      "Collar style": "Black ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2016\u20132020)",
+      "Sleeve detail": "Puma logo detail, PL patch on sleeve",
+      "Tagging": "Woven Puma neck label + PL hologram"
+    }
+  },
+  {
+    "id": 88,
+    "club": "Newcastle United",
+    "season": "2019/20",
+    "kitType": "Third",
+    "manufacturer": "Puma",
+    "sponsor": "Fun88",
+    "colourway": "Grey with black Puma branding and black trim",
+    "history": "A grey third kit for 2019/20 \u2014 revisiting the grey colourway last used in the 1998/99 away shirt. Used when both home and amber away caused colour conflicts.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Grey Shade",
+        "description": "A mid-tone silver-grey. Compare against the 1998/99 Adidas grey away to note the generational and manufacturer differences."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Fun88 on Grey",
+        "description": "The Fun88 blue-orange badge on grey \u2014 check that colour separation is clean."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Third Kit Construction",
+        "description": "Same Puma construction as home and away. Third kits are sometimes lower print runs, making genuine versions easier to verify."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Third Kit Sleeve Patch",
+        "description": "Same PL patch as home and away. Some reproductions use a different patch format on third kits."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "10",
+        "name": "Allan Saint-Maximin"
+      },
+      {
+        "number": "9",
+        "name": "Joelinton"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a315\u201325",
+      "playerIssue": "\u00a350\u201380",
+      "signed": "\u00a3120+"
+    },
+    "details": {
+      "Collar style": "Black ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2016\u20132020)",
+      "Sleeve detail": "Puma logo detail, PL patch on sleeve",
+      "Tagging": "Woven Puma neck label + PL hologram"
+    }
+  },
+  {
+    "id": 89,
+    "club": "Newcastle United",
+    "season": "2020/21",
+    "kitType": "Home",
+    "manufacturer": "Puma",
+    "sponsor": "Fun88",
+    "colourway": "Black and white vertical stripes with white V-neck collar",
+    "history": "A Covid-affected season played in empty or restricted-capacity grounds. Newcastle finished 12th. The season was notable for the ongoing Saudi Arabian PIF takeover bid. Allan Saint-Maximin continued to be the creative highlight in a difficult period.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Covid Season Shirts",
+        "description": "Match-worn shirts from this season were worn in empty stadiums \u2014 unusual artefacts of football's pandemic era."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "White V-Neck Return",
+        "description": "White V-neck returns for 2020/21 after the crew neck of 2019/20. Collar style is a consistent dating method."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Updated Puma Construction",
+        "description": "Puma continued to refine their construction. The 2020/21 fabric has a slightly different weight compared to 2019/20."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Updated PL Font",
+        "description": "The Premier League introduced a new squad number font for 2020/21. The font on shirts is a reliable dating tool for this era."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "10",
+        "name": "Allan Saint-Maximin"
+      },
+      {
+        "number": "9",
+        "name": "Joelinton"
+      },
+      {
+        "number": "4",
+        "name": "Jonjo Shelvey"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a320\u201335",
+      "playerIssue": "\u00a360\u2013100",
+      "signed": "\u00a3140+"
+    },
+    "details": {
+      "Collar style": "White ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2020\u20132024)",
+      "Sleeve detail": "Puma logo tape, PL patch on sleeve",
+      "Tagging": "Woven Puma neck label + PL hologram"
+    }
+  },
+  {
+    "id": 90,
+    "club": "Newcastle United",
+    "season": "2020/21",
+    "kitType": "Away",
+    "manufacturer": "Puma",
+    "sponsor": "Fun88",
+    "colourway": "Blue with white Puma branding and white trim",
+    "history": "A clean royal blue away for the pandemic season. Games were played behind closed doors for the majority of the campaign \u2014 making these shirts unusual collector items as garments worn in an entirely unprecedented football environment.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Blue Shade",
+        "description": "A bright royal blue for 2020/21 \u2014 check the specific shade against period photography. Differs from the darker 2018/19 blue."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "White Puma Detail on Blue",
+        "description": "White Puma cat and trim on the blue body. The contrast should be sharp with clean edges on the cat silhouette."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Puma Construction",
+        "description": "Consistent with the home shirt. Compare fabric weight and weave between the two."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Covid Season Context",
+        "description": "Empty stadium shirts from pandemic football carry unusual historical significance for collectors."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "10",
+        "name": "Allan Saint-Maximin"
+      },
+      {
+        "number": "9",
+        "name": "Joelinton"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a318\u201330",
+      "playerIssue": "\u00a355\u201390",
+      "signed": "\u00a3130+"
+    },
+    "details": {
+      "Collar style": "White ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2020\u20132024)",
+      "Sleeve detail": "Puma logo detail, PL patch on sleeve",
+      "Tagging": "Woven Puma neck label + PL hologram"
+    }
+  },
+  {
+    "id": 91,
+    "club": "Newcastle United",
+    "season": "2020/21",
+    "kitType": "Third",
+    "manufacturer": "Puma",
+    "sponsor": "Fun88",
+    "colourway": "Pink with black Puma branding and black trim",
+    "history": "A bold pink third kit \u2014 an unusual and eye-catching choice for Newcastle. Used in the Covid-affected season when both home and away kits caused colour conflicts. Pink third kits have appeared at several PL clubs and this was Newcastle's first venture into the colour.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Pink Shade",
+        "description": "A clean rose pink \u2014 not cerise and not coral. The specific shade is distinctive and often wrong on reproductions."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Fun88 on Pink",
+        "description": "The Fun88 blue-orange badge on pink \u2014 a particularly complex colour combination to reproduce accurately."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Third Kit Construction",
+        "description": "Pink third kits typically sell in lower quantities, making genuine versions rarer in the secondary market."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Puma Construction Consistency",
+        "description": "Fabric and construction should be identical to the home and away shirts from this season. Any quality difference suggests a fake."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "10",
+        "name": "Allan Saint-Maximin"
+      },
+      {
+        "number": "9",
+        "name": "Joelinton"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a315\u201325",
+      "playerIssue": "\u00a350\u201380",
+      "signed": "\u00a3120+"
+    },
+    "details": {
+      "Collar style": "Black ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2020\u20132024)",
+      "Sleeve detail": "Puma logo detail, PL patch on sleeve",
+      "Tagging": "Woven Puma neck label + PL hologram"
+    }
+  },
+  {
+    "id": 92,
+    "club": "Newcastle United",
+    "season": "2021/22",
+    "kitType": "Home",
+    "manufacturer": "Puma",
+    "sponsor": "Fun88",
+    "colourway": "Black and white vertical stripes with black crew neck collar",
+    "history": "The Saudi Public Investment Fund takeover was completed in October 2021, transforming the club's financial landscape. Under new owners, Newcastle narrowly avoided relegation \u2014 finishing 11th \u2014 while beginning a major squad overhaul with signings including Trippier, Guimar\u00e3es and Isak. The last season under Puma.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Takeover Season Shirts",
+        "description": "Shirts worn before and after the October 2021 takeover are the same design. Pre-takeover match-worn shirts have additional historical significance."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Final Puma Season",
+        "description": "The last home shirt under Puma. Compare against the subsequent Castore era to note the significant design language change."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Puma Final Construction",
+        "description": "Puma's final year of construction for Newcastle. The fabric and template are refined versions of the 2020/21 shirt."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Fun88 Final Season",
+        "description": "The last season of Fun88 sponsorship. Badge consistent with previous Fun88 years."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "10",
+        "name": "Allan Saint-Maximin"
+      },
+      {
+        "number": "14",
+        "name": "Callum Wilson"
+      },
+      {
+        "number": "18",
+        "name": "Kieran Trippier"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a325\u201340",
+      "playerIssue": "\u00a370\u2013115",
+      "signed": "\u00a3180+"
+    },
+    "details": {
+      "Collar style": "Black ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2020\u20132024)",
+      "Sleeve detail": "Puma logo tape, PL patch on sleeve",
+      "Tagging": "Woven Puma neck label + PL hologram"
+    }
+  },
+  {
+    "id": 93,
+    "club": "Newcastle United",
+    "season": "2021/22",
+    "kitType": "Away",
+    "manufacturer": "Puma",
+    "sponsor": "Fun88",
+    "colourway": "Yellow with black Puma branding and black trim",
+    "history": "Yellow away for the Saudi takeover season. The final Puma away shirt \u2014 worn as the new ownership's first January transfer window brought Kieran Trippier, Chris Wood, Dan Burn and Bruno Guimar\u00e3es to the club.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Final Puma Yellow Away",
+        "description": "The last yellow Puma away shirt for Newcastle. Compare against the 2012/13 and 2016/17 versions to understand the yellow shade evolution across the Puma era."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Fun88 Final Away",
+        "description": "Last appearance of Fun88 on a Newcastle away shirt. Badge should be checked against the home shirt \u2014 consistent format throughout."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Puma Final Away Construction",
+        "description": "Consistent with the home shirt. The last Puma away kit is a notable collector item marking the end of an era."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Takeover Context",
+        "description": "Away shirts from the second half of the season were worn by new signings who arrived with the Saudi investment. This adds a historical dimension for collectors."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "18",
+        "name": "Kieran Trippier"
+      },
+      {
+        "number": "39",
+        "name": "Bruno Guimar\u00e3es"
+      },
+      {
+        "number": "10",
+        "name": "Allan Saint-Maximin"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a320\u201335",
+      "playerIssue": "\u00a360\u2013100",
+      "signed": "\u00a3150+"
+    },
+    "details": {
+      "Collar style": "Black ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2020\u20132024)",
+      "Sleeve detail": "Puma logo detail, PL patch on sleeve",
+      "Tagging": "Woven Puma neck label + PL hologram"
+    }
+  },
+  {
+    "id": 94,
+    "club": "Newcastle United",
+    "season": "2021/22",
+    "kitType": "Third",
+    "manufacturer": "Puma",
+    "sponsor": "Fun88",
+    "colourway": "Navy blue with gold Puma branding and gold trim",
+    "history": "A navy and gold third kit \u2014 the final Puma third kit for Newcastle, revisiting the classic colour combination associated with the 1996/97 and 2001/02 away shirts. Used as a clash option in fixtures where both home stripes and yellow away were unsuitable.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Navy and Gold \u2014 Final Puma",
+        "description": "Deep navy with warm gold. The final use of this classic combination under Puma \u2014 compare the shades against the 2014/15 third kit."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Gold Puma Cat",
+        "description": "Gold leaping Puma cat on the navy body. The cat silhouette detail is the primary authenticity check on this shirt."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Third Kit Construction",
+        "description": "Same Puma construction as home and away. The last Puma third kit carries some collector significance as the end of the Puma era."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "PL Patch on Third",
+        "description": "Same PL patch as home and away in the correct 2021/22 format."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "10",
+        "name": "Allan Saint-Maximin"
+      },
+      {
+        "number": "39",
+        "name": "Bruno Guimar\u00e3es"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a318\u201330",
+      "playerIssue": "\u00a355\u201390",
+      "signed": "\u00a3140+"
+    },
+    "details": {
+      "Collar style": "Gold ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2020\u20132024)",
+      "Sleeve detail": "Gold Puma logo, PL patch on sleeve",
+      "Tagging": "Woven Puma neck label + PL hologram"
+    }
+  },
+  {
+    "id": 95,
+    "club": "Newcastle United",
+    "season": "2022/23",
+    "kitType": "Home",
+    "manufacturer": "Castore",
+    "sponsor": "Sela",
+    "colourway": "Black and white vertical stripes with black V-neck collar",
+    "history": "The first season under Castore \u2014 a British performance sportswear brand \u2014 with Sela as the new shirt sponsor. Newcastle finished 4th, qualifying for the Champions League for the first time since 2003. A season that confirmed the Saudi project was delivering real results on the pitch.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Castore Hawk Logo",
+        "description": "The new Castore brand features a distinctive hawk/falcon mark. The proportions and detail of the bird silhouette are specific \u2014 check against reference images carefully."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Sela Sponsor",
+        "description": "Sela's logo is a clean modern wordmark. The specific font and proportions of the Sela branding should be checked \u2014 a brand new badge with no prior faking history at launch."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Castore Fabric Quality",
+        "description": "Castore use a distinctive performance fabric with a tight, fine construction. The feel differs notably from both Puma and Adidas shirts."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "CL Qualifying Season",
+        "description": "Player issue shirts from after the 4th place finish was secured are particularly collected. Match-worn shirts from the final weeks of the season are prized."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "39",
+        "name": "Bruno Guimar\u00e3es"
+      },
+      {
+        "number": "14",
+        "name": "Callum Wilson"
+      },
+      {
+        "number": "7",
+        "name": "Miguel Almir\u00f3n"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a355\u201375",
+      "playerIssue": "\u00a3110\u2013180",
+      "signed": "\u00a3280+"
+    },
+    "details": {
+      "Collar style": "Black ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2020\u20132024)",
+      "Sleeve detail": "Castore hawk logo on sleeve, PL patch on sleeve",
+      "Tagging": "Woven Castore neck label + PL hologram"
+    }
+  },
+  {
+    "id": 96,
+    "club": "Newcastle United",
+    "season": "2022/23",
+    "kitType": "Away",
+    "manufacturer": "Castore",
+    "sponsor": "Sela",
+    "colourway": "Gold with black Castore branding and black trim",
+    "history": "A golden away kit for the Champions League qualifying season \u2014 the gold shade complementing the club's new Saudi-era identity. Worn in away fixtures as the club secured their best Premier League finish in two decades.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Gold Shade",
+        "description": "A warm rich gold \u2014 not yellow and not bronze. Castore's specific gold is distinctive. The shade is often wrong on early reproductions of Castore shirts."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Castore Hawk on Gold",
+        "description": "Black Castore hawk on the gold body \u2014 the hawk detail is the primary authenticity check on all Castore shirts."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Castore Construction",
+        "description": "Same distinctive performance fabric as the home shirt. Both shirts should feel identical in weight and texture."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "First Castore Away",
+        "description": "The inaugural Castore away shirt is a notable collector item marking a new chapter in the club's kit history."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "39",
+        "name": "Bruno Guimar\u00e3es"
+      },
+      {
+        "number": "45",
+        "name": "Alexander Isak"
+      },
+      {
+        "number": "14",
+        "name": "Callum Wilson"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a350\u201370",
+      "playerIssue": "\u00a3100\u2013170",
+      "signed": "\u00a3260+"
+    },
+    "details": {
+      "Collar style": "Black ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2020\u20132024)",
+      "Sleeve detail": "Castore hawk logo, PL patch on sleeve",
+      "Tagging": "Woven Castore neck label + PL hologram"
+    }
+  },
+  {
+    "id": 97,
+    "club": "Newcastle United",
+    "season": "2022/23",
+    "kitType": "Third",
+    "manufacturer": "Castore",
+    "sponsor": "Sela",
+    "colourway": "Navy blue with gold Castore branding and gold trim",
+    "history": "A navy and gold third kit for the Champions League qualifying season \u2014 the classic Newcastle colour pairing revisited. Used as a clash option in away fixtures when both stripes and gold were unsuitable.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Navy and Gold Castore",
+        "description": "Deep navy with warm gold \u2014 echoing the 1996/97 and 2001/02 colour pairings but in Castore's specific fabric and shading."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Gold Castore Hawk",
+        "description": "Gold Castore hawk on the navy body. The detailed bird mark should be checked for precision against reference images."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Castore Third Kit Fabric",
+        "description": "Same Castore performance fabric as home and away. Construction is consistent across the full range."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Third Kit PL Patch",
+        "description": "PL patch on the third kit sleeve \u2014 consistent format with home and away."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "39",
+        "name": "Bruno Guimar\u00e3es"
+      },
+      {
+        "number": "45",
+        "name": "Alexander Isak"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a345\u201365",
+      "playerIssue": "\u00a390\u2013155",
+      "signed": "\u00a3230+"
+    },
+    "details": {
+      "Collar style": "Gold ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2020\u20132024)",
+      "Sleeve detail": "Gold Castore hawk logo, PL patch on sleeve",
+      "Tagging": "Woven Castore neck label + PL hologram"
+    }
+  },
+  {
+    "id": 98,
+    "club": "Newcastle United",
+    "season": "2023/24",
+    "kitType": "Home",
+    "manufacturer": "Castore",
+    "sponsor": "Sela",
+    "colourway": "Black and white vertical stripes with white crew neck collar",
+    "history": "Newcastle's return to the Champions League for the first time in 20 years. The group stage campaign was disappointing \u2014 finishing 4th in the group and failing to progress \u2014 but the occasion itself was hugely significant for supporters. Alexander Isak emerged as one of the Premier League's most exciting forwards. The club finished 7th in the league.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Champions League Badge",
+        "description": "Player issue shirts from CL games carry the UEFA badge on the sleeve \u2014 the first time this has appeared on Newcastle shirts since 2003/04."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "White Crew Neck Update",
+        "description": "The collar changed from V-neck in 2022/23 to a crew neck for 2023/24. This is the key distinguishing detail between the two Castore home shirts."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Updated Castore Template",
+        "description": "Castore updated their template for the second season. Fit and fabric construction evolved from the 2022/23 version."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "CL Star Badge",
+        "description": "The Champions League star badge on the sleeve is the key collector detail. Check the star arrangement and UEFA/CL lettering for 2023/24 specifically."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "45",
+        "name": "Alexander Isak"
+      },
+      {
+        "number": "39",
+        "name": "Bruno Guimar\u00e3es"
+      },
+      {
+        "number": "24",
+        "name": "Anthony Gordon"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a355\u201375",
+      "playerIssue": "\u00a3115\u2013185",
+      "signed": "\u00a3280+"
+    },
+    "details": {
+      "Collar style": "White ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2020\u20132024)",
+      "Sleeve detail": "Castore hawk logo, PL patch on sleeve (CL badge on European shirts)",
+      "Tagging": "Woven Castore neck label + PL hologram"
+    }
+  },
+  {
+    "id": 99,
+    "club": "Newcastle United",
+    "season": "2023/24",
+    "kitType": "Away",
+    "manufacturer": "Castore",
+    "sponsor": "Sela",
+    "colourway": "Blue with yellow Castore branding and yellow trim",
+    "history": "The away shirt for Newcastle's Champions League campaign \u2014 worn in away European fixtures including the group stage games at Borussia Dortmund, AC Milan and Paris Saint-Germain. The CL nights were memorable occasions for the travelling Toon Army.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Blue and Yellow Castore",
+        "description": "Castore's blue and yellow combination for this season. The shades differ from the Puma versions \u2014 check against 2023/24 match photography specifically."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "CL Badge on Away",
+        "description": "Away shirts used in Champions League fixtures carry the UEFA badge \u2014 among the most collectible Newcastle away shirts since the 2002/03 campaign."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Castore Performance Fabric",
+        "description": "Consistent Castore construction with the home shirt. The same fine-weave performance fabric throughout the 2023/24 range."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Yellow Castore Detail Consistency",
+        "description": "The yellow Castore hawk and trim should match in shade throughout. Any inconsistency in yellow tone indicates a reproduction."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "45",
+        "name": "Alexander Isak"
+      },
+      {
+        "number": "39",
+        "name": "Bruno Guimar\u00e3es"
+      },
+      {
+        "number": "24",
+        "name": "Anthony Gordon"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a350\u201370",
+      "playerIssue": "\u00a3105\u2013175",
+      "signed": "\u00a3260+"
+    },
+    "details": {
+      "Collar style": "Yellow ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2020\u20132024)",
+      "Sleeve detail": "Yellow Castore hawk logo, PL patch (CL badge on European shirts)",
+      "Tagging": "Woven Castore neck label + PL hologram"
+    }
+  },
+  {
+    "id": 100,
+    "club": "Newcastle United",
+    "season": "2023/24",
+    "kitType": "Third",
+    "manufacturer": "Castore",
+    "sponsor": "Sela",
+    "colourway": "Red with black Castore branding and black trim",
+    "history": "A red third kit echoing the 2005/06 away \u2014 used as a clash option in league and cup fixtures when both stripes and the blue away were unsuitable.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Red Shade",
+        "description": "A vivid strong red in Castore's specific formulation. Check the shade against period match photography from the 2023/24 season."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Castore Hawk on Red",
+        "description": "Black Castore hawk on the red body. The bird silhouette should be clean and precise."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Castore Third Construction",
+        "description": "Same fabric and construction as the home and away shirts. No difference in quality between kits in the Castore range."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Third Kit Sleeve Patch",
+        "description": "PL patch in the correct 2023/24 format. Check that no CL badge appears on third kits not used in European competition."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "45",
+        "name": "Alexander Isak"
+      },
+      {
+        "number": "24",
+        "name": "Anthony Gordon"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a345\u201365",
+      "playerIssue": "\u00a390\u2013150",
+      "signed": "\u00a3220+"
+    },
+    "details": {
+      "Collar style": "Black ribbed crew neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2020\u20132024)",
+      "Sleeve detail": "Black Castore hawk logo, PL patch on sleeve",
+      "Tagging": "Woven Castore neck label + PL hologram"
+    }
+  },
+  {
+    "id": 101,
+    "club": "Newcastle United",
+    "season": "2024/25",
+    "kitType": "Home",
+    "manufacturer": "Castore",
+    "sponsor": "Sela",
+    "colourway": "Black and white vertical stripes with black V-neck collar",
+    "history": "Newcastle's third season under Castore, continuing to build under Eddie Howe. Following the Champions League campaign, the club worked to maintain a top-half Premier League position while developing the squad further. Alexander Isak and Bruno Guimar\u00e3es remained the standout performers.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Third Castore Season",
+        "description": "Third iteration of the Castore home shirt. The template evolved again \u2014 compare the 2024/25 fit and collar against the 2023/24 version."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Updated Castore Design Language",
+        "description": "Castore refined their design elements for the third season. Check the specific collar style, stripe detail and branding placement against 2024/25 reference images."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Castore Fabric Evolution",
+        "description": "Castore continued developing their performance fabric. The 2024/25 shirt has a marginally different texture from the 2023/24 version."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Sela Third Season",
+        "description": "Third season of Sela sponsorship. Badge is consistent with previous Castore-era shirts \u2014 any variation in the Sela font or colour indicates a fake."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "45",
+        "name": "Alexander Isak"
+      },
+      {
+        "number": "39",
+        "name": "Bruno Guimar\u00e3es"
+      },
+      {
+        "number": "24",
+        "name": "Anthony Gordon"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a360\u201380",
+      "playerIssue": "\u00a3120\u2013190",
+      "signed": "\u00a3280+"
+    },
+    "details": {
+      "Collar style": "Black ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2024\u2013present)",
+      "Sleeve detail": "Castore hawk logo, PL patch on sleeve",
+      "Tagging": "Woven Castore neck label + PL hologram"
+    }
+  },
+  {
+    "id": 102,
+    "club": "Newcastle United",
+    "season": "2024/25",
+    "kitType": "Away",
+    "manufacturer": "Castore",
+    "sponsor": "Sela",
+    "colourway": "Yellow with black Castore branding and black trim",
+    "history": "Yellow returned as the away colour for 2024/25 \u2014 continuing the club's long tradition of yellow away kits stretching back to the early 1990s. A traditional colourway embraced by supporters.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Castore Yellow Shade",
+        "description": "Castore's specific yellow for 2024/25 \u2014 compare against the 2022/23 gold away, which was a warmer more golden tone. This is a brighter, more traditional yellow."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Updated Castore Away Template",
+        "description": "The away template evolved for 2024/25. Check the collar style and branding placement against period reference images."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Sela on Yellow",
+        "description": "The Sela wordmark on the yellow body. Check the font and proportions are consistent with the home shirt."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Current Season Authenticity",
+        "description": "As a current season shirt, counterfeiting is already active. Purchase from official club channels or authorised retailers to guarantee authenticity."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "45",
+        "name": "Alexander Isak"
+      },
+      {
+        "number": "39",
+        "name": "Bruno Guimar\u00e3es"
+      },
+      {
+        "number": "24",
+        "name": "Anthony Gordon"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a355\u201375",
+      "playerIssue": "\u00a3110\u2013175",
+      "signed": "\u00a3250+"
+    },
+    "details": {
+      "Collar style": "Black ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2024\u2013present)",
+      "Sleeve detail": "Black Castore hawk logo, PL patch on sleeve",
+      "Tagging": "Woven Castore neck label + PL hologram"
+    }
+  },
+  {
+    "id": 103,
+    "club": "Newcastle United",
+    "season": "2024/25",
+    "kitType": "Third",
+    "manufacturer": "Castore",
+    "sponsor": "Sela",
+    "colourway": "Navy blue with gold Castore branding and gold trim",
+    "history": "A navy and gold third kit for 2024/25 \u2014 the classic Newcastle palette that has recurred across multiple generations of away and third kits. Used as a clash option when both the stripes and yellow away were unsuitable.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Navy and Gold Consistency",
+        "description": "Check the navy and gold shades against the 2022/23 third kit \u2014 the specific shades evolved between seasons and across the Castore era."
+      },
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Gold Castore Hawk",
+        "description": "Gold hawk on the navy body \u2014 check the hawk detail for precision. This is the primary authenticity check on all Castore shirts."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Castore Third Kit",
+        "description": "Same construction as the full Castore range. Compare fabric feel and weight with the home shirt."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Third Kit Volume",
+        "description": "Third kits are lower volume prints and often have fewer counterfeits in early production. Purchase from official sources to be safe."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "45",
+        "name": "Alexander Isak"
+      },
+      {
+        "number": "24",
+        "name": "Anthony Gordon"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a350\u201370",
+      "playerIssue": "\u00a3100\u2013165",
+      "signed": "\u00a3230+"
+    },
+    "details": {
+      "Collar style": "Gold ribbed V-neck",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2024\u2013present)",
+      "Sleeve detail": "Gold Castore hawk logo, PL patch on sleeve",
+      "Tagging": "Woven Castore neck label + PL hologram"
+    }
+  },
+  {
+    "id": 104,
+    "club": "Newcastle United",
+    "season": "2025/26",
+    "kitType": "Home",
+    "manufacturer": "Castore",
+    "sponsor": "Sela",
+    "colourway": "Black and white vertical stripes \u2014 current season design",
+    "history": "The current Newcastle United home shirt in the ongoing 2025/26 Premier League season. The Castore partnership continues as the club seeks to build on the progress made under the Saudi ownership. Eddie Howe's side aim to challenge for European qualification and potentially more.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Official Purchase Only",
+        "description": "For the current season shirt, purchase only from the official Newcastle United club shop or authorised Castore retailers. Do not buy from unofficial marketplace sources."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Castore Quality Standards",
+        "description": "Castore shirts have a distinctive quality signature \u2014 specific fabric texture and hawk logo precision. Compare against known genuine examples from previous seasons."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Sela Sponsor",
+        "description": "Sela remains the shirt sponsor. Check the wordmark font and proportions against confirmed genuine examples from previous Castore-era shirts."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Official Retail Channels",
+        "description": "The safest way to authenticate a current season shirt is to purchase through official channels. Retain receipts and packaging as additional proof of authenticity."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "45",
+        "name": "Alexander Isak"
+      },
+      {
+        "number": "39",
+        "name": "Bruno Guimar\u00e3es"
+      },
+      {
+        "number": "24",
+        "name": "Anthony Gordon"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a365\u201385",
+      "playerIssue": "\u00a3130\u2013200",
+      "signed": "\u00a3300+"
+    },
+    "details": {
+      "Collar style": "Current season design \u2014 check official release imagery",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2024\u2013present)",
+      "Sleeve detail": "Castore hawk logo, PL patch on sleeve",
+      "Tagging": "Woven Castore neck label + PL hologram"
+    }
+  },
+  {
+    "id": 105,
+    "club": "Newcastle United",
+    "season": "2025/26",
+    "kitType": "Away",
+    "manufacturer": "Castore",
+    "sponsor": "Sela",
+    "colourway": "Current season away design",
+    "history": "The current Newcastle United away shirt for the 2025/26 Premier League season. Newcastle continue their development as a top Premier League club under Eddie Howe and the Saudi PIF ownership.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Official Purchase Only",
+        "description": "Buy only from the official Newcastle United club shop or authorised Castore stockists for guaranteed authenticity."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Castore Hawk Precision",
+        "description": "The leaping hawk logo is Castore's primary brand mark and the key authenticity check across all their products."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Fabric Consistency",
+        "description": "Same performance fabric as the home shirt. The two should feel identical in weight, texture and construction."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Sela Sponsor Check",
+        "description": "Sela's wordmark should be consistent with the home shirt version. Any font or colour deviation indicates a counterfeit."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "45",
+        "name": "Alexander Isak"
+      },
+      {
+        "number": "39",
+        "name": "Bruno Guimar\u00e3es"
+      },
+      {
+        "number": "24",
+        "name": "Anthony Gordon"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a360\u201380",
+      "playerIssue": "\u00a3120\u2013190",
+      "signed": "\u00a3280+"
+    },
+    "details": {
+      "Collar style": "Current season design \u2014 check official release imagery",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2024\u2013present)",
+      "Sleeve detail": "Castore hawk logo, PL patch on sleeve",
+      "Tagging": "Woven Castore neck label + PL hologram"
+    }
+  },
+  {
+    "id": 106,
+    "club": "Newcastle United",
+    "season": "2025/26",
+    "kitType": "Third",
+    "manufacturer": "Castore",
+    "sponsor": "Sela",
+    "colourway": "Current season third design",
+    "history": "The current Newcastle United third kit for the 2025/26 season. Third kits are used as clash options in fixtures where both the home and away kits would cause a colour conflict.",
+    "authenticityGuide": [
+      {
+        "icon": "\ud83c\udff7\ufe0f",
+        "feature": "Official Channels",
+        "description": "Third kits are lower-volume items \u2014 purchase from the official club shop or authorised Castore retailers only."
+      },
+      {
+        "icon": "\ud83d\udd0d",
+        "feature": "Castore Construction",
+        "description": "Same construction standards as home and away. Third kits should be indistinguishable from the rest of the range in terms of fabric quality."
+      },
+      {
+        "icon": "\ud83e\uddf5",
+        "feature": "Sela Sponsor",
+        "description": "Consistent Sela branding across all three kits in the range. Any deviation in font or colour from the home shirt indicates a fake."
+      },
+      {
+        "icon": "\ud83d\udccb",
+        "feature": "Third Kit Rarity",
+        "description": "Third kits sell in smaller quantities, making genuine versions relatively scarcer in the secondary market."
+      }
+    ],
+    "notablePlayers": [
+      {
+        "number": "8",
+        "name": "Sandro Tonali"
+      },
+      {
+        "number": "39",
+        "name": "Bruno Guimar\u00e3es"
+      }
+    ],
+    "marketValue": {
+      "replica": "\u00a355\u201375",
+      "playerIssue": "\u00a3110\u2013175",
+      "signed": "\u00a3240+"
+    },
+    "details": {
+      "Collar style": "Current season design \u2014 check official release imagery",
+      "Badge style": "Embroidered club crest, left chest",
+      "Kit number font": "Premier League standard (2024\u2013present)",
+      "Sleeve detail": "Castore hawk logo, PL patch on sleeve",
+      "Tagging": "Woven Castore neck label + PL hologram"
+    }
   }
+]
 ]
